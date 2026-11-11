@@ -1,0 +1,2552 @@
+{
+  "source": "PokeAPI api-data (GitHub)",
+  "species": {
+    "1": {
+      "dex": 1,
+      "chainId": 1,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "2": {
+      "dex": 2,
+      "chainId": 1,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "3": {
+      "dex": 3,
+      "chainId": 1,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "4": {
+      "dex": 4,
+      "chainId": 2,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "5": {
+      "dex": 5,
+      "chainId": 2,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "6": {
+      "dex": 6,
+      "chainId": 2,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "7": {
+      "dex": 7,
+      "chainId": 3,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "8": {
+      "dex": 8,
+      "chainId": 3,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "9": {
+      "dex": 9,
+      "chainId": 3,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "10": {
+      "dex": 10,
+      "chainId": 4,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "16": {
+      "dex": 16,
+      "chainId": 6,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "19": {
+      "dex": 19,
+      "chainId": 7,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "25": {
+      "dex": 25,
+      "chainId": 10,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "26": {
+      "dex": 26,
+      "chainId": 10,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "35": {
+      "dex": 35,
+      "chainId": 14,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "37": {
+      "dex": 37,
+      "chainId": 15,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "39": {
+      "dex": 39,
+      "chainId": 16,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "41": {
+      "dex": 41,
+      "chainId": 17,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "58": {
+      "dex": 58,
+      "chainId": 25,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "59": {
+      "dex": 59,
+      "chainId": 25,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "63": {
+      "dex": 63,
+      "chainId": 27,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "64": {
+      "dex": 64,
+      "chainId": 27,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "65": {
+      "dex": 65,
+      "chainId": 27,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "66": {
+      "dex": 66,
+      "chainId": 28,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "67": {
+      "dex": 67,
+      "chainId": 28,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "68": {
+      "dex": 68,
+      "chainId": 28,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "74": {
+      "dex": 74,
+      "chainId": 31,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "92": {
+      "dex": 92,
+      "chainId": 40,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "93": {
+      "dex": 93,
+      "chainId": 40,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "94": {
+      "dex": 94,
+      "chainId": 40,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "95": {
+      "dex": 95,
+      "chainId": 41,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "113": {
+      "dex": 113,
+      "chainId": 51,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "129": {
+      "dex": 129,
+      "chainId": 64,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "130": {
+      "dex": 130,
+      "chainId": 64,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "131": {
+      "dex": 131,
+      "chainId": 65,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "132": {
+      "dex": 132,
+      "chainId": 66,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "133": {
+      "dex": 133,
+      "chainId": 67,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "134": {
+      "dex": 134,
+      "chainId": 67,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "135": {
+      "dex": 135,
+      "chainId": 67,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "136": {
+      "dex": 136,
+      "chainId": 67,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "138": {
+      "dex": 138,
+      "chainId": 69,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "140": {
+      "dex": 140,
+      "chainId": 70,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "142": {
+      "dex": 142,
+      "chainId": 71,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "143": {
+      "dex": 143,
+      "chainId": 72,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "147": {
+      "dex": 147,
+      "chainId": 76,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "148": {
+      "dex": 148,
+      "chainId": 76,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "149": {
+      "dex": 149,
+      "chainId": 76,
+      "legendary": false,
+      "mythical": false,
+      "gen": 1
+    },
+    "150": {
+      "dex": 150,
+      "chainId": 77,
+      "legendary": true,
+      "mythical": false,
+      "gen": 1
+    },
+    "151": {
+      "dex": 151,
+      "chainId": 78,
+      "legendary": true,
+      "mythical": true,
+      "gen": 1
+    },
+    "152": {
+      "dex": 152,
+      "chainId": 79,
+      "legendary": false,
+      "mythical": false,
+      "gen": 2
+    },
+    "155": {
+      "dex": 155,
+      "chainId": 80,
+      "legendary": false,
+      "mythical": false,
+      "gen": 2
+    },
+    "158": {
+      "dex": 158,
+      "chainId": 81,
+      "legendary": false,
+      "mythical": false,
+      "gen": 2
+    },
+    "172": {
+      "dex": 172,
+      "chainId": 10,
+      "legendary": false,
+      "mythical": false,
+      "gen": 2
+    },
+    "174": {
+      "dex": 174,
+      "chainId": 16,
+      "legendary": false,
+      "mythical": false,
+      "gen": 2
+    },
+    "179": {
+      "dex": 179,
+      "chainId": 89,
+      "legendary": false,
+      "mythical": false,
+      "gen": 2
+    },
+    "183": {
+      "dex": 183,
+      "chainId": 90,
+      "legendary": false,
+      "mythical": false,
+      "gen": 2
+    },
+    "185": {
+      "dex": 185,
+      "chainId": 91,
+      "legendary": false,
+      "mythical": false,
+      "gen": 2
+    },
+    "194": {
+      "dex": 194,
+      "chainId": 96,
+      "legendary": false,
+      "mythical": false,
+      "gen": 2
+    },
+    "196": {
+      "dex": 196,
+      "chainId": 67,
+      "legendary": false,
+      "mythical": false,
+      "gen": 2
+    },
+    "197": {
+      "dex": 197,
+      "chainId": 67,
+      "legendary": false,
+      "mythical": false,
+      "gen": 2
+    },
+    "246": {
+      "dex": 246,
+      "chainId": 126,
+      "legendary": false,
+      "mythical": false,
+      "gen": 2
+    },
+    "247": {
+      "dex": 247,
+      "chainId": 126,
+      "legendary": false,
+      "mythical": false,
+      "gen": 2
+    },
+    "248": {
+      "dex": 248,
+      "chainId": 126,
+      "legendary": false,
+      "mythical": false,
+      "gen": 2
+    },
+    "252": {
+      "dex": 252,
+      "chainId": 130,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "255": {
+      "dex": 255,
+      "chainId": 131,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "258": {
+      "dex": 258,
+      "chainId": 132,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "280": {
+      "dex": 280,
+      "chainId": 140,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "281": {
+      "dex": 281,
+      "chainId": 140,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "282": {
+      "dex": 282,
+      "chainId": 140,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "287": {
+      "dex": 287,
+      "chainId": 143,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "298": {
+      "dex": 298,
+      "chainId": 90,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "304": {
+      "dex": 304,
+      "chainId": 151,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "328": {
+      "dex": 328,
+      "chainId": 166,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "330": {
+      "dex": 330,
+      "chainId": 166,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "345": {
+      "dex": 345,
+      "chainId": 176,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "347": {
+      "dex": 347,
+      "chainId": 177,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "349": {
+      "dex": 349,
+      "chainId": 178,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "350": {
+      "dex": 350,
+      "chainId": 178,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "359": {
+      "dex": 359,
+      "chainId": 185,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "371": {
+      "dex": 371,
+      "chainId": 191,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "373": {
+      "dex": 373,
+      "chainId": 191,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "374": {
+      "dex": 374,
+      "chainId": 192,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "376": {
+      "dex": 376,
+      "chainId": 192,
+      "legendary": false,
+      "mythical": false,
+      "gen": 3
+    },
+    "387": {
+      "dex": 387,
+      "chainId": 203,
+      "legendary": false,
+      "mythical": false,
+      "gen": 4
+    },
+    "390": {
+      "dex": 390,
+      "chainId": 204,
+      "legendary": false,
+      "mythical": false,
+      "gen": 4
+    },
+    "393": {
+      "dex": 393,
+      "chainId": 205,
+      "legendary": false,
+      "mythical": false,
+      "gen": 4
+    },
+    "403": {
+      "dex": 403,
+      "chainId": 209,
+      "legendary": false,
+      "mythical": false,
+      "gen": 4
+    },
+    "408": {
+      "dex": 408,
+      "chainId": 211,
+      "legendary": false,
+      "mythical": false,
+      "gen": 4
+    },
+    "410": {
+      "dex": 410,
+      "chainId": 212,
+      "legendary": false,
+      "mythical": false,
+      "gen": 4
+    },
+    "443": {
+      "dex": 443,
+      "chainId": 230,
+      "legendary": false,
+      "mythical": false,
+      "gen": 4
+    },
+    "445": {
+      "dex": 445,
+      "chainId": 230,
+      "legendary": false,
+      "mythical": false,
+      "gen": 4
+    },
+    "446": {
+      "dex": 446,
+      "chainId": 72,
+      "legendary": false,
+      "mythical": false,
+      "gen": 4
+    },
+    "447": {
+      "dex": 447,
+      "chainId": 232,
+      "legendary": false,
+      "mythical": false,
+      "gen": 4
+    },
+    "448": {
+      "dex": 448,
+      "chainId": 232,
+      "legendary": false,
+      "mythical": false,
+      "gen": 4
+    },
+    "449": {
+      "dex": 449,
+      "chainId": 233,
+      "legendary": false,
+      "mythical": false,
+      "gen": 4
+    },
+    "459": {
+      "dex": 459,
+      "chainId": 239,
+      "legendary": false,
+      "mythical": false,
+      "gen": 4
+    },
+    "470": {
+      "dex": 470,
+      "chainId": 67,
+      "legendary": false,
+      "mythical": false,
+      "gen": 4
+    },
+    "471": {
+      "dex": 471,
+      "chainId": 67,
+      "legendary": false,
+      "mythical": false,
+      "gen": 4
+    },
+    "475": {
+      "dex": 475,
+      "chainId": 140,
+      "legendary": false,
+      "mythical": false,
+      "gen": 4
+    },
+    "479": {
+      "dex": 479,
+      "chainId": 240,
+      "legendary": false,
+      "mythical": false,
+      "gen": 4
+    },
+    "495": {
+      "dex": 495,
+      "chainId": 256,
+      "legendary": false,
+      "mythical": false,
+      "gen": 5
+    },
+    "498": {
+      "dex": 498,
+      "chainId": 257,
+      "legendary": false,
+      "mythical": false,
+      "gen": 5
+    },
+    "501": {
+      "dex": 501,
+      "chainId": 258,
+      "legendary": false,
+      "mythical": false,
+      "gen": 5
+    },
+    "564": {
+      "dex": 564,
+      "chainId": 288,
+      "legendary": false,
+      "mythical": false,
+      "gen": 5
+    },
+    "566": {
+      "dex": 566,
+      "chainId": 289,
+      "legendary": false,
+      "mythical": false,
+      "gen": 5
+    },
+    "570": {
+      "dex": 570,
+      "chainId": 291,
+      "legendary": false,
+      "mythical": false,
+      "gen": 5
+    },
+    "610": {
+      "dex": 610,
+      "chainId": 309,
+      "legendary": false,
+      "mythical": false,
+      "gen": 5
+    },
+    "633": {
+      "dex": 633,
+      "chainId": 323,
+      "legendary": false,
+      "mythical": false,
+      "gen": 5
+    },
+    "636": {
+      "dex": 636,
+      "chainId": 324,
+      "legendary": false,
+      "mythical": false,
+      "gen": 5
+    },
+    "656": {
+      "dex": 656,
+      "chainId": 339,
+      "legendary": false,
+      "mythical": false,
+      "gen": 6
+    },
+    "658": {
+      "dex": 658,
+      "chainId": 339,
+      "legendary": false,
+      "mythical": false,
+      "gen": 6
+    },
+    "661": {
+      "dex": 661,
+      "chainId": 341,
+      "legendary": false,
+      "mythical": false,
+      "gen": 6
+    },
+    "679": {
+      "dex": 679,
+      "chainId": 349,
+      "legendary": false,
+      "mythical": false,
+      "gen": 6
+    },
+    "696": {
+      "dex": 696,
+      "chainId": 357,
+      "legendary": false,
+      "mythical": false,
+      "gen": 6
+    },
+    "698": {
+      "dex": 698,
+      "chainId": 358,
+      "legendary": false,
+      "mythical": false,
+      "gen": 6
+    },
+    "700": {
+      "dex": 700,
+      "chainId": 67,
+      "legendary": false,
+      "mythical": false,
+      "gen": 6
+    },
+    "704": {
+      "dex": 704,
+      "chainId": 362,
+      "legendary": false,
+      "mythical": false,
+      "gen": 6
+    },
+    "722": {
+      "dex": 722,
+      "chainId": 374,
+      "legendary": false,
+      "mythical": false,
+      "gen": 7
+    },
+    "725": {
+      "dex": 725,
+      "chainId": 375,
+      "legendary": false,
+      "mythical": false,
+      "gen": 7
+    },
+    "728": {
+      "dex": 728,
+      "chainId": 376,
+      "legendary": false,
+      "mythical": false,
+      "gen": 7
+    },
+    "778": {
+      "dex": 778,
+      "chainId": 404,
+      "legendary": false,
+      "mythical": false,
+      "gen": 7
+    },
+    "782": {
+      "dex": 782,
+      "chainId": 408,
+      "legendary": false,
+      "mythical": false,
+      "gen": 7
+    },
+    "810": {
+      "dex": 810,
+      "chainId": 430,
+      "legendary": false,
+      "mythical": false,
+      "gen": 8
+    },
+    "813": {
+      "dex": 813,
+      "chainId": 431,
+      "legendary": false,
+      "mythical": false,
+      "gen": 8
+    },
+    "816": {
+      "dex": 816,
+      "chainId": 432,
+      "legendary": false,
+      "mythical": false,
+      "gen": 8
+    },
+    "821": {
+      "dex": 821,
+      "chainId": 434,
+      "legendary": false,
+      "mythical": false,
+      "gen": 8
+    },
+    "885": {
+      "dex": 885,
+      "chainId": 466,
+      "legendary": false,
+      "mythical": false,
+      "gen": 8
+    },
+    "887": {
+      "dex": 887,
+      "chainId": 466,
+      "legendary": false,
+      "mythical": false,
+      "gen": 8
+    },
+    "906": {
+      "dex": 906,
+      "chainId": 478,
+      "legendary": false,
+      "mythical": false,
+      "gen": 9
+    },
+    "909": {
+      "dex": 909,
+      "chainId": 479,
+      "legendary": false,
+      "mythical": false,
+      "gen": 9
+    },
+    "912": {
+      "dex": 912,
+      "chainId": 480,
+      "legendary": false,
+      "mythical": false,
+      "gen": 9
+    },
+    "921": {
+      "dex": 921,
+      "chainId": 484,
+      "legendary": false,
+      "mythical": false,
+      "gen": 9
+    },
+    "928": {
+      "dex": 928,
+      "chainId": 487,
+      "legendary": false,
+      "mythical": false,
+      "gen": 9
+    },
+    "996": {
+      "dex": 996,
+      "chainId": 527,
+      "legendary": false,
+      "mythical": false,
+      "gen": 9
+    }
+  },
+  "chains": {
+    "1": {
+      "dex": 1,
+      "slug": "bulbasaur",
+      "how": "",
+      "to": [
+        {
+          "dex": 2,
+          "slug": "ivysaur",
+          "how": "Nv. 16",
+          "to": [
+            {
+              "dex": 3,
+              "slug": "venusaur",
+              "how": "Nv. 32",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "dex": 4,
+      "slug": "charmander",
+      "how": "",
+      "to": [
+        {
+          "dex": 5,
+          "slug": "charmeleon",
+          "how": "Nv. 16",
+          "to": [
+            {
+              "dex": 6,
+              "slug": "charizard",
+              "how": "Nv. 36",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "dex": 7,
+      "slug": "squirtle",
+      "how": "",
+      "to": [
+        {
+          "dex": 8,
+          "slug": "wartortle",
+          "how": "Nv. 16",
+          "to": [
+            {
+              "dex": 9,
+              "slug": "blastoise",
+              "how": "Nv. 36",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "dex": 10,
+      "slug": "caterpie",
+      "how": "",
+      "to": [
+        {
+          "dex": 11,
+          "slug": "metapod",
+          "how": "Nv. 7",
+          "to": [
+            {
+              "dex": 12,
+              "slug": "butterfree",
+              "how": "Nv. 10",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "dex": 16,
+      "slug": "pidgey",
+      "how": "",
+      "to": [
+        {
+          "dex": 17,
+          "slug": "pidgeotto",
+          "how": "Nv. 18",
+          "to": [
+            {
+              "dex": 18,
+              "slug": "pidgeot",
+              "how": "Nv. 36",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "7": {
+      "dex": 19,
+      "slug": "rattata",
+      "how": "",
+      "to": [
+        {
+          "dex": 20,
+          "slug": "raticate",
+          "how": "Nv. 20",
+          "to": []
+        }
+      ]
+    },
+    "10": {
+      "dex": 172,
+      "slug": "pichu",
+      "how": "",
+      "to": [
+        {
+          "dex": 25,
+          "slug": "pikachu",
+          "how": "Amistad",
+          "to": [
+            {
+              "dex": 26,
+              "slug": "raichu",
+              "how": "Piedra Trueno",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "14": {
+      "dex": 173,
+      "slug": "cleffa",
+      "how": "",
+      "to": [
+        {
+          "dex": 35,
+          "slug": "clefairy",
+          "how": "Amistad",
+          "to": [
+            {
+              "dex": 36,
+              "slug": "clefable",
+              "how": "Piedra Lunar",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "15": {
+      "dex": 37,
+      "slug": "vulpix",
+      "how": "",
+      "to": [
+        {
+          "dex": 38,
+          "slug": "ninetales",
+          "how": "Piedra Fuego",
+          "to": []
+        }
+      ]
+    },
+    "16": {
+      "dex": 174,
+      "slug": "igglybuff",
+      "how": "",
+      "to": [
+        {
+          "dex": 39,
+          "slug": "jigglypuff",
+          "how": "Amistad",
+          "to": [
+            {
+              "dex": 40,
+              "slug": "wigglytuff",
+              "how": "Piedra Lunar",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "17": {
+      "dex": 41,
+      "slug": "zubat",
+      "how": "",
+      "to": [
+        {
+          "dex": 42,
+          "slug": "golbat",
+          "how": "Nv. 22",
+          "to": [
+            {
+              "dex": 169,
+              "slug": "crobat",
+              "how": "Amistad",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "25": {
+      "dex": 58,
+      "slug": "growlithe",
+      "how": "",
+      "to": [
+        {
+          "dex": 59,
+          "slug": "arcanine",
+          "how": "Piedra Fuego",
+          "to": []
+        }
+      ]
+    },
+    "27": {
+      "dex": 63,
+      "slug": "abra",
+      "how": "",
+      "to": [
+        {
+          "dex": 64,
+          "slug": "kadabra",
+          "how": "Nv. 16",
+          "to": [
+            {
+              "dex": 65,
+              "slug": "alakazam",
+              "how": "Intercambio",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "28": {
+      "dex": 66,
+      "slug": "machop",
+      "how": "",
+      "to": [
+        {
+          "dex": 67,
+          "slug": "machoke",
+          "how": "Nv. 28",
+          "to": [
+            {
+              "dex": 68,
+              "slug": "machamp",
+              "how": "Intercambio",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "31": {
+      "dex": 74,
+      "slug": "geodude",
+      "how": "",
+      "to": [
+        {
+          "dex": 75,
+          "slug": "graveler",
+          "how": "Nv. 25",
+          "to": [
+            {
+              "dex": 76,
+              "slug": "golem",
+              "how": "Intercambio",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "40": {
+      "dex": 92,
+      "slug": "gastly",
+      "how": "",
+      "to": [
+        {
+          "dex": 93,
+          "slug": "haunter",
+          "how": "Nv. 25",
+          "to": [
+            {
+              "dex": 94,
+              "slug": "gengar",
+              "how": "Intercambio",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "41": {
+      "dex": 95,
+      "slug": "onix",
+      "how": "",
+      "to": [
+        {
+          "dex": 208,
+          "slug": "steelix",
+          "how": "Intercambio con Revestimiento Metálico",
+          "to": []
+        }
+      ]
+    },
+    "51": {
+      "dex": 440,
+      "slug": "happiny",
+      "how": "",
+      "to": [
+        {
+          "dex": 113,
+          "slug": "chansey",
+          "how": "Con Piedra Oval de día",
+          "to": [
+            {
+              "dex": 242,
+              "slug": "blissey",
+              "how": "Amistad",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "64": {
+      "dex": 129,
+      "slug": "magikarp",
+      "how": "",
+      "to": [
+        {
+          "dex": 130,
+          "slug": "gyarados",
+          "how": "Nv. 20",
+          "to": []
+        }
+      ]
+    },
+    "65": {
+      "dex": 131,
+      "slug": "lapras",
+      "how": "",
+      "to": []
+    },
+    "66": {
+      "dex": 132,
+      "slug": "ditto",
+      "how": "",
+      "to": []
+    },
+    "67": {
+      "dex": 133,
+      "slug": "eevee",
+      "how": "",
+      "to": [
+        {
+          "dex": 134,
+          "slug": "vaporeon",
+          "how": "Piedra Agua",
+          "to": []
+        },
+        {
+          "dex": 135,
+          "slug": "jolteon",
+          "how": "Piedra Trueno",
+          "to": []
+        },
+        {
+          "dex": 136,
+          "slug": "flareon",
+          "how": "Piedra Fuego",
+          "to": []
+        },
+        {
+          "dex": 196,
+          "slug": "espeon",
+          "how": "Amistad de día",
+          "to": []
+        },
+        {
+          "dex": 197,
+          "slug": "umbreon",
+          "how": "Amistad de noche",
+          "to": []
+        },
+        {
+          "dex": 470,
+          "slug": "leafeon",
+          "how": "Piedra Hoja",
+          "to": []
+        },
+        {
+          "dex": 471,
+          "slug": "glaceon",
+          "how": "Piedra Hielo",
+          "to": []
+        },
+        {
+          "dex": 700,
+          "slug": "sylveon",
+          "how": "Afecto con mov. Hada",
+          "to": []
+        }
+      ]
+    },
+    "69": {
+      "dex": 138,
+      "slug": "omanyte",
+      "how": "",
+      "to": [
+        {
+          "dex": 139,
+          "slug": "omastar",
+          "how": "Nv. 40",
+          "to": []
+        }
+      ]
+    },
+    "70": {
+      "dex": 140,
+      "slug": "kabuto",
+      "how": "",
+      "to": [
+        {
+          "dex": 141,
+          "slug": "kabutops",
+          "how": "Nv. 40",
+          "to": []
+        }
+      ]
+    },
+    "71": {
+      "dex": 142,
+      "slug": "aerodactyl",
+      "how": "",
+      "to": []
+    },
+    "72": {
+      "dex": 446,
+      "slug": "munchlax",
+      "how": "",
+      "to": [
+        {
+          "dex": 143,
+          "slug": "snorlax",
+          "how": "Amistad",
+          "to": []
+        }
+      ]
+    },
+    "76": {
+      "dex": 147,
+      "slug": "dratini",
+      "how": "",
+      "to": [
+        {
+          "dex": 148,
+          "slug": "dragonair",
+          "how": "Nv. 30",
+          "to": [
+            {
+              "dex": 149,
+              "slug": "dragonite",
+              "how": "Nv. 55",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "77": {
+      "dex": 150,
+      "slug": "mewtwo",
+      "how": "",
+      "to": []
+    },
+    "78": {
+      "dex": 151,
+      "slug": "mew",
+      "how": "",
+      "to": []
+    },
+    "79": {
+      "dex": 152,
+      "slug": "chikorita",
+      "how": "",
+      "to": [
+        {
+          "dex": 153,
+          "slug": "bayleef",
+          "how": "Nv. 16",
+          "to": [
+            {
+              "dex": 154,
+              "slug": "meganium",
+              "how": "Nv. 32",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "80": {
+      "dex": 155,
+      "slug": "cyndaquil",
+      "how": "",
+      "to": [
+        {
+          "dex": 156,
+          "slug": "quilava",
+          "how": "Nv. 14",
+          "to": [
+            {
+              "dex": 157,
+              "slug": "typhlosion",
+              "how": "Nv. 36",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "81": {
+      "dex": 158,
+      "slug": "totodile",
+      "how": "",
+      "to": [
+        {
+          "dex": 159,
+          "slug": "croconaw",
+          "how": "Nv. 18",
+          "to": [
+            {
+              "dex": 160,
+              "slug": "feraligatr",
+              "how": "Nv. 30",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "89": {
+      "dex": 179,
+      "slug": "mareep",
+      "how": "",
+      "to": [
+        {
+          "dex": 180,
+          "slug": "flaaffy",
+          "how": "Nv. 15",
+          "to": [
+            {
+              "dex": 181,
+              "slug": "ampharos",
+              "how": "Nv. 30",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "90": {
+      "dex": 298,
+      "slug": "azurill",
+      "how": "",
+      "to": [
+        {
+          "dex": 183,
+          "slug": "marill",
+          "how": "Amistad",
+          "to": [
+            {
+              "dex": 184,
+              "slug": "azumarill",
+              "how": "Nv. 18",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "91": {
+      "dex": 438,
+      "slug": "bonsly",
+      "how": "",
+      "to": [
+        {
+          "dex": 185,
+          "slug": "sudowoodo",
+          "how": "Con un movimiento",
+          "to": []
+        }
+      ]
+    },
+    "96": {
+      "dex": 194,
+      "slug": "wooper",
+      "how": "",
+      "to": [
+        {
+          "dex": 195,
+          "slug": "quagsire",
+          "how": "Nv. 20",
+          "to": []
+        },
+        {
+          "dex": 980,
+          "slug": "clodsire",
+          "how": "Nv. 20",
+          "to": []
+        }
+      ]
+    },
+    "126": {
+      "dex": 246,
+      "slug": "larvitar",
+      "how": "",
+      "to": [
+        {
+          "dex": 247,
+          "slug": "pupitar",
+          "how": "Nv. 30",
+          "to": [
+            {
+              "dex": 248,
+              "slug": "tyranitar",
+              "how": "Nv. 55",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "130": {
+      "dex": 252,
+      "slug": "treecko",
+      "how": "",
+      "to": [
+        {
+          "dex": 253,
+          "slug": "grovyle",
+          "how": "Nv. 16",
+          "to": [
+            {
+              "dex": 254,
+              "slug": "sceptile",
+              "how": "Nv. 36",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "131": {
+      "dex": 255,
+      "slug": "torchic",
+      "how": "",
+      "to": [
+        {
+          "dex": 256,
+          "slug": "combusken",
+          "how": "Nv. 16",
+          "to": [
+            {
+              "dex": 257,
+              "slug": "blaziken",
+              "how": "Nv. 36",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "132": {
+      "dex": 258,
+      "slug": "mudkip",
+      "how": "",
+      "to": [
+        {
+          "dex": 259,
+          "slug": "marshtomp",
+          "how": "Nv. 16",
+          "to": [
+            {
+              "dex": 260,
+              "slug": "swampert",
+              "how": "Nv. 36",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "140": {
+      "dex": 280,
+      "slug": "ralts",
+      "how": "",
+      "to": [
+        {
+          "dex": 281,
+          "slug": "kirlia",
+          "how": "Nv. 20",
+          "to": [
+            {
+              "dex": 282,
+              "slug": "gardevoir",
+              "how": "Nv. 30",
+              "to": []
+            },
+            {
+              "dex": 475,
+              "slug": "gallade",
+              "how": "Piedra Alba (macho)",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "143": {
+      "dex": 287,
+      "slug": "slakoth",
+      "how": "",
+      "to": [
+        {
+          "dex": 288,
+          "slug": "vigoroth",
+          "how": "Nv. 18",
+          "to": [
+            {
+              "dex": 289,
+              "slug": "slaking",
+              "how": "Nv. 36",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "151": {
+      "dex": 304,
+      "slug": "aron",
+      "how": "",
+      "to": [
+        {
+          "dex": 305,
+          "slug": "lairon",
+          "how": "Nv. 32",
+          "to": [
+            {
+              "dex": 306,
+              "slug": "aggron",
+              "how": "Nv. 42",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "166": {
+      "dex": 328,
+      "slug": "trapinch",
+      "how": "",
+      "to": [
+        {
+          "dex": 329,
+          "slug": "vibrava",
+          "how": "Nv. 35",
+          "to": [
+            {
+              "dex": 330,
+              "slug": "flygon",
+              "how": "Nv. 45",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "176": {
+      "dex": 345,
+      "slug": "lileep",
+      "how": "",
+      "to": [
+        {
+          "dex": 346,
+          "slug": "cradily",
+          "how": "Nv. 40",
+          "to": []
+        }
+      ]
+    },
+    "177": {
+      "dex": 347,
+      "slug": "anorith",
+      "how": "",
+      "to": [
+        {
+          "dex": 348,
+          "slug": "armaldo",
+          "how": "Nv. 40",
+          "to": []
+        }
+      ]
+    },
+    "178": {
+      "dex": 349,
+      "slug": "feebas",
+      "how": "",
+      "to": [
+        {
+          "dex": 350,
+          "slug": "milotic",
+          "how": "Intercambio con Escama Prisma",
+          "to": []
+        }
+      ]
+    },
+    "185": {
+      "dex": 359,
+      "slug": "absol",
+      "how": "",
+      "to": []
+    },
+    "191": {
+      "dex": 371,
+      "slug": "bagon",
+      "how": "",
+      "to": [
+        {
+          "dex": 372,
+          "slug": "shelgon",
+          "how": "Nv. 30",
+          "to": [
+            {
+              "dex": 373,
+              "slug": "salamence",
+              "how": "Nv. 50",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "192": {
+      "dex": 374,
+      "slug": "beldum",
+      "how": "",
+      "to": [
+        {
+          "dex": 375,
+          "slug": "metang",
+          "how": "Nv. 20",
+          "to": [
+            {
+              "dex": 376,
+              "slug": "metagross",
+              "how": "Nv. 45",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "203": {
+      "dex": 387,
+      "slug": "turtwig",
+      "how": "",
+      "to": [
+        {
+          "dex": 388,
+          "slug": "grotle",
+          "how": "Nv. 18",
+          "to": [
+            {
+              "dex": 389,
+              "slug": "torterra",
+              "how": "Nv. 32",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "204": {
+      "dex": 390,
+      "slug": "chimchar",
+      "how": "",
+      "to": [
+        {
+          "dex": 391,
+          "slug": "monferno",
+          "how": "Nv. 14",
+          "to": [
+            {
+              "dex": 392,
+              "slug": "infernape",
+              "how": "Nv. 36",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "205": {
+      "dex": 393,
+      "slug": "piplup",
+      "how": "",
+      "to": [
+        {
+          "dex": 394,
+          "slug": "prinplup",
+          "how": "Nv. 16",
+          "to": [
+            {
+              "dex": 395,
+              "slug": "empoleon",
+              "how": "Nv. 36",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "209": {
+      "dex": 403,
+      "slug": "shinx",
+      "how": "",
+      "to": [
+        {
+          "dex": 404,
+          "slug": "luxio",
+          "how": "Nv. 15",
+          "to": [
+            {
+              "dex": 405,
+              "slug": "luxray",
+              "how": "Nv. 30",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "211": {
+      "dex": 408,
+      "slug": "cranidos",
+      "how": "",
+      "to": [
+        {
+          "dex": 409,
+          "slug": "rampardos",
+          "how": "Nv. 30",
+          "to": []
+        }
+      ]
+    },
+    "212": {
+      "dex": 410,
+      "slug": "shieldon",
+      "how": "",
+      "to": [
+        {
+          "dex": 411,
+          "slug": "bastiodon",
+          "how": "Nv. 30",
+          "to": []
+        }
+      ]
+    },
+    "230": {
+      "dex": 443,
+      "slug": "gible",
+      "how": "",
+      "to": [
+        {
+          "dex": 444,
+          "slug": "gabite",
+          "how": "Nv. 24",
+          "to": [
+            {
+              "dex": 445,
+              "slug": "garchomp",
+              "how": "Nv. 48",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "232": {
+      "dex": 447,
+      "slug": "riolu",
+      "how": "",
+      "to": [
+        {
+          "dex": 448,
+          "slug": "lucario",
+          "how": "Amistad de día",
+          "to": []
+        }
+      ]
+    },
+    "233": {
+      "dex": 449,
+      "slug": "hippopotas",
+      "how": "",
+      "to": [
+        {
+          "dex": 450,
+          "slug": "hippowdon",
+          "how": "Nv. 34",
+          "to": []
+        }
+      ]
+    },
+    "239": {
+      "dex": 459,
+      "slug": "snover",
+      "how": "",
+      "to": [
+        {
+          "dex": 460,
+          "slug": "abomasnow",
+          "how": "Nv. 40",
+          "to": []
+        }
+      ]
+    },
+    "240": {
+      "dex": 479,
+      "slug": "rotom",
+      "how": "",
+      "to": []
+    },
+    "256": {
+      "dex": 495,
+      "slug": "snivy",
+      "how": "",
+      "to": [
+        {
+          "dex": 496,
+          "slug": "servine",
+          "how": "Nv. 17",
+          "to": [
+            {
+              "dex": 497,
+              "slug": "serperior",
+              "how": "Nv. 36",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "257": {
+      "dex": 498,
+      "slug": "tepig",
+      "how": "",
+      "to": [
+        {
+          "dex": 499,
+          "slug": "pignite",
+          "how": "Nv. 17",
+          "to": [
+            {
+              "dex": 500,
+              "slug": "emboar",
+              "how": "Nv. 36",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "258": {
+      "dex": 501,
+      "slug": "oshawott",
+      "how": "",
+      "to": [
+        {
+          "dex": 502,
+          "slug": "dewott",
+          "how": "Nv. 17",
+          "to": [
+            {
+              "dex": 503,
+              "slug": "samurott",
+              "how": "Nv. 36",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "288": {
+      "dex": 564,
+      "slug": "tirtouga",
+      "how": "",
+      "to": [
+        {
+          "dex": 565,
+          "slug": "carracosta",
+          "how": "Nv. 37",
+          "to": []
+        }
+      ]
+    },
+    "289": {
+      "dex": 566,
+      "slug": "archen",
+      "how": "",
+      "to": [
+        {
+          "dex": 567,
+          "slug": "archeops",
+          "how": "Nv. 37",
+          "to": []
+        }
+      ]
+    },
+    "291": {
+      "dex": 570,
+      "slug": "zorua",
+      "how": "",
+      "to": [
+        {
+          "dex": 571,
+          "slug": "zoroark",
+          "how": "Nv. 30",
+          "to": []
+        }
+      ]
+    },
+    "309": {
+      "dex": 610,
+      "slug": "axew",
+      "how": "",
+      "to": [
+        {
+          "dex": 611,
+          "slug": "fraxure",
+          "how": "Nv. 38",
+          "to": [
+            {
+              "dex": 612,
+              "slug": "haxorus",
+              "how": "Nv. 48",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "323": {
+      "dex": 633,
+      "slug": "deino",
+      "how": "",
+      "to": [
+        {
+          "dex": 634,
+          "slug": "zweilous",
+          "how": "Nv. 50",
+          "to": [
+            {
+              "dex": 635,
+              "slug": "hydreigon",
+              "how": "Nv. 64",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "324": {
+      "dex": 636,
+      "slug": "larvesta",
+      "how": "",
+      "to": [
+        {
+          "dex": 637,
+          "slug": "volcarona",
+          "how": "Nv. 59",
+          "to": []
+        }
+      ]
+    },
+    "339": {
+      "dex": 656,
+      "slug": "froakie",
+      "how": "",
+      "to": [
+        {
+          "dex": 657,
+          "slug": "frogadier",
+          "how": "Nv. 16",
+          "to": [
+            {
+              "dex": 658,
+              "slug": "greninja",
+              "how": "Nv. 36",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "341": {
+      "dex": 661,
+      "slug": "fletchling",
+      "how": "",
+      "to": [
+        {
+          "dex": 662,
+          "slug": "fletchinder",
+          "how": "Nv. 17",
+          "to": [
+            {
+              "dex": 663,
+              "slug": "talonflame",
+              "how": "Nv. 35",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "349": {
+      "dex": 679,
+      "slug": "honedge",
+      "how": "",
+      "to": [
+        {
+          "dex": 680,
+          "slug": "doublade",
+          "how": "Nv. 35",
+          "to": [
+            {
+              "dex": 681,
+              "slug": "aegislash",
+              "how": "Piedra Anochecer",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "357": {
+      "dex": 696,
+      "slug": "tyrunt",
+      "how": "",
+      "to": [
+        {
+          "dex": 697,
+          "slug": "tyrantrum",
+          "how": "Nv. 39 de día",
+          "to": []
+        }
+      ]
+    },
+    "358": {
+      "dex": 698,
+      "slug": "amaura",
+      "how": "",
+      "to": [
+        {
+          "dex": 699,
+          "slug": "aurorus",
+          "how": "Nv. 39 de noche",
+          "to": []
+        }
+      ]
+    },
+    "362": {
+      "dex": 704,
+      "slug": "goomy",
+      "how": "",
+      "to": [
+        {
+          "dex": 705,
+          "slug": "sliggoo",
+          "how": "Nv. 40",
+          "to": [
+            {
+              "dex": 706,
+              "slug": "goodra",
+              "how": "Nv. 50 con lluvia",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "374": {
+      "dex": 722,
+      "slug": "rowlet",
+      "how": "",
+      "to": [
+        {
+          "dex": 723,
+          "slug": "dartrix",
+          "how": "Nv. 17",
+          "to": [
+            {
+              "dex": 724,
+              "slug": "decidueye",
+              "how": "Nv. 34",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "375": {
+      "dex": 725,
+      "slug": "litten",
+      "how": "",
+      "to": [
+        {
+          "dex": 726,
+          "slug": "torracat",
+          "how": "Nv. 17",
+          "to": [
+            {
+              "dex": 727,
+              "slug": "incineroar",
+              "how": "Nv. 34",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "376": {
+      "dex": 728,
+      "slug": "popplio",
+      "how": "",
+      "to": [
+        {
+          "dex": 729,
+          "slug": "brionne",
+          "how": "Nv. 17",
+          "to": [
+            {
+              "dex": 730,
+              "slug": "primarina",
+              "how": "Nv. 34",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "404": {
+      "dex": 778,
+      "slug": "mimikyu",
+      "how": "",
+      "to": []
+    },
+    "408": {
+      "dex": 782,
+      "slug": "jangmo-o",
+      "how": "",
+      "to": [
+        {
+          "dex": 783,
+          "slug": "hakamo-o",
+          "how": "Nv. 35",
+          "to": [
+            {
+              "dex": 784,
+              "slug": "kommo-o",
+              "how": "Nv. 45",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "430": {
+      "dex": 810,
+      "slug": "grookey",
+      "how": "",
+      "to": [
+        {
+          "dex": 811,
+          "slug": "thwackey",
+          "how": "Nv. 16",
+          "to": [
+            {
+              "dex": 812,
+              "slug": "rillaboom",
+              "how": "Nv. 35",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "431": {
+      "dex": 813,
+      "slug": "scorbunny",
+      "how": "",
+      "to": [
+        {
+          "dex": 814,
+          "slug": "raboot",
+          "how": "Nv. 16",
+          "to": [
+            {
+              "dex": 815,
+              "slug": "cinderace",
+              "how": "Nv. 35",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "432": {
+      "dex": 816,
+      "slug": "sobble",
+      "how": "",
+      "to": [
+        {
+          "dex": 817,
+          "slug": "drizzile",
+          "how": "Nv. 16",
+          "to": [
+            {
+              "dex": 818,
+              "slug": "inteleon",
+              "how": "Nv. 35",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "434": {
+      "dex": 821,
+      "slug": "rookidee",
+      "how": "",
+      "to": [
+        {
+          "dex": 822,
+          "slug": "corvisquire",
+          "how": "Nv. 18",
+          "to": [
+            {
+              "dex": 823,
+              "slug": "corviknight",
+              "how": "Nv. 38",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "466": {
+      "dex": 885,
+      "slug": "dreepy",
+      "how": "",
+      "to": [
+        {
+          "dex": 886,
+          "slug": "drakloak",
+          "how": "Nv. 50",
+          "to": [
+            {
+              "dex": 887,
+              "slug": "dragapult",
+              "how": "Nv. 60",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "478": {
+      "dex": 906,
+      "slug": "sprigatito",
+      "how": "",
+      "to": [
+        {
+          "dex": 907,
+          "slug": "floragato",
+          "how": "Nv. 16",
+          "to": [
+            {
+              "dex": 908,
+              "slug": "meowscarada",
+              "how": "Nv. 36",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "479": {
+      "dex": 909,
+      "slug": "fuecoco",
+      "how": "",
+      "to": [
+        {
+          "dex": 910,
+          "slug": "crocalor",
+          "how": "Nv. 16",
+          "to": [
+            {
+              "dex": 911,
+              "slug": "skeledirge",
+              "how": "Nv. 36",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "480": {
+      "dex": 912,
+      "slug": "quaxly",
+      "how": "",
+      "to": [
+        {
+          "dex": 913,
+          "slug": "quaxwell",
+          "how": "Nv. 16",
+          "to": [
+            {
+              "dex": 914,
+              "slug": "quaquaval",
+              "how": "Nv. 36",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "484": {
+      "dex": 921,
+      "slug": "pawmi",
+      "how": "",
+      "to": [
+        {
+          "dex": 922,
+          "slug": "pawmo",
+          "how": "Nv. 18",
+          "to": [
+            {
+              "dex": 923,
+              "slug": "pawmot",
+              "how": "Subir de nivel",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "487": {
+      "dex": 928,
+      "slug": "smoliv",
+      "how": "",
+      "to": [
+        {
+          "dex": 929,
+          "slug": "dolliv",
+          "how": "Nv. 25",
+          "to": [
+            {
+              "dex": 930,
+              "slug": "arboliva",
+              "how": "Nv. 35",
+              "to": []
+            }
+          ]
+        }
+      ]
+    },
+    "527": {
+      "dex": 996,
+      "slug": "frigibax",
+      "how": "",
+      "to": [
+        {
+          "dex": 997,
+          "slug": "arctibax",
+          "how": "Nv. 35",
+          "to": [
+            {
+              "dex": 998,
+              "slug": "baxcalibur",
+              "how": "Nv. 54",
+              "to": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

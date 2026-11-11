@@ -1,0 +1,1399 @@
+[
+  {
+    "n": "Bulbasaur",
+    "dex": 1,
+    "t": [
+      "Planta",
+      "Veneno"
+    ],
+    "evo": "→ Ivysaur al nivel 16 → Venusaur al nivel 32.",
+    "loc": "Llanuras y bosques templados, de día.",
+    "note": "Inicial de Kanto. Su doble tipo lo hace débil ×2 a Fuego, Hielo, Volador y Psíquico."
+  },
+  {
+    "n": "Venusaur",
+    "dex": 3,
+    "t": [
+      "Planta",
+      "Veneno"
+    ],
+    "evo": "Forma final de Bulbasaur (nivel 32). Tiene Megaevolución y forma Gigamax.",
+    "loc": "Evolución; salvaje muy raro en bosques densos.",
+    "note": "Tanque con Drenadoras y Somnífero: ideal para capturar."
+  },
+  {
+    "n": "Charmander",
+    "dex": 4,
+    "t": [
+      "Fuego"
+    ],
+    "evo": "→ Charmeleon al nivel 16 → Charizard al nivel 36.",
+    "loc": "Mesetas, sabanas y zonas cálidas; cerca de lava en cuevas.",
+    "note": "El inicial más buscado por sus dos Megaevoluciones."
+  },
+  {
+    "n": "Charizard",
+    "dex": 6,
+    "t": [
+      "Fuego",
+      "Volador"
+    ],
+    "evo": "Forma final de Charmander (nivel 36). Mega X: Fuego/Dragón · Mega Y: Fuego/Volador · Gigamax.",
+    "loc": "Evolución; salvaje rarísimo volando en montañas.",
+    "note": "Débil ×4 a Roca. Contra Tierra es inmune por Volador."
+  },
+  {
+    "n": "Squirtle",
+    "dex": 7,
+    "t": [
+      "Agua"
+    ],
+    "evo": "→ Wartortle al nivel 16 → Blastoise al nivel 36.",
+    "loc": "Playas y orillas de ríos, de día.",
+    "note": "Inicial de Kanto, línea defensiva de Agua."
+  },
+  {
+    "n": "Blastoise",
+    "dex": 9,
+    "t": [
+      "Agua"
+    ],
+    "evo": "Forma final de Squirtle (nivel 36). Tiene Megaevolución y Gigamax.",
+    "loc": "Evolución.",
+    "note": "Solo débil a Planta y Eléctrico: cobertura limpia."
+  },
+  {
+    "n": "Caterpie",
+    "dex": 10,
+    "t": [
+      "Bicho"
+    ],
+    "evo": "→ Metapod al nivel 7 → Butterfree al nivel 10.",
+    "loc": "Bosques, muy común de día.",
+    "note": "La evolución más rápida del juego: útil para subir de nivel el Pase/equipo al inicio."
+  },
+  {
+    "n": "Pikachu",
+    "dex": 25,
+    "t": [
+      "Eléctrico"
+    ],
+    "evo": "Pichu (amistad) → Pikachu → Raichu con Piedra Trueno.",
+    "loc": "Bosques y llanuras; aparece en manada, de día.",
+    "note": "Débil solo a Tierra. Puede llevar Bola Luz para duplicar su ataque."
+  },
+  {
+    "n": "Raichu",
+    "dex": 26,
+    "t": [
+      "Eléctrico"
+    ],
+    "evo": "De Pikachu con Piedra Trueno.",
+    "loc": "Evolución.",
+    "note": "Más rápido y fuerte que Pikachu, pero pierde el bono de la Bola Luz."
+  },
+  {
+    "n": "Vulpix",
+    "dex": 37,
+    "t": [
+      "Fuego"
+    ],
+    "evo": "→ Ninetales con Piedra Fuego. (El Vulpix de Alola es Hielo y evoluciona con Piedra Hielo.)",
+    "loc": "Sabanas y mesetas cálidas.",
+    "note": "Su forma de Alola aparece en biomas nevados."
+  },
+  {
+    "n": "Jigglypuff",
+    "dex": 39,
+    "t": [
+      "Normal",
+      "Hada"
+    ],
+    "evo": "Igglybuff (amistad) → Jigglypuff → Wigglytuff con Piedra Lunar.",
+    "loc": "Llanuras y praderas floridas, de día.",
+    "note": "Inmune a Fantasma y a Dragón a la vez."
+  },
+  {
+    "n": "Zubat",
+    "dex": 41,
+    "t": [
+      "Veneno",
+      "Volador"
+    ],
+    "evo": "→ Golbat al nivel 22 → Crobat por amistad alta.",
+    "loc": "Cuevas y de noche en casi cualquier bioma.",
+    "note": "El Pokémon de cueva por excelencia: perfecto para practicar capturas."
+  },
+  {
+    "n": "Geodude",
+    "dex": 74,
+    "t": [
+      "Roca",
+      "Tierra"
+    ],
+    "evo": "→ Graveler al nivel 25 → Golem por intercambio o Cable Link.",
+    "loc": "Cuevas, montañas y minería en general.",
+    "note": "Débil ×4 a Agua y a Planta. Inmune a Eléctrico."
+  },
+  {
+    "n": "Gastly",
+    "dex": 92,
+    "t": [
+      "Fantasma",
+      "Veneno"
+    ],
+    "evo": "→ Haunter al nivel 25 → Gengar por intercambio o Cable Link.",
+    "loc": "De noche: pantanos, bosques oscuros y cementerios de estructuras.",
+    "note": "Inmune a Normal, Lucha y Tierra (por Levitación en combate clásico del mod)."
+  },
+  {
+    "n": "Gengar",
+    "dex": 94,
+    "t": [
+      "Fantasma",
+      "Veneno"
+    ],
+    "evo": "De Haunter por intercambio o con Cable Link. Tiene Megaevolución y Gigamax.",
+    "loc": "Evolución.",
+    "note": "Ojo: es débil a Tierra pese a ser Fantasma. Muy rápido y ofensivo."
+  },
+  {
+    "n": "Onix",
+    "dex": 95,
+    "t": [
+      "Roca",
+      "Tierra"
+    ],
+    "evo": "→ Steelix intercambiado con Revestimiento Metálico equipado, o Cable Link con el objeto equipado.",
+    "loc": "Cuevas profundas y cañones.",
+    "note": "Defensa física enorme; débil ×4 a Agua y Planta."
+  },
+  {
+    "n": "Eevee",
+    "dex": 133,
+    "t": [
+      "Normal"
+    ],
+    "evo": "8 evoluciones: Vaporeon (Piedra Agua), Jolteon (Piedra Trueno), Flareon (Piedra Fuego), Espeon (amistad de día), Umbreon (amistad de noche), Leafeon (Piedra Hoja), Glaceon (Piedra Hielo), Sylveon (amistad + movimiento Hada).",
+    "loc": "Llanuras y bosques, raro; suele ir en parejas.",
+    "note": "El Pokémon más versátil del modpack: captura varios y cubre cualquier rol."
+  },
+  {
+    "n": "Vaporeon",
+    "dex": 134,
+    "t": [
+      "Agua"
+    ],
+    "evo": "De Eevee con Piedra Agua.",
+    "loc": "Evolución.",
+    "note": "Muchísima salud: tanque de Agua clásico."
+  },
+  {
+    "n": "Jolteon",
+    "dex": 135,
+    "t": [
+      "Eléctrico"
+    ],
+    "evo": "De Eevee con Piedra Trueno.",
+    "loc": "Evolución.",
+    "note": "De los Pokémon más rápidos del juego."
+  },
+  {
+    "n": "Flareon",
+    "dex": 136,
+    "t": [
+      "Fuego"
+    ],
+    "evo": "De Eevee con Piedra Fuego.",
+    "loc": "Evolución.",
+    "note": "Ataque físico altísimo para un tipo Fuego."
+  },
+  {
+    "n": "Espeon",
+    "dex": 196,
+    "t": [
+      "Psíquico"
+    ],
+    "evo": "De Eevee con amistad alta subiendo de nivel de día.",
+    "loc": "Evolución.",
+    "note": "En Cobblemon la amistad sube caminando con él fuera de la Ball y ganando combates."
+  },
+  {
+    "n": "Umbreon",
+    "dex": 197,
+    "t": [
+      "Siniestro"
+    ],
+    "evo": "De Eevee con amistad alta subiendo de nivel de noche.",
+    "loc": "Evolución.",
+    "note": "Tanque: aguanta golpes mientras desgasta con Tóxico."
+  },
+  {
+    "n": "Leafeon",
+    "dex": 470,
+    "t": [
+      "Planta"
+    ],
+    "evo": "De Eevee con Piedra Hoja.",
+    "loc": "Evolución.",
+    "note": "Defensivo y con buen ataque físico. Sus debilidades son Fuego, Hielo, Veneno, Volador y Bicho, todas ×2."
+  },
+  {
+    "n": "Glaceon",
+    "dex": 471,
+    "t": [
+      "Hielo"
+    ],
+    "evo": "De Eevee con Piedra Hielo.",
+    "loc": "Evolución.",
+    "note": "El tipo Hielo pega a Dragón, Tierra, Volador y Planta: gran cobertura ofensiva."
+  },
+  {
+    "n": "Sylveon",
+    "dex": 700,
+    "t": [
+      "Hada"
+    ],
+    "evo": "De Eevee con amistad alta conociendo un movimiento de tipo Hada.",
+    "loc": "Evolución.",
+    "note": "Inmune a Dragón: el anti-dragones de bolsillo."
+  },
+  {
+    "n": "Snorlax",
+    "dex": 143,
+    "t": [
+      "Normal"
+    ],
+    "evo": "Munchlax (amistad) → Snorlax.",
+    "loc": "Bosques y llanuras, raro; a veces bloqueando caminos.",
+    "note": "Solo débil a Lucha. Tiene forma Gigamax. Salud y defensa enormes."
+  },
+  {
+    "n": "Dratini",
+    "dex": 147,
+    "t": [
+      "Dragón"
+    ],
+    "evo": "→ Dragonair al nivel 30 → Dragonite al nivel 55.",
+    "loc": "Pesca y superficie de océanos y ríos profundos, raro.",
+    "note": "La línea pseudolegendaria de Kanto: pide paciencia hasta el 55."
+  },
+  {
+    "n": "Dragonite",
+    "dex": 149,
+    "t": [
+      "Dragón",
+      "Volador"
+    ],
+    "evo": "Forma final de Dratini (nivel 55).",
+    "loc": "Evolución; salvaje rarísimo sobre el océano.",
+    "note": "Débil ×4 a Hielo. Su habilidad Multiescamas (si la trae) reduce el primer golpe."
+  },
+  {
+    "n": "Mewtwo",
+    "dex": 150,
+    "t": [
+      "Psíquico"
+    ],
+    "evo": "No evoluciona. Tiene dos Megaevoluciones (X: Psíquico/Lucha, Y: Psíquico).",
+    "loc": "Legendario: ver sección de legendarios.",
+    "note": "Débil a Bicho, Fantasma y Siniestro. De los más fuertes del modpack."
+  },
+  {
+    "n": "Mew",
+    "dex": 151,
+    "t": [
+      "Psíquico"
+    ],
+    "evo": "No evoluciona.",
+    "loc": "Singular: aparición especial en selvas (ver legendarios).",
+    "note": "Aprende prácticamente todas las MT."
+  },
+  {
+    "n": "Chikorita",
+    "dex": 152,
+    "t": [
+      "Planta"
+    ],
+    "evo": "→ Bayleef al nivel 16 → Meganium al nivel 32.",
+    "loc": "Llanuras y bosques templados.",
+    "note": "Inicial de Johto."
+  },
+  {
+    "n": "Cyndaquil",
+    "dex": 155,
+    "t": [
+      "Fuego"
+    ],
+    "evo": "→ Quilava al nivel 14 → Typhlosion al nivel 36.",
+    "loc": "Zonas cálidas y volcánicas.",
+    "note": "Inicial de Johto."
+  },
+  {
+    "n": "Totodile",
+    "dex": 158,
+    "t": [
+      "Agua"
+    ],
+    "evo": "→ Croconaw al nivel 18 → Feraligatr al nivel 30.",
+    "loc": "Ríos, pantanos y playas.",
+    "note": "Inicial de Johto con gran ataque físico."
+  },
+  {
+    "n": "Mareep",
+    "dex": 179,
+    "t": [
+      "Eléctrico"
+    ],
+    "evo": "→ Flaaffy al nivel 15 → Ampharos al nivel 30 (tiene Mega: Eléctrico/Dragón).",
+    "loc": "Llanuras y granjas, de día, en grupo.",
+    "note": "Fácil de criar al inicio para cubrir Agua y Volador."
+  },
+  {
+    "n": "Marill",
+    "dex": 183,
+    "t": [
+      "Agua",
+      "Hada"
+    ],
+    "evo": "Azurill (amistad) → Marill → Azumarill al nivel 18.",
+    "loc": "Orillas de ríos y lagos.",
+    "note": "Su doble tipo lo hace inmune a Dragón."
+  },
+  {
+    "n": "Sudowoodo",
+    "dex": 185,
+    "t": [
+      "Roca"
+    ],
+    "evo": "Bonsly → Sudowoodo conociendo Mimético y subiendo de nivel.",
+    "loc": "Sabanas y mesetas; finge ser un árbol.",
+    "note": "Pese a su aspecto de planta, es Roca puro: el Agua le hace ×2, no ×0."
+  },
+  {
+    "n": "Wooper",
+    "dex": 194,
+    "t": [
+      "Agua",
+      "Tierra"
+    ],
+    "evo": "→ Quagsire al nivel 20. (El Wooper de Paldea es Veneno/Tierra → Clodsire.)",
+    "loc": "Pantanos y charcas, también de noche.",
+    "note": "Inmune a Eléctrico: counter perfecto de equipos eléctricos."
+  },
+  {
+    "n": "Larvitar",
+    "dex": 246,
+    "t": [
+      "Roca",
+      "Tierra"
+    ],
+    "evo": "→ Pupitar al nivel 30 → Tyranitar al nivel 55 (tiene Mega).",
+    "loc": "Montañas y cuevas profundas, raro.",
+    "note": "Pseudolegendario de Johto. Débil ×4 a Agua y Planta."
+  },
+  {
+    "n": "Tyranitar",
+    "dex": 248,
+    "t": [
+      "Roca",
+      "Siniestro"
+    ],
+    "evo": "Forma final de Larvitar (nivel 55). Tiene Megaevolución.",
+    "loc": "Evolución.",
+    "note": "Su habilidad Chorro Arena invoca tormenta de arena: sinergia con equipos Roca/Tierra/Acero."
+  },
+  {
+    "n": "Treecko",
+    "dex": 252,
+    "t": [
+      "Planta"
+    ],
+    "evo": "→ Grovyle al nivel 16 → Sceptile al nivel 36 (Mega: Planta/Dragón).",
+    "loc": "Bosques y selvas.",
+    "note": "Inicial de Hoenn."
+  },
+  {
+    "n": "Torchic",
+    "dex": 255,
+    "t": [
+      "Fuego"
+    ],
+    "evo": "→ Combusken al nivel 16 → Blaziken al nivel 36 (Fuego/Lucha, tiene Mega).",
+    "loc": "Sabanas y zonas cálidas.",
+    "note": "Inicial de Hoenn."
+  },
+  {
+    "n": "Mudkip",
+    "dex": 258,
+    "t": [
+      "Agua"
+    ],
+    "evo": "→ Marshtomp al nivel 16 → Swampert al nivel 36 (Agua/Tierra, tiene Mega).",
+    "loc": "Pantanos y ríos.",
+    "note": "Swampert solo tiene UNA debilidad: Planta ×4. De los tipos dobles más seguros."
+  },
+  {
+    "n": "Ralts",
+    "dex": 280,
+    "t": [
+      "Psíquico",
+      "Hada"
+    ],
+    "evo": "→ Kirlia al nivel 20 → Gardevoir al nivel 30 (Mega) o, si es macho, Gallade con Piedra Alba (Psíquico/Lucha, Mega).",
+    "loc": "Bosques y praderas, raro; más activo al amanecer y atardecer.",
+    "note": "Dos evoluciones finales según sexo y piedra: planea cuál quieres antes del 20."
+  },
+  {
+    "n": "Gardevoir",
+    "dex": 282,
+    "t": [
+      "Psíquico",
+      "Hada"
+    ],
+    "evo": "De Kirlia al nivel 30. Tiene Megaevolución.",
+    "loc": "Evolución.",
+    "note": "Inmune a Dragón y con cobertura Hada contra Dragón, Lucha y Siniestro."
+  },
+  {
+    "n": "Slakoth",
+    "dex": 287,
+    "t": [
+      "Normal"
+    ],
+    "evo": "→ Vigoroth al nivel 18 → Slaking al nivel 36.",
+    "loc": "Bosques densos y selvas.",
+    "note": "Slaking tiene estadísticas de legendario… y la habilidad Perezoso: ataca un turno sí y uno no."
+  },
+  {
+    "n": "Aron",
+    "dex": 304,
+    "t": [
+      "Acero",
+      "Roca"
+    ],
+    "evo": "→ Lairon al nivel 32 → Aggron al nivel 42 (Mega: Acero puro).",
+    "loc": "Cuevas y montañas, comiendo minerales.",
+    "note": "Débil ×4 a Lucha y a Tierra: cuidado."
+  },
+  {
+    "n": "Trapinch",
+    "dex": 328,
+    "t": [
+      "Tierra"
+    ],
+    "evo": "→ Vibrava al nivel 35 → Flygon al nivel 45 (Tierra/Dragón).",
+    "loc": "Desiertos, en la arena.",
+    "note": "Curiosidad: Trapinch tiene más ataque que su evolución intermedia."
+  },
+  {
+    "n": "Flygon",
+    "dex": 330,
+    "t": [
+      "Tierra",
+      "Dragón"
+    ],
+    "evo": "Forma final de Trapinch (nivel 45).",
+    "loc": "Evolución.",
+    "note": "Inmune a Eléctrico y a Tierra (Levitación). Débil ×4 a Hielo."
+  },
+  {
+    "n": "Feebas",
+    "dex": 349,
+    "t": [
+      "Agua"
+    ],
+    "evo": "→ Milotic con amistad/belleza alta o intercambiado con Escama Prisma equipada (Cable Link válido).",
+    "loc": "Pesca en ríos y lagos concretos: es de los más escurridizos del mod.",
+    "note": "Feo pero poderosísimo al evolucionar: Milotic es un tanque especial clásico."
+  },
+  {
+    "n": "Milotic",
+    "dex": 350,
+    "t": [
+      "Agua"
+    ],
+    "evo": "De Feebas (ver su ficha).",
+    "loc": "Evolución.",
+    "note": "Solo débil a Planta y Eléctrico."
+  },
+  {
+    "n": "Absol",
+    "dex": 359,
+    "t": [
+      "Siniestro"
+    ],
+    "evo": "No evoluciona. Tiene Megaevolución.",
+    "loc": "Montañas altas, raro; presagio de desastre según la Pokédex.",
+    "note": "Golpes críticos constantes con buena build."
+  },
+  {
+    "n": "Bagon",
+    "dex": 371,
+    "t": [
+      "Dragón"
+    ],
+    "evo": "→ Shelgon al nivel 30 → Salamence al nivel 50 (Dragón/Volador, Mega).",
+    "loc": "Cuevas de montaña y acantilados, muy raro.",
+    "note": "Pseudolegendario de Hoenn."
+  },
+  {
+    "n": "Salamence",
+    "dex": 373,
+    "t": [
+      "Dragón",
+      "Volador"
+    ],
+    "evo": "Forma final de Bagon (nivel 50). Tiene Megaevolución.",
+    "loc": "Evolución.",
+    "note": "Débil ×4 a Hielo, como casi todo Dragón/Volador."
+  },
+  {
+    "n": "Beldum",
+    "dex": 374,
+    "t": [
+      "Acero",
+      "Psíquico"
+    ],
+    "evo": "→ Metang al nivel 20 → Metagross al nivel 45 (tiene Mega).",
+    "loc": "Montañas nevadas y cuevas con hierro, muy raro.",
+    "note": "Dificilísimo de capturar: su ratio de captura es de legendario."
+  },
+  {
+    "n": "Metagross",
+    "dex": 376,
+    "t": [
+      "Acero",
+      "Psíquico"
+    ],
+    "evo": "Forma final de Beldum (nivel 45). Tiene Megaevolución.",
+    "loc": "Evolución.",
+    "note": "Pseudolegendario con solo 4 debilidades y un muro de resistencias."
+  },
+  {
+    "n": "Turtwig",
+    "dex": 387,
+    "t": [
+      "Planta"
+    ],
+    "evo": "→ Grotle al nivel 18 → Torterra al nivel 32 (Planta/Tierra).",
+    "loc": "Bosques templados.",
+    "note": "Inicial de Sinnoh. Torterra queda inmune a Eléctrico pero débil ×4 a Hielo."
+  },
+  {
+    "n": "Chimchar",
+    "dex": 390,
+    "t": [
+      "Fuego"
+    ],
+    "evo": "→ Monferno al nivel 14 → Infernape al nivel 36 (Fuego/Lucha).",
+    "loc": "Montañas y zonas cálidas.",
+    "note": "Inicial de Sinnoh, rapidísimo."
+  },
+  {
+    "n": "Piplup",
+    "dex": 393,
+    "t": [
+      "Agua"
+    ],
+    "evo": "→ Prinplup al nivel 16 → Empoleon al nivel 36 (Agua/Acero).",
+    "loc": "Playas frías y costas nevadas.",
+    "note": "Empoleon resiste 10 tipos: un muro especial excelente."
+  },
+  {
+    "n": "Shinx",
+    "dex": 403,
+    "t": [
+      "Eléctrico"
+    ],
+    "evo": "→ Luxio al nivel 15 → Luxray al nivel 30.",
+    "loc": "Llanuras, de día, en manada.",
+    "note": "Eléctrico accesible desde el minuto uno en Sinnoh… y en tus llanuras."
+  },
+  {
+    "n": "Gible",
+    "dex": 443,
+    "t": [
+      "Dragón",
+      "Tierra"
+    ],
+    "evo": "→ Gabite al nivel 24 → Garchomp al nivel 48 (tiene Mega).",
+    "loc": "Cuevas profundas y desiertos, muy raro.",
+    "note": "Pseudolegendario de Sinnoh. Débil ×4 a Hielo."
+  },
+  {
+    "n": "Garchomp",
+    "dex": 445,
+    "t": [
+      "Dragón",
+      "Tierra"
+    ],
+    "evo": "Forma final de Gible (nivel 48). Tiene Megaevolución.",
+    "loc": "Evolución.",
+    "note": "Velocidad y ataque de élite: un fijo en equipos competitivos."
+  },
+  {
+    "n": "Riolu",
+    "dex": 447,
+    "t": [
+      "Lucha"
+    ],
+    "evo": "→ Lucario con amistad alta subiendo de nivel de día.",
+    "loc": "Bosques de montaña y mesetas, raro.",
+    "note": "Evoluciona de día con amistad: sácalo a caminar y a combatir."
+  },
+  {
+    "n": "Lucario",
+    "dex": 448,
+    "t": [
+      "Lucha",
+      "Acero"
+    ],
+    "evo": "De Riolu por amistad de día. Tiene Megaevolución.",
+    "loc": "Evolución.",
+    "note": "9 resistencias y cobertura enorme. Débil a Fuego, Lucha y Tierra."
+  },
+  {
+    "n": "Hippopotas",
+    "dex": 449,
+    "t": [
+      "Tierra"
+    ],
+    "evo": "→ Hippowdon al nivel 34.",
+    "loc": "Desiertos, junto a la arena.",
+    "note": "Invoca tormenta de arena al entrar: ojo con dañar a tu propio equipo."
+  },
+  {
+    "n": "Snover",
+    "dex": 459,
+    "t": [
+      "Planta",
+      "Hielo"
+    ],
+    "evo": "→ Abomasnow al nivel 40 (tiene Mega).",
+    "loc": "Taigas y tundras nevadas.",
+    "note": "Débil ×4 a Fuego. Invoca granizo/nieve al entrar."
+  },
+  {
+    "n": "Rotom",
+    "dex": 479,
+    "t": [
+      "Eléctrico",
+      "Fantasma"
+    ],
+    "evo": "No evoluciona; cambia de forma con electrodomésticos (horno=Fuego, lavadora=Agua, nevera=Hielo, ventilador=Volador, cortacésped=Planta).",
+    "loc": "Estructuras y mansiones; de noche.",
+    "note": "Un solo Pokémon, seis tipos distintos según la forma."
+  },
+  {
+    "n": "Snivy",
+    "dex": 495,
+    "t": [
+      "Planta"
+    ],
+    "evo": "→ Servine al nivel 17 → Serperior al nivel 36.",
+    "loc": "Bosques y selvas.",
+    "note": "Inicial de Teselia, rapidísimo."
+  },
+  {
+    "n": "Tepig",
+    "dex": 498,
+    "t": [
+      "Fuego"
+    ],
+    "evo": "→ Pignite al nivel 17 → Emboar al nivel 36 (Fuego/Lucha).",
+    "loc": "Sabanas y zonas cálidas.",
+    "note": "Inicial de Teselia."
+  },
+  {
+    "n": "Oshawott",
+    "dex": 501,
+    "t": [
+      "Agua"
+    ],
+    "evo": "→ Dewott al nivel 17 → Samurott al nivel 36 (el de Hisui es Agua/Siniestro).",
+    "loc": "Ríos y playas.",
+    "note": "Inicial de Teselia."
+  },
+  {
+    "n": "Zorua",
+    "dex": 570,
+    "t": [
+      "Siniestro"
+    ],
+    "evo": "→ Zoroark al nivel 30. (El Zorua de Hisui es Normal/Fantasma.)",
+    "loc": "Bosques oscuros, de noche; se disfraza de otros Pokémon con su habilidad Ilusión.",
+    "note": "Si ves un Pokémon 'raro' actuando extraño en el bosque, puede ser un Zorua."
+  },
+  {
+    "n": "Axew",
+    "dex": 610,
+    "t": [
+      "Dragón"
+    ],
+    "evo": "→ Fraxure al nivel 38 → Haxorus al nivel 48.",
+    "loc": "Cuevas de montaña, raro.",
+    "note": "Dragón puro: sin debilidad ×4, y su habilidad Rompemoldes ignora habilidades defensivas."
+  },
+  {
+    "n": "Deino",
+    "dex": 633,
+    "t": [
+      "Siniestro",
+      "Dragón"
+    ],
+    "evo": "→ Zweilous al nivel 50 → Hydreigon al nivel 64.",
+    "loc": "Cuevas profundas, muy raro.",
+    "note": "La evolución final más tardía de los pseudolegendarios: nivel 64."
+  },
+  {
+    "n": "Larvesta",
+    "dex": 636,
+    "t": [
+      "Bicho",
+      "Fuego"
+    ],
+    "evo": "→ Volcarona al nivel 59.",
+    "loc": "Desiertos y ruinas cálidas, rarísimo.",
+    "note": "Otro maratón: nivel 59. Volcarona lo compensa con creces."
+  },
+  {
+    "n": "Froakie",
+    "dex": 656,
+    "t": [
+      "Agua"
+    ],
+    "evo": "→ Frogadier al nivel 16 → Greninja al nivel 36 (Agua/Siniestro).",
+    "loc": "Pantanos y ríos con vegetación.",
+    "note": "Inicial de Kalos. Greninja es de los Pokémon más populares del modpack."
+  },
+  {
+    "n": "Greninja",
+    "dex": 658,
+    "t": [
+      "Agua",
+      "Siniestro"
+    ],
+    "evo": "Forma final de Froakie (nivel 36).",
+    "loc": "Evolución.",
+    "note": "Su habilidad Mutatipo (Protean) en los juegos cambia su tipo al del movimiento usado."
+  },
+  {
+    "n": "Fletchling",
+    "dex": 661,
+    "t": [
+      "Normal",
+      "Volador"
+    ],
+    "evo": "→ Fletchinder al nivel 17 → Talonflame al nivel 35 (Fuego/Volador).",
+    "loc": "Llanuras y bosques, muy común.",
+    "note": "El ave regional de Kalos acaba siendo tipo Fuego: cuidado con la Roca ×4."
+  },
+  {
+    "n": "Honedge",
+    "dex": 679,
+    "t": [
+      "Acero",
+      "Fantasma"
+    ],
+    "evo": "→ Doublade al nivel 35 → Aegislash con Piedra Anochecer.",
+    "loc": "Ruinas y estructuras antiguas, de noche.",
+    "note": "Inmune a Normal, Lucha y Veneno. Cambia de forma escudo/espada en combate."
+  },
+  {
+    "n": "Goomy",
+    "dex": 704,
+    "t": [
+      "Dragón"
+    ],
+    "evo": "→ Sliggoo al nivel 40 → Goodra al nivel 50 subiendo de nivel con lluvia (en Hisui: Acero/Dragón).",
+    "loc": "Pantanos, sobre todo con lluvia.",
+    "note": "Para Goodra necesitas que llueva al subir al 50: espera la tormenta en el pantano."
+  },
+  {
+    "n": "Rowlet",
+    "dex": 722,
+    "t": [
+      "Planta",
+      "Volador"
+    ],
+    "evo": "→ Dartrix al nivel 17 → Decidueye al nivel 34 (Planta/Fantasma; el de Hisui es Planta/Lucha).",
+    "loc": "Bosques y selvas.",
+    "note": "Inicial de Alola."
+  },
+  {
+    "n": "Litten",
+    "dex": 725,
+    "t": [
+      "Fuego"
+    ],
+    "evo": "→ Torracat al nivel 17 → Incineroar al nivel 34 (Fuego/Siniestro).",
+    "loc": "Sabanas y playas cálidas.",
+    "note": "Inicial de Alola, estrella del competitivo por Intimidación."
+  },
+  {
+    "n": "Popplio",
+    "dex": 728,
+    "t": [
+      "Agua"
+    ],
+    "evo": "→ Brionne al nivel 17 → Primarina al nivel 34 (Agua/Hada).",
+    "loc": "Playas y costas.",
+    "note": "Inicial de Alola."
+  },
+  {
+    "n": "Mimikyu",
+    "dex": 778,
+    "t": [
+      "Fantasma",
+      "Hada"
+    ],
+    "evo": "No evoluciona.",
+    "loc": "Bosques oscuros y estructuras abandonadas, de noche; raro.",
+    "note": "Su disfraz bloquea el primer golpe que recibe: rompe el disfraz antes de lanzar tu mejor ataque."
+  },
+  {
+    "n": "Jangmo-o",
+    "dex": 782,
+    "t": [
+      "Dragón"
+    ],
+    "evo": "→ Hakamo-o al nivel 35 → Kommo-o al nivel 45 (Dragón/Lucha).",
+    "loc": "Cañones y montañas áridas, raro.",
+    "note": "Pseudolegendario de Alola. Débil ×4 a Hada."
+  },
+  {
+    "n": "Grookey",
+    "dex": 810,
+    "t": [
+      "Planta"
+    ],
+    "evo": "→ Thwackey al nivel 16 → Rillaboom al nivel 35 (Gigamax).",
+    "loc": "Bosques.",
+    "note": "Inicial de Galar."
+  },
+  {
+    "n": "Scorbunny",
+    "dex": 813,
+    "t": [
+      "Fuego"
+    ],
+    "evo": "→ Raboot al nivel 16 → Cinderace al nivel 35 (Gigamax).",
+    "loc": "Llanuras y sabanas.",
+    "note": "Inicial de Galar."
+  },
+  {
+    "n": "Sobble",
+    "dex": 816,
+    "t": [
+      "Agua"
+    ],
+    "evo": "→ Drizzile al nivel 16 → Inteleon al nivel 35 (Gigamax).",
+    "loc": "Orillas de ríos y lagos.",
+    "note": "Inicial de Galar."
+  },
+  {
+    "n": "Rookidee",
+    "dex": 821,
+    "t": [
+      "Volador"
+    ],
+    "evo": "→ Corvisquire al nivel 18 → Corviknight al nivel 38 (Volador/Acero).",
+    "loc": "Llanuras, muy común.",
+    "note": "Al evolucionar a Corviknight gana el tipo Acero: inmune a Veneno y rocoso en defensa, pero ojo con Fuego y Eléctrico."
+  },
+  {
+    "n": "Dreepy",
+    "dex": 885,
+    "t": [
+      "Dragón",
+      "Fantasma"
+    ],
+    "evo": "→ Drakloak al nivel 50 → Dragapult al nivel 60.",
+    "loc": "Pantanos y lagos con niebla, de noche; muy raro.",
+    "note": "Pseudolegendario de Galar: el más rápido de todos."
+  },
+  {
+    "n": "Dragapult",
+    "dex": 887,
+    "t": [
+      "Dragón",
+      "Fantasma"
+    ],
+    "evo": "Forma final de Dreepy (nivel 60).",
+    "loc": "Evolución.",
+    "note": "Velocidad 142: ataca primero casi siempre."
+  },
+  {
+    "n": "Sprigatito",
+    "dex": 906,
+    "t": [
+      "Planta"
+    ],
+    "evo": "→ Floragato al nivel 16 → Meowscarada al nivel 36 (Planta/Siniestro).",
+    "loc": "Bosques y praderas.",
+    "note": "Inicial de Paldea."
+  },
+  {
+    "n": "Fuecoco",
+    "dex": 909,
+    "t": [
+      "Fuego"
+    ],
+    "evo": "→ Crocalor al nivel 16 → Skeledirge al nivel 36 (Fuego/Fantasma).",
+    "loc": "Zonas cálidas y volcánicas.",
+    "note": "Inicial de Paldea."
+  },
+  {
+    "n": "Quaxly",
+    "dex": 912,
+    "t": [
+      "Agua"
+    ],
+    "evo": "→ Quaxwell al nivel 16 → Quaquaval al nivel 36 (Agua/Lucha).",
+    "loc": "Ríos y playas.",
+    "note": "Inicial de Paldea."
+  },
+  {
+    "n": "Pawmi",
+    "dex": 921,
+    "t": [
+      "Eléctrico"
+    ],
+    "evo": "→ Pawmo al nivel 18 → Pawmot al nivel… especial: Pawmo evoluciona tras caminar 1.000 pasos con él fuera de la Ball (modo paseo) y subir de nivel.",
+    "loc": "Llanuras, muy común.",
+    "note": "La evolución por pasos es literal en Cobblemon: a caminar con él suelto."
+  },
+  {
+    "n": "Frigibax",
+    "dex": 996,
+    "t": [
+      "Dragón",
+      "Hielo"
+    ],
+    "evo": "→ Arctibax al nivel 35 → Baxcalibur al nivel 54.",
+    "loc": "Cuevas y montañas nevadas, raro.",
+    "note": "Pseudolegendario de Paldea. Su tipo Hielo le quita la debilidad ×4 típica de los dragones… pero le da Fuego, Lucha, Roca y Acero ×2."
+  },
+  {
+    "n": "Smoliv",
+    "dex": 928,
+    "t": [
+      "Planta",
+      "Normal"
+    ],
+    "evo": "→ Dolliv al nivel 25 → Arboliva al nivel 35 (Planta/Normal).",
+    "loc": "Olivares: llanuras y sabanas con árboles.",
+    "note": "Curioso doble tipo Planta/Normal: débil ×4 a Lucha."
+  },
+  {
+    "n": "Ivysaur",
+    "dex": 2,
+    "t": [
+      "Planta",
+      "Veneno"
+    ],
+    "evo": "De Bulbasaur al nivel 16 → Venusaur al nivel 32.",
+    "loc": "Evolución; salvaje raro en bosques.",
+    "note": "El eslabón medio de la línea de Bulbasaur."
+  },
+  {
+    "n": "Charmeleon",
+    "dex": 5,
+    "t": [
+      "Fuego"
+    ],
+    "evo": "De Charmander al nivel 16 → Charizard al nivel 36.",
+    "loc": "Evolución.",
+    "note": "El eslabón medio de la línea de Charmander."
+  },
+  {
+    "n": "Wartortle",
+    "dex": 8,
+    "t": [
+      "Agua"
+    ],
+    "evo": "De Squirtle al nivel 16 → Blastoise al nivel 36.",
+    "loc": "Evolución.",
+    "note": "El eslabón medio de la línea de Squirtle."
+  },
+  {
+    "n": "Pidgey",
+    "dex": 16,
+    "t": [
+      "Normal",
+      "Volador"
+    ],
+    "evo": "→ Pidgeotto al nivel 18 → Pidgeot al nivel 36 (tiene Mega).",
+    "loc": "Llanuras y bosques, muy común de día.",
+    "note": "El ave de inicio de Kanto: de los primeros Pokémon que verás."
+  },
+  {
+    "n": "Rattata",
+    "dex": 19,
+    "t": [
+      "Normal"
+    ],
+    "evo": "→ Raticate al nivel 20. (El de Alola es Normal/Siniestro.)",
+    "loc": "Llanuras, granjas y aldeas, también de noche.",
+    "note": "Comunísimo al inicio. El de Alola sale de noche en zonas cálidas."
+  },
+  {
+    "n": "Clefairy",
+    "dex": 35,
+    "t": [
+      "Hada"
+    ],
+    "evo": "Cleffa (amistad) → Clefairy → Clefable con Piedra Lunar.",
+    "loc": "Montañas y cuevas con piedra lunar, de noche.",
+    "note": "Su línea es la usuaria clásica de la Piedra Lunar."
+  },
+  {
+    "n": "Growlithe",
+    "dex": 58,
+    "t": [
+      "Fuego"
+    ],
+    "evo": "→ Arcanine con Piedra Fuego. (El de Hisui es Fuego/Roca.)",
+    "loc": "Sabanas, mesetas y cerca de aldeas, de día.",
+    "note": "Uno de los usuarios clásicos de la Piedra Fuego."
+  },
+  {
+    "n": "Arcanine",
+    "dex": 59,
+    "t": [
+      "Fuego"
+    ],
+    "evo": "De Growlithe con Piedra Fuego.",
+    "loc": "Evolución.",
+    "note": "Rápido y con ataque alto: un Fuego físico muy completo."
+  },
+  {
+    "n": "Abra",
+    "dex": 63,
+    "t": [
+      "Psíquico"
+    ],
+    "evo": "→ Kadabra al nivel 16 → Alakazam por intercambio o Cable Link.",
+    "loc": "Llanuras y bosques; se teletransporta y huye del combate.",
+    "note": "Captúralo el primer turno (Bola Rapidez o duérmelo): si no, se va."
+  },
+  {
+    "n": "Kadabra",
+    "dex": 64,
+    "t": [
+      "Psíquico"
+    ],
+    "evo": "De Abra al nivel 16 → Alakazam por intercambio o Cable Link.",
+    "loc": "Evolución.",
+    "note": "El paso previo a Alakazam: ten el Cable Link listo."
+  },
+  {
+    "n": "Alakazam",
+    "dex": 65,
+    "t": [
+      "Psíquico"
+    ],
+    "evo": "De Kadabra por intercambio o Cable Link. Tiene Megaevolución.",
+    "loc": "Evolución.",
+    "note": "Ataque especial y velocidad enormes, defensa de papel."
+  },
+  {
+    "n": "Machop",
+    "dex": 66,
+    "t": [
+      "Lucha"
+    ],
+    "evo": "→ Machoke al nivel 28 → Machamp por intercambio o Cable Link.",
+    "loc": "Montañas, cuevas y canteras.",
+    "note": "El Lucha básico de Kanto: cubre Normal, Roca, Hielo, Acero y Siniestro."
+  },
+  {
+    "n": "Machoke",
+    "dex": 67,
+    "t": [
+      "Lucha"
+    ],
+    "evo": "De Machop al nivel 28 → Machamp por intercambio o Cable Link.",
+    "loc": "Evolución.",
+    "note": "El paso previo a Machamp."
+  },
+  {
+    "n": "Machamp",
+    "dex": 68,
+    "t": [
+      "Lucha"
+    ],
+    "evo": "De Machoke por intercambio o Cable Link. Tiene forma Gigamax.",
+    "loc": "Evolución.",
+    "note": "Cuatro brazos de ataque físico puro."
+  },
+  {
+    "n": "Haunter",
+    "dex": 93,
+    "t": [
+      "Fantasma",
+      "Veneno"
+    ],
+    "evo": "De Gastly al nivel 25 → Gengar por intercambio o Cable Link.",
+    "loc": "Evolución; de noche en zonas oscuras.",
+    "note": "El paso previo a Gengar: aquí es donde entra el Cable Link."
+  },
+  {
+    "n": "Chansey",
+    "dex": 113,
+    "t": [
+      "Normal"
+    ],
+    "evo": "Happiny → Chansey (Piedra Oval de día) → Blissey por amistad.",
+    "loc": "Llanuras y cerca de aldeas, muy raro.",
+    "note": "Con Eviolita aguanta más que muchos evolucionados. Da mucha experiencia al derrotarla."
+  },
+  {
+    "n": "Magikarp",
+    "dex": 129,
+    "t": [
+      "Agua"
+    ],
+    "evo": "→ Gyarados al nivel 20.",
+    "loc": "En cualquier agua: pesca con la Caña Pokémon y nadando en ríos, lagos y océanos.",
+    "note": "El más débil del juego… hasta el nivel 20. Con Poké Bait y condimentos pescarlo es aún más fácil."
+  },
+  {
+    "n": "Gyarados",
+    "dex": 130,
+    "t": [
+      "Agua",
+      "Volador"
+    ],
+    "evo": "De Magikarp al nivel 20. Tiene Megaevolución (Agua/Siniestro).",
+    "loc": "Evolución; salvaje raro en océanos.",
+    "note": "Débil ×4 a Eléctrico. Su Intimidación baja el ataque rival al entrar."
+  },
+  {
+    "n": "Lapras",
+    "dex": 131,
+    "t": [
+      "Agua",
+      "Hielo"
+    ],
+    "evo": "No evoluciona. Tiene forma Gigamax.",
+    "loc": "Océanos fríos y costas nevadas, raro.",
+    "note": "Tanque de Agua/Hielo y montura acuática clásica."
+  },
+  {
+    "n": "Ditto",
+    "dex": 132,
+    "t": [
+      "Normal"
+    ],
+    "evo": "No evoluciona.",
+    "loc": "Llanuras y bosques, raro; a veces disfrazado.",
+    "note": "El Pokémon de la crianza: en el bloque de pasto puede criar con casi cualquier Pokémon."
+  },
+  {
+    "n": "Omanyte",
+    "dex": 138,
+    "t": [
+      "Roca",
+      "Agua"
+    ],
+    "evo": "→ Omastar al nivel 40.",
+    "loc": "Se revive del Fósil Hélix en la Máquina de Resurrección.",
+    "note": "Fósil de estructuras submarinas y costeras."
+  },
+  {
+    "n": "Kabuto",
+    "dex": 140,
+    "t": [
+      "Roca",
+      "Agua"
+    ],
+    "evo": "→ Kabutops al nivel 40.",
+    "loc": "Se revive del Fósil Cúpula en la Máquina de Resurrección.",
+    "note": "Fósil de estructuras submarinas y costeras."
+  },
+  {
+    "n": "Aerodactyl",
+    "dex": 142,
+    "t": [
+      "Roca",
+      "Volador"
+    ],
+    "evo": "No evoluciona. Tiene Megaevolución.",
+    "loc": "Se revive del Ámbar Viejo en la Máquina de Resurrección.",
+    "note": "Rapidísimo para ser un fósil: de los mejores Volador físicos."
+  },
+  {
+    "n": "Dragonair",
+    "dex": 148,
+    "t": [
+      "Dragón"
+    ],
+    "evo": "De Dratini al nivel 30 → Dragonite al nivel 55.",
+    "loc": "Evolución; pesca rara en aguas profundas.",
+    "note": "El eslabón medio de la línea de Dratini."
+  },
+  {
+    "n": "Pichu",
+    "dex": 172,
+    "t": [
+      "Eléctrico"
+    ],
+    "evo": "→ Pikachu por amistad → Raichu con Piedra Trueno.",
+    "loc": "Bosques, junto a Pikachu.",
+    "note": "La preevolución bebé de Pikachu: evoluciona por amistad."
+  },
+  {
+    "n": "Igglybuff",
+    "dex": 174,
+    "t": [
+      "Normal",
+      "Hada"
+    ],
+    "evo": "→ Jigglypuff por amistad → Wigglytuff con Piedra Lunar.",
+    "loc": "Praderas floridas.",
+    "note": "La preevolución bebé de Jigglypuff."
+  },
+  {
+    "n": "Pupitar",
+    "dex": 247,
+    "t": [
+      "Roca",
+      "Tierra"
+    ],
+    "evo": "De Larvitar al nivel 30 → Tyranitar al nivel 55.",
+    "loc": "Evolución.",
+    "note": "La coraza intermedia de Tyranitar: aguanta hasta el 55."
+  },
+  {
+    "n": "Kirlia",
+    "dex": 281,
+    "t": [
+      "Psíquico",
+      "Hada"
+    ],
+    "evo": "De Ralts al nivel 20 → Gardevoir al nivel 30, o Gallade si es macho con Piedra Alba.",
+    "loc": "Evolución.",
+    "note": "El cruce de caminos: decide Gardevoir o Gallade antes de evolucionar."
+  },
+  {
+    "n": "Gallade",
+    "dex": 475,
+    "t": [
+      "Psíquico",
+      "Lucha"
+    ],
+    "evo": "De Kirlia macho con Piedra Alba. Tiene Megaevolución.",
+    "loc": "Evolución.",
+    "note": "La rama física de Ralts: Lucha le da cobertura contra Siniestro y Acero."
+  },
+  {
+    "n": "Azurill",
+    "dex": 298,
+    "t": [
+      "Normal",
+      "Hada"
+    ],
+    "evo": "→ Marill por amistad → Azumarill al nivel 18.",
+    "loc": "Orillas de ríos y charcas.",
+    "note": "La preevolución bebé de Marill."
+  },
+  {
+    "n": "Lileep",
+    "dex": 345,
+    "t": [
+      "Roca",
+      "Planta"
+    ],
+    "evo": "→ Cradily al nivel 40.",
+    "loc": "Se revive del Fósil Raíz en la Máquina de Resurrección.",
+    "note": "Un fósil que es una planta marina petrificada."
+  },
+  {
+    "n": "Anorith",
+    "dex": 347,
+    "t": [
+      "Roca",
+      "Bicho"
+    ],
+    "evo": "→ Armaldo al nivel 40.",
+    "loc": "Se revive del Fósil Garra en la Máquina de Resurrección.",
+    "note": "El depredador marino fósil de Hoenn."
+  },
+  {
+    "n": "Cranidos",
+    "dex": 408,
+    "t": [
+      "Roca"
+    ],
+    "evo": "→ Rampardos al nivel 30.",
+    "loc": "Se revive del Fósil Cráneo en la Máquina de Resurrección.",
+    "note": "Ataque físico de los más altos entre no legendarios… y defensa baja."
+  },
+  {
+    "n": "Shieldon",
+    "dex": 410,
+    "t": [
+      "Roca",
+      "Acero"
+    ],
+    "evo": "→ Bastiodon al nivel 30.",
+    "loc": "Se revive del Fósil Escudo en la Máquina de Resurrección.",
+    "note": "El muro contrario a Cranidos: todo defensa."
+  },
+  {
+    "n": "Munchlax",
+    "dex": 446,
+    "t": [
+      "Normal"
+    ],
+    "evo": "→ Snorlax por amistad.",
+    "loc": "Bosques y cerca de árboles de miel/bayas, muy raro.",
+    "note": "Al derrotarlo puede soltar Restos (2.5%). La preevolución de Snorlax."
+  },
+  {
+    "n": "Tirtouga",
+    "dex": 564,
+    "t": [
+      "Agua",
+      "Roca"
+    ],
+    "evo": "→ Carracosta al nivel 37.",
+    "loc": "Se revive del Fósil Cubierta en la Máquina de Resurrección.",
+    "note": "La tortuga marina fósil de Teselia."
+  },
+  {
+    "n": "Archen",
+    "dex": 566,
+    "t": [
+      "Roca",
+      "Volador"
+    ],
+    "evo": "→ Archeops al nivel 37.",
+    "loc": "Se revive del Fósil Pluma en la Máquina de Resurrección.",
+    "note": "Estadísticas altas, pero su habilidad Flaqueza le baja el ataque al perder salud."
+  },
+  {
+    "n": "Tyrunt",
+    "dex": 696,
+    "t": [
+      "Roca",
+      "Dragón"
+    ],
+    "evo": "→ Tyrantrum al nivel 39 subiendo de nivel de día.",
+    "loc": "Se revive del Fósil Mandíbula en la Máquina de Resurrección.",
+    "note": "El tiranosaurio fósil: evoluciona solo de día."
+  },
+  {
+    "n": "Amaura",
+    "dex": 698,
+    "t": [
+      "Roca",
+      "Hielo"
+    ],
+    "evo": "→ Aurorus al nivel 39 subiendo de nivel de noche.",
+    "loc": "Se revive del Fósil Aleta en la Máquina de Resurrección.",
+    "note": "El fósil de hielo: evoluciona solo de noche, al revés que Tyrunt."
+  }
+]

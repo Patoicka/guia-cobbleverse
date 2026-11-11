@@ -1,0 +1,197 @@
+{
+  "list": [
+    {
+      "n": "Articuno",
+      "t": [
+        "Hielo",
+        "Volador"
+      ],
+      "como": "Santuario del ave en picos nevados / aparición salvaje rarísima en biomas de nieve con ventisca.",
+      "note": "Débil ×4 a Roca. Lleva Fuego, Acero o Eléctrico."
+    },
+    {
+      "n": "Zapdos",
+      "t": [
+        "Eléctrico",
+        "Volador"
+      ],
+      "como": "Santuario en zonas altas con tormenta / aparición en llanuras y montañas durante tormentas eléctricas.",
+      "note": "Inmune a Tierra pese a ser Eléctrico (es Volador): pégale con Hielo o Roca."
+    },
+    {
+      "n": "Moltres",
+      "t": [
+        "Fuego",
+        "Volador"
+      ],
+      "como": "Santuario volcánico / aparición cerca de lava y en el Nether en algunas configuraciones.",
+      "note": "Débil ×4 a Roca, como todo Fuego/Volador."
+    },
+    {
+      "n": "Mewtwo",
+      "t": [
+        "Psíquico"
+      ],
+      "como": "Evento/laboratorio del modpack o aparición singular tras completar hitos de Pokédex según configuración del servidor.",
+      "note": "Ten listo un Siniestro o Fantasma rápido y muchas Ultra Balls."
+    },
+    {
+      "n": "Mew",
+      "t": [
+        "Psíquico"
+      ],
+      "como": "Aparición singular rarísima en selvas, sin aviso: captura explorando, no farmeando un punto fijo.",
+      "note": "Puede aprender casi cualquier MT: un comodín total."
+    },
+    {
+      "n": "Raikou",
+      "t": [
+        "Eléctrico"
+      ],
+      "como": "Bestia errante de Johto: aparece en llanuras y sabanas y HUYE del combate. Duérmelo o usa Mirada Malvada/Bloqueo para que no escape.",
+      "note": "La Ocaso Ball no sirve a pleno sol: pelea de noche o con Timer Ball."
+    },
+    {
+      "n": "Entei",
+      "t": [
+        "Fuego"
+      ],
+      "como": "Bestia errante: zonas volcánicas, badlands y sabanas. También huye: ven preparado para retenerlo.",
+      "note": "Débil a Agua, Tierra y Roca."
+    },
+    {
+      "n": "Suicune",
+      "t": [
+        "Agua"
+      ],
+      "como": "Bestia errante ligada a ríos y lagos. Huye como sus hermanos.",
+      "note": "Planta y Eléctrico ×2. Su aparición suele ligarse a viento del norte en la tradición de los juegos."
+    },
+    {
+      "n": "Lugia",
+      "t": [
+        "Psíquico",
+        "Volador"
+      ],
+      "como": "Aparición/invocación ligada al océano profundo y sus islas en eventos del modpack.",
+      "note": "Tanque enorme: la Timer Ball brilla en combates largos."
+    },
+    {
+      "n": "Ho-Oh",
+      "t": [
+        "Fuego",
+        "Volador"
+      ],
+      "como": "Aparición/invocación en torres y cimas con cielo despejado según el evento del modpack.",
+      "note": "Débil ×4 a Roca: cuidado, también él cae rápido si llevas Roca."
+    },
+    {
+      "n": "Celebi",
+      "t": [
+        "Psíquico",
+        "Planta"
+      ],
+      "como": "Singular de bosque: santuario forestal y aparición rarísima en bosques densos.",
+      "note": "Débil ×4 a Bicho: un tipo Bicho fuerte lo baja en dos golpes."
+    },
+    {
+      "n": "Kyogre",
+      "t": [
+        "Agua"
+      ],
+      "como": "Aparición/invocación en océano profundo, con lluvia intensa.",
+      "note": "Su lluvia potencia sus ataques de Agua: entra con Planta o Eléctrico y salud completa."
+    },
+    {
+      "n": "Groudon",
+      "t": [
+        "Tierra"
+      ],
+      "como": "Aparición/invocación en volcanes y capas profundas, con sol abrasador.",
+      "note": "El sol debilita el Agua contra él: pégale con Planta o Hielo."
+    },
+    {
+      "n": "Rayquaza",
+      "t": [
+        "Dragón",
+        "Volador"
+      ],
+      "como": "Cima de torre / aparición en el cielo a gran altura en eventos del modpack. Megaevoluciona sin piedra: aprende Ascenso Draco.",
+      "note": "Débil ×4 a Hielo. De los jefes finales del modpack."
+    },
+    {
+      "n": "Dialga",
+      "t": [
+        "Acero",
+        "Dragón"
+      ],
+      "como": "Evento de Sinnoh del modpack (pilares/templos) según configuración.",
+      "note": "Uno de los pocos Dragón que NO teme a Hada… sí teme: Hada le pega neutro; sus debilidades son Lucha y Tierra."
+    },
+    {
+      "n": "Palkia",
+      "t": [
+        "Agua",
+        "Dragón"
+      ],
+      "como": "Evento de Sinnoh del modpack, espejo de Dialga.",
+      "note": "Solo débil a Dragón y Hada: de los legendarios más duros de contrarrestar."
+    },
+    {
+      "n": "Giratina",
+      "t": [
+        "Fantasma",
+        "Dragón"
+      ],
+      "como": "Evento ligado a mundo distorsión / estructuras oscuras del modpack.",
+      "note": "Inmune a Normal, Lucha y Tierra (Levitación)."
+    },
+    {
+      "n": "Darkrai",
+      "t": [
+        "Siniestro"
+      ],
+      "como": "Singular nocturno: aparición en luna nueva / islas oscuras en eventos del modpack.",
+      "note": "Su pesadilla: duerme equipos enteros. Lleva antídotos contra el sueño y un Lucha rápido."
+    },
+    {
+      "n": "Zacian",
+      "t": [
+        "Hada"
+      ],
+      "como": "Evento de Galar del modpack; su forma coronada (Hada/Acero) usa la Espada Oxidada.",
+      "note": "La forma con espada es de los atacantes Hada/Acero más fuertes que existen."
+    },
+    {
+      "n": "Koraidon / Miraidon",
+      "t": [
+        "Lucha",
+        "Dragón"
+      ],
+      "como": "Legendarios de portada de Paldea: en el modpack llegan por evento/estructura especial según configuración, no salvajes comunes. Miraidon es Eléctrico/Dragón.",
+      "note": "Ambos débiles ×4 a Hada (Koraidon) y a Hielo/Tierra según forma: revisa la calculadora antes del combate."
+    }
+  ],
+  "dex": {
+    "Articuno": 144,
+    "Zapdos": 145,
+    "Moltres": 146,
+    "Mewtwo": 150,
+    "Mew": 151,
+    "Raikou": 243,
+    "Entei": 244,
+    "Suicune": 245,
+    "Lugia": 249,
+    "Ho-Oh": 250,
+    "Celebi": 251,
+    "Kyogre": 382,
+    "Groudon": 383,
+    "Rayquaza": 384,
+    "Dialga": 483,
+    "Palkia": 484,
+    "Giratina": 487,
+    "Darkrai": 491,
+    "Zacian": 888,
+    "Koraidon / Miraidon": 1007
+  }
+}

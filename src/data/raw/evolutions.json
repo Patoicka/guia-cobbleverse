@@ -1,0 +1,132 @@
+{
+  "methods": [
+    {
+      "h": "Por nivel",
+      "p": "La clásica: al subir al nivel indicado gana la opción de evolucionar.",
+      "chains": [
+        "Charmander 16/36",
+        "Dratini 30/55",
+        "Deino 50/64"
+      ],
+      "note": "En Cobblemon la evolución no es automática: la confirmas desde la ficha del Pokémon cuando aparece el aviso."
+    },
+    {
+      "h": "Por amistad",
+      "p": "Caminar con el Pokémon fuera de la Ball, ganar combates sin que se debilite, darle bayas y curarlo suben la amistad.",
+      "chains": [
+        "Pichu",
+        "Eevee → Espeon (día) / Umbreon (noche)",
+        "Riolu → Lucario (día)",
+        "Munchlax",
+        "Azurill"
+      ]
+    },
+    {
+      "h": "Con piedra evolutiva",
+      "p": "Usa la piedra sobre el Pokémon desde el inventario.",
+      "chains": [
+        "Piedra Fuego (Growlithe)",
+        "Agua (Eevee → Vaporeon)",
+        "Trueno (Pikachu)",
+        "Lunar (Clefairy)",
+        "Hielo (Eevee → Glaceon)",
+        "Anochecer (Doublade)",
+        "Alba (Kirlia macho)"
+      ],
+      "note": "Las piedras se minan: ver crafteos."
+    },
+    {
+      "h": "Por intercambio o Cable Link",
+      "chains": [
+        "Kadabra → Alakazam",
+        "Haunter → Gengar",
+        "Graveler → Golem",
+        "Machoke → Machamp",
+        "Boldore",
+        "Gurdurr",
+        "Karrablast ⇄ Shelmet"
+      ],
+      "note": "Sin amigos en línea, el Cable Link hace el mismo efecto en solitario."
+    },
+    {
+      "h": "Con objeto equipado + intercambio/nivel",
+      "chains": [
+        "Onix y Scyther con Revestimiento Metálico",
+        "Feebas con Escama Prisma",
+        "Porygon con Mejora (Up-Grade) y luego Disco Extraño",
+        "Rhydon con Protector",
+        "Electabuzz con Electrizer",
+        "Magmar con Magmatizador"
+      ],
+      "note": "El objeto debe ir EQUIPADO al producirse el intercambio o usar el Cable Link."
+    },
+    {
+      "h": "Por hora, lugar o clima",
+      "chains": [
+        "Eevee → Espeon de día y Umbreon de noche",
+        "Sliggoo → Goodra al nivel 50 con lluvia",
+        "Crabrawler en zonas nevadas/montaña",
+        "Eevee → Leafeon/Glaceon con su piedra en las versiones actuales",
+        "Cubone → Marowak de Alola de noche en su región"
+      ]
+    },
+    {
+      "h": "Conociendo un movimiento",
+      "p": "Algunos evolucionan al subir de nivel sabiendo un movimiento concreto:",
+      "chains": [
+        "Lickitung con Rodar (Rollout)",
+        "Tangela con Poder Pasado",
+        "Yanma con Poder Pasado",
+        "Piloswine con Poder Pasado → Mamoswine",
+        "Bonsly con Mimético",
+        "Aipom con Doble Golpe",
+        "Eevee → Sylveon con un movimiento Hada + amistad"
+      ]
+    },
+    {
+      "h": "Casos únicos",
+      "chains": [
+        "Pawmo: 1.000 pasos en modo paseo + subir nivel",
+        "Inkay → Malamar: subir al 30 (en consola era con la consola al revés; en Cobblemon sigue la condición del mod: nivel 30)",
+        "Farfetch'd de Galar → Sirfetch'd: 3 golpes críticos en un combate",
+        "Yamask de Galar → Runerigus: recibir 49+ de daño y pasar bajo el arco de piedra",
+        "Milcery → Alcremie: girar con un dulce equipado",
+        "Kubfu: torres de puño o agua según la ruta"
+      ]
+    }
+  ],
+  "special": [
+    {
+      "k": "Haunter → Gengar",
+      "v": "Nivel 25 para Haunter; luego intercambio o Cable Link. Sin segundo jugador, el Cable Link es la vía: craftealo en cuanto tengas un Haunter."
+    },
+    {
+      "k": "Eevee (las 8)",
+      "v": "Agua/Trueno/Fuego/Hielo/Hoja con su piedra · Espeon amistad de día · Umbreon amistad de noche · Sylveon amistad + movimiento tipo Hada (ej. Ojitos Tiernos / Encanto)."
+    },
+    {
+      "k": "Feebas → Milotic",
+      "v": "Intercambio con Escama Prisma equipada (vale Cable Link con la escama equipada). Feebas se pesca en tramos concretos de río/lago: paciencia."
+    },
+    {
+      "k": "Onix → Steelix y Scyther → Scizor",
+      "v": "Equipa el Revestimiento Metálico y luego intercambio o Cable Link con el objeto puesto. Si lo quitas antes, no evoluciona."
+    },
+    {
+      "k": "Kirlia → Gardevoir o Gallade",
+      "v": "Gardevoir: nivel 30, cualquier sexo. Gallade: Kirlia MACHO + Piedra Alba. Froslass igual: Snorunt HEMBRA + Piedra Alba."
+    },
+    {
+      "k": "Goomy → Goodra",
+      "v": "Sliggoo al 40; Goodra exige subir al nivel 50 MIENTRAS LLUEVE en el juego. Llévalo a un pantano y espera la lluvia con él a un combate de distancia."
+    },
+    {
+      "k": "Porygon → Porygon2 → Porygon-Z",
+      "v": "Dos intercambios con objeto: primero Mejora (Up-Grade) y después Disco Extraño (Dubious Disc), cada uno equipado en su intercambio o con Cable Link."
+    },
+    {
+      "k": "Magnemite/Tangela y los de «movimiento»",
+      "v": "Si una evolución «no sale», revisa primero el movimiento requerido: Poder Pasado es el que más se olvida (Tangela, Yanma, Piloswine)."
+    }
+  ]
+}

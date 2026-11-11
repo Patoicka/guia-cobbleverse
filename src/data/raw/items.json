@@ -1,0 +1,1367 @@
+[
+  {
+    "n": "Poké Ball",
+    "cat": "Poké Balls",
+    "rec": [
+      "Tapa: 3 Apricorn Rojo + 1 lingote de hierro",
+      "Base: 3 lingotes de hierro en U",
+      "Botón de piedra"
+    ],
+    "unl": "Se craftea desde el inicio: solo necesitas tu primera cosecha de Apricorn rojo y hierro.",
+    "use": "La Ball básica (ratio ×1). Tu herramienta principal las primeras horas."
+  },
+  {
+    "n": "Super Ball (Great Ball)",
+    "cat": "Poké Balls",
+    "rec": [
+      "Tapa: 2 Apricorn Azul + 1 Apricorn Rojo + lingote de hierro",
+      "Base de hierro + botón de piedra"
+    ],
+    "unl": "Crafteo; el Apricorn azul crece en el mismo árbol de Apricorn (frutos de colores al azar en cada árbol plantado).",
+    "use": "Ratio ×1.5. El salto estándar cuando la Poké Ball se queda corta."
+  },
+  {
+    "n": "Ultra Ball",
+    "cat": "Poké Balls",
+    "rec": [
+      "Tapa: Apricorn Amarillo + Apricorn Negro + lingote de hierro",
+      "Base de hierro + botón de piedra"
+    ],
+    "unl": "Crafteo avanzado: necesitas Apricorns amarillo y negro, los más tardíos de conseguir en cantidad.",
+    "use": "Ratio ×2. La Ball de crafteo para legendarios y pseudolegendarios."
+  },
+  {
+    "n": "Master Ball",
+    "cat": "Poké Balls",
+    "rec": [
+      "No se puede craftear"
+    ],
+    "unl": "Botín rarísimo: cofres de estructuras de alto nivel (ciudades del End, tesoros y recompensas de jefes/gimnasios finales del modpack). Si la ves en un cofre, es EL cofre.",
+    "use": "Captura garantizada sin fallar. Úsala solo en legendarios o shinies que no quieras perder."
+  },
+  {
+    "n": "Bola Rapidez (Quick Ball)",
+    "cat": "Poké Balls",
+    "rec": [
+      "Tapa: Apricorn Amarillo + Apricorn Azul + hierro",
+      "Base + botón"
+    ],
+    "unl": "Crafteo.",
+    "use": "Ratio altísimo solo en el primer turno del combate: abre siempre con ella."
+  },
+  {
+    "n": "Ocaso Ball (Dusk Ball)",
+    "cat": "Poké Balls",
+    "rec": [
+      "Tapa: Apricorn Negro + Apricorn Verde + hierro",
+      "Base + botón"
+    ],
+    "unl": "Crafteo.",
+    "use": "Ratio ×3 de noche o dentro de cuevas. Tu mejor amiga minando."
+  },
+  {
+    "n": "Malla Ball (Net Ball)",
+    "cat": "Poké Balls",
+    "rec": [
+      "Tapa: Apricorn Azul + Apricorn Negro + hierro",
+      "Base + botón"
+    ],
+    "unl": "Crafteo.",
+    "use": "Ratio ×3 contra Pokémon de tipo Agua o Bicho."
+  },
+  {
+    "n": "Turno Ball (Timer Ball)",
+    "cat": "Poké Balls",
+    "rec": [
+      "Tapa: Apricorn Rojo + Apricorn Blanco + hierro",
+      "Base + botón"
+    ],
+    "unl": "Crafteo.",
+    "use": "Mejora con cada turno que pasa: ideal contra legendarios que aguantan muchos turnos."
+  },
+  {
+    "n": "Acopio Ball (Repeat Ball)",
+    "cat": "Poké Balls",
+    "rec": [
+      "Tapa: Apricorn Rojo + Apricorn Amarillo + hierro",
+      "Base + botón"
+    ],
+    "unl": "Crafteo.",
+    "use": "Ratio ×3 si ya tienes registrada esa especie en la Pokédex."
+  },
+  {
+    "n": "Sana Ball (Heal Ball)",
+    "cat": "Poké Balls",
+    "rec": [
+      "Tapa: Apricorn Rosa + Apricorn Blanco + hierro",
+      "Base + botón"
+    ],
+    "unl": "Crafteo.",
+    "use": "Cura por completo al Pokémon capturado: perfecta para seguir explorando sin volver al Curador."
+  },
+  {
+    "n": "Honor Ball (Premier Ball)",
+    "cat": "Poké Balls",
+    "rec": [
+      "Tapa: 3 Apricorn Blanco + hierro",
+      "Base + botón"
+    ],
+    "unl": "Crafteo.",
+    "use": "Mismo ratio que la Poké Ball: es la Ball del estilo."
+  },
+  {
+    "n": "Nido Ball (Nest Ball)",
+    "cat": "Poké Balls",
+    "rec": [
+      "Tapa: Apricorn Verde + Apricorn Amarillo + hierro",
+      "Base + botón"
+    ],
+    "unl": "Crafteo.",
+    "use": "Funciona mejor cuanto menor sea el nivel del Pokémon salvaje."
+  },
+  {
+    "n": "Lujo Ball (Luxury Ball)",
+    "cat": "Poké Balls",
+    "rec": [
+      "Tapa: Apricorn Negro + Apricorn Rojo + Apricorn Blanco",
+      "Base + botón"
+    ],
+    "unl": "Crafteo.",
+    "use": "El Pokémon capturado gana amistad el doble de rápido: clave para evoluciones por amistad."
+  },
+  {
+    "n": "Ball Ancestral (Ancient Poké Ball)",
+    "cat": "Poké Balls",
+    "rec": [
+      "Tapa: 3 Piedras Rodantes (Tumblestone) + Apricorn",
+      "Base de Tumblestone + botón"
+    ],
+    "unl": "Crafteo estilo Hisui: la Tumblestone se mina en depósitos de piedra rodante que aparecen en cuevas y laderas.",
+    "use": "La Ball clásica de Leyendas Pokémon: Arceus. Estética retro, ratio estándar."
+  },
+  {
+    "n": "Ala Ball / Jet Ball (Wing & Jet Ball)",
+    "cat": "Poké Balls",
+    "rec": [
+      "Tumblestone (la Jet usa Piedra Rodante del Cielo / Sky Tumblestone) + Apricorn",
+      "Plumas en la receta de la Ala Ball"
+    ],
+    "unl": "Crafteo Hisui. La Piedra Rodante del Cielo se mina en zonas altas y montañas.",
+    "use": "Vuelan rectas y lejos: pensadas para capturar Pokémon a distancia sin acercarte."
+  },
+  {
+    "n": "Peso Ball y Plomo Ball (Heavy & Gigaton Ball)",
+    "cat": "Poké Balls",
+    "rec": [
+      "Piedra Rodante Negra (Black Tumblestone) + Apricorn"
+    ],
+    "unl": "Crafteo Hisui. La Tumblestone negra sale en cuevas profundas y zonas de pizarra (deepslate).",
+    "use": "No llegan lejos al lanzarlas, pero atrapan mejor a Pokémon pesados. La Gigaton es la versión mejorada."
+  },
+  {
+    "n": "Apricorn (los 7 colores)",
+    "cat": "Cultivo y materiales",
+    "rec": [
+      "Se cosecha del Árbol de Apricorn"
+    ],
+    "unl": "Los árboles de Apricorn aparecen en bosques y llanuras; recoge el plantón (o el fruto) y replanta en tu base. Cada árbol da frutos de su color: rojo, azul, amarillo, verde, rosa, blanco y negro.",
+    "use": "Materia prima de TODAS las tapas de Poké Ball. Cultiva los 7 colores desde el primer día."
+  },
+  {
+    "n": "Piedra Rodante (Tumblestone)",
+    "cat": "Cultivo y materiales",
+    "rec": [
+      "Se mina en vetas de piedra rodante"
+    ],
+    "unl": "Vetas en cuevas, laderas y ríos de montaña. Variantes: normal, del Cielo (zonas altas) y Negra (capas profundas / deepslate).",
+    "use": "Material de las Balls ancestrales de Hisui y de varios crafteos del modpack."
+  },
+  {
+    "n": "Curador (Healer)",
+    "cat": "Máquinas y PC",
+    "rec": [
+      "Lingotes de hierro + aluminio/plástico del mod + cristal o redstone según versión"
+    ],
+    "unl": "Crafteo. El aluminio se funde de la bauxita que aparece en cuevas; revisa la receta exacta en JEI.",
+    "use": "Cura a todo tu equipo gratis y al instante. Pon uno en tu base y otro en cada puesto avanzado de exploración."
+  },
+  {
+    "n": "PC",
+    "cat": "Máquinas y PC",
+    "rec": [
+      "Hierro/aluminio + cristal + componente electrónico (redstone o lámpara)"
+    ],
+    "unl": "Crafteo.",
+    "use": "Acceso a tus cajas de Pokémon desde cualquier base: imprescindible para organizar la Pokédex viva."
+  },
+  {
+    "n": "Mesa de Intercambio (Trade Machine)",
+    "cat": "Máquinas y PC",
+    "rec": [
+      "Hierro + Cable Link o componentes de redstone según versión"
+    ],
+    "unl": "Crafteo; en servidores también suele haber una en el spawn o en pueblos.",
+    "use": "Intercambia Pokémon con otros jugadores para completar evoluciones por intercambio y la Pokédex."
+  },
+  {
+    "n": "Cable Link (Link Cable)",
+    "cat": "Evolución",
+    "rec": [
+      "Crafteo con hilo/cuerda y materiales metálicos según versión"
+    ],
+    "unl": "Crafteo u objeto de botín en estructuras. Es LA alternativa al intercambio en solitario.",
+    "use": "Úsalo sobre un Pokémon que evoluciona por intercambio (Haunter, Graveler, Kadabra, Machoke…) y evoluciona sin necesitar a otro jugador. Con objetos equipados (Revestimiento Metálico, Escama Prisma) también aplica."
+  },
+  {
+    "n": "Piedra Fuego / Agua / Trueno / Hoja",
+    "cat": "Evolución",
+    "rec": [
+      "No se craftean: se minan"
+    ],
+    "unl": "Los fragmentos de piedra evolutiva aparecen minando en biomas afines (Fuego cerca de lava y en el Nether; Agua en ríos/océanos; Trueno en llanuras y montañas; Hoja en bosques). Con 9 fragmentos armas la piedra, o encuéntrala entera en botín.",
+    "use": "Fuego: Vulpix, Growlithe, Eevee→Flareon · Agua: Poliwhirl, Eevee→Vaporeon, Lotad · Trueno: Pikachu→Raichu, Eevee→Jolteon · Hoja: Gloom, Eevee→Leafeon, Nuzleaf."
+  },
+  {
+    "n": "Piedra Lunar y Piedra Solar",
+    "cat": "Evolución",
+    "rec": [
+      "No se craftean: se minan / botín"
+    ],
+    "unl": "Lunar: cuevas y de noche; se asocia a Clefairy y zonas con piedra lunar. Solar: superficie soleada, praderas y botín de estructuras.",
+    "use": "Lunar: Clefairy→Clefable, Jigglypuff→Wigglytuff, Munna · Solar: Gloom→Bellossom, Sunkern→Sunflora, Cottonee."
+  },
+  {
+    "n": "Piedra Alba, Piedra Día y Piedra Anochecer",
+    "cat": "Evolución",
+    "rec": [
+      "No se craftean: minería y botín raros"
+    ],
+    "unl": "Piedras raras de cuevas profundas y cofres. La de Anochecer se liga a biomas oscuros y la Alba a zonas altas al amanecer.",
+    "use": "Alba: Kirlia macho→Gallade, Snorunt hembra→Froslass · Anochecer: Murkrow→Honchkrow, Misdreavus→Mismagius, Doublade→Aegislash · Día (Shiny Stone): Togetic→Togekiss, Roselia→Roserade, Minccino."
+  },
+  {
+    "n": "Piedra Hielo",
+    "cat": "Evolución",
+    "rec": [
+      "No se craftea: se mina en biomas fríos"
+    ],
+    "unl": "Tundras, picos nevados y cuevas de hielo; también botín en iglús y estructuras nevadas.",
+    "use": "Eevee→Glaceon, Vulpix de Alola→Ninetales de Alola, Sandshrew de Alola, Crabrawler→Crabominable, Cetoddle→Cetitan."
+  },
+  {
+    "n": "Revestimiento Metálico (Metal Coat)",
+    "cat": "Evolución",
+    "rec": [
+      "Crafteo con lingotes de acero/hierro según versión, o botín"
+    ],
+    "unl": "Crafteo o cofres en minas y estructuras; algunos Pokémon de tipo Acero salvajes pueden llevarlo equipado.",
+    "use": "Equipado + intercambio/Cable Link: Onix→Steelix y Scyther→Scizor. Fuera de eso, potencia movimientos Acero un 20%."
+  },
+  {
+    "n": "Escama Prisma (Prism Scale)",
+    "cat": "Evolución",
+    "rec": [
+      "No se craftea"
+    ],
+    "unl": "Botín de pesca y cofres acuáticos; rareza alta.",
+    "use": "Equipada en Feebas + intercambio/Cable Link = Milotic."
+  },
+  {
+    "n": "Caramelo Raro (Rare Candy)",
+    "cat": "Entrenamiento",
+    "rec": [
+      "No se craftea (alguna versión permite fabricarlo con azúcar y materiales dulces: confírmalo en JEI)"
+    ],
+    "unl": "Botín de estructuras, recompensas de gimnasios y jefes, y logros del modpack.",
+    "use": "Sube 1 nivel al instante. Guárdalo para niveles caros (50→55 de pseudolegendarios) o para disparar una evolución por nivel."
+  },
+  {
+    "n": "Revive y Revivir Máximo",
+    "cat": "Curación y bayas",
+    "rec": [
+      "Crafteo con hierbas medicinales / Vivichoke y bayas según versión"
+    ],
+    "unl": "Crafteo con botánica del mundo: cultiva las plantas medicinales que crecen silvestres.",
+    "use": "Revive a un Pokémon debilitado con la mitad (o toda, el Máximo) de su salud sin volver al Curador."
+  },
+  {
+    "n": "Baya Oran y Baya Sitrus",
+    "cat": "Curación y bayas",
+    "rec": [
+      "Se cultivan en arbustos de bayas"
+    ],
+    "unl": "Los arbustos de bayas salen en bosques y llanuras; cosecha y replanta junto a los Apricorns.",
+    "use": "Oran cura 10 PS y Sitrus un 25%: equipadas se comen solas en combate. Base de la curación temprana."
+  },
+  {
+    "n": "Medicina de Cobblemon (pociones curativas)",
+    "cat": "Curación y bayas",
+    "rec": [
+      "Botánica: raíz energética, hierbas medicinales y bayas, en la mesa de crafteo"
+    ],
+    "unl": "Crafteo con plantas que recolectas explorando (busca los arbustos y raíces con brillo en bosques y praderas).",
+    "use": "Equivalen a Poción / Superpoción del juego base: curan fuera del Curador cuando estás lejos de casa."
+  },
+  {
+    "n": "Exp. Candy y Caramelos de Experiencia",
+    "cat": "Entrenamiento",
+    "rec": [
+      "Botín y recompensas; en algunas versiones, crafteo con azúcar y bayas"
+    ],
+    "unl": "Recompensas de combates contra entrenadores, incursiones y cofres.",
+    "use": "Experiencia directa sin combatir: sube niveles bajos rápido para rotar equipos."
+  },
+  {
+    "n": "Fósiles (Garra, Raíz, Hélix, Cúpula, Ámbar…)",
+    "cat": "Exploración",
+    "rec": [
+      "Se extraen de bloques de grava sospechosa / minería de fósiles"
+    ],
+    "unl": "Bloques fósiles en desiertos, cuevas y lechos marinos; se restauran en la máquina de restauración de fósiles si el modpack la incluye activa.",
+    "use": "Reviven en Pokémon fósiles: Kabuto, Omanyte, Aerodactyl (Ámbar Viejo), Lileep, Anorith, Cranidos, Shieldon, Tirtouga, Archen y los fósiles de Galar."
+  },
+  {
+    "n": "Pulsera Mega, Muñequera Dynamax y Pulsera Z",
+    "cat": "Mecánicas especiales",
+    "rec": [
+      "No se craftean de forma estándar"
+    ],
+    "unl": "Objetos clave del modpack: progresión de gimnasios/jefes, estructuras especiales y recompensas de eventos. Ver la sección «Mega · Dynamax · Z» de esta guía.",
+    "use": "Cada una habilita su mecánica en combate junto a la megapiedra, la zona Dynamax o el Cristal Z correspondiente."
+  },
+  {
+    "n": "Lodo Negro (Black Sludge)",
+    "cat": "Objetos equipados",
+    "aka": "black sludge lodo veneno equipado drop grimer muk koffing weezing toxicroak garbodor",
+    "rec": [
+      "No se craftea: cae como botín al derrotar Pokémon de tipo Veneno",
+      "Guarda 2: también es ingrediente de la Esfera Tóxica"
+    ],
+    "unl": "Botín (drop) al derrotar Pokémon Veneno, según la Wiki oficial de Cobblemon: Muk, Weezing, Swalot, Toxicroak, Garbodor y Revavroom sueltan 5% · Grimer, Koffing, Gulpin, Croagunk, Trubbish y Varoom sueltan 2.5% (las formas de Alola y Galar cuentan igual). Farmea los del 5%: son el doble de rápidos. Busca Grimer y Koffing en pantanos, cuevas húmedas y zonas con Pokémon Veneno, y quédate con todo el que caiga.",
+    "use": "Equípaselo SOLO a un Pokémon de tipo Veneno (Muk, Weezing, Gengar, Toxicroak…): recupera 1/16 de su salud al final de cada turno, como unos Restos. OJO: si el portador NO es Veneno, pierde 1/8 de su salud cada turno. Nunca se lo des a otro tipo."
+  },
+  {
+    "n": "Restos (Leftovers)",
+    "cat": "Objetos equipados",
+    "aka": "leftovers sobras restos cura equipado snorlax manzana",
+    "rec": [
+      "No se craftea de forma normal"
+    ],
+    "unl": "Según la Wiki oficial de Cobblemon: botín al derrotar a Snorlax (5%) o Munchlax (2.5%)… y un truco curioso: al comer una manzana hay un 2.5% de que aparezcan unos Restos. También puede salir como botín en estructuras.",
+    "use": "El objeto equipado más seguro del juego: cualquier Pokémon que lo lleve recupera 1/16 de su salud al final de cada turno, sin condiciones. Es la versión universal del Lodo Negro (que solo sirve a los Veneno)."
+  },
+  {
+    "n": "Esfera Tóxica (Toxic Orb)",
+    "cat": "Objetos equipados",
+    "aka": "toxic orb esfera toxica veneno lodo negro crafteo",
+    "rec": [
+      "2× Lodo Negro",
+      "4× cristal tintado",
+      "1× perla de Ender",
+      "2× ojo de araña fermentado"
+    ],
+    "unl": "Se craftea en la mesa de trabajo con esa combinación (la cuadrícula exacta está en la ficha de la Wiki oficial y en JEI). Primero necesitas farmear el Lodo Negro de los Pokémon Veneno: mira su tarjeta aquí arriba.",
+    "use": "Envenena gravemente a su propio portador al final del primer turno. Parece malo, pero es oro con habilidades como Agallas (Guts), Ímpetu Tóxico (Poison Heal, que CURA al envenenado) o en Pokémon que lanzan Fachada (Facade)."
+  },
+  {
+    "n": "Esfera Llama (Flame Orb)",
+    "cat": "Objetos equipados",
+    "aka": "flame orb esfera llama quemadura guts agallas",
+    "rec": [
+      "Botín, recompensas y crafteo según la versión: confírmalo en JEI"
+    ],
+    "unl": "Objeto equipado de combate de la Wiki oficial de Cobblemon: aparece como botín/recompensa en el progreso del modpack. Al portador no le hace falta buscarla si tu equipo no usa Agallas.",
+    "use": "Quema a su propio portador al final del primer turno. Sirve para activar Agallas (Guts: más ataque estando quemado) sin depender del rival, y bloquea que te duerman o paralicen (ya tienes un estado)."
+  },
+  {
+    "n": "Vidaesfera (Life Orb)",
+    "cat": "Objetos equipados",
+    "aka": "life orb vida esfera potencia dano equipado",
+    "rec": [
+      "Botín, recompensas y crafteo según la versión: confírmalo en JEI"
+    ],
+    "unl": "Objeto equipado clásico de la Wiki oficial de Cobblemon: botín de alto nivel y recompensas de gimnasios/jefes.",
+    "use": "Los movimientos del portador pegan un 30% más fuerte, pero pierde un 10% de su salud con cada ataque que conecta. Para atacantes rápidos que quieren bajar al rival en 1-2 golpes."
+  },
+  {
+    "n": "Faja Focus (Focus Sash)",
+    "cat": "Objetos equipados",
+    "aka": "focus sash faja focus aguante 1 ps equipado",
+    "rec": [
+      "Botín, recompensas y crafteo según la versión: confírmalo en JEI"
+    ],
+    "unl": "Objeto equipado de la Wiki oficial de Cobblemon: botín y recompensas de combate.",
+    "use": "Si el portador está con la salud COMPLETA y recibe un golpe que lo debilitaría, sobrevive con 1 PS. Se consume al activarse. Clásica en Pokémon frágiles que necesitan asegurar un turno."
+  },
+  {
+    "n": "Cinta Focus (Focus Band)",
+    "cat": "Objetos equipados",
+    "aka": "focus band cinta focus aguante probabilidad equipado",
+    "rec": [
+      "Botín, recompensas y crafteo según la versión: confírmalo en JEI"
+    ],
+    "unl": "Objeto equipado de la Wiki oficial de Cobblemon: botín y recompensas de combate.",
+    "use": "Al recibir un golpe que lo debilitaría, el portador tiene un 10% de probabilidad de aguantar con 1 PS. No se consume: puede activarse más de una vez, pero depende de la suerte."
+  },
+  {
+    "n": "Cinta Elegida (Choice Band)",
+    "cat": "Objetos equipados",
+    "aka": "choice band cinta elegida ataque fisico equipado",
+    "rec": [
+      "Botín, recompensas y crafteo según la versión: confírmalo en JEI"
+    ],
+    "unl": "Objeto equipado de la Wiki oficial de Cobblemon: botín de alto nivel y recompensas.",
+    "use": "Ataque físico ×1.5, pero el portador queda bloqueado usando un solo movimiento hasta que cambie de Pokémon. Potencia bruta para atacantes físicos."
+  },
+  {
+    "n": "Gafas Elegidas (Choice Specs)",
+    "cat": "Objetos equipados",
+    "aka": "choice specs gafas elegidas ataque especial equipado",
+    "rec": [
+      "Botín, recompensas y crafteo según la versión: confírmalo en JEI"
+    ],
+    "unl": "Objeto equipado de la Wiki oficial de Cobblemon: botín de alto nivel y recompensas.",
+    "use": "Ataque especial ×1.5, pero el portador queda bloqueado usando un solo movimiento hasta que cambie. La pareja de la Cinta Elegida, para atacantes especiales."
+  },
+  {
+    "n": "Pañuelo Elegido (Choice Scarf)",
+    "cat": "Objetos equipados",
+    "aka": "choice scarf panuelo elegido velocidad equipado",
+    "rec": [
+      "Botín, recompensas y crafteo según la versión: confírmalo en JEI"
+    ],
+    "unl": "Objeto equipado de la Wiki oficial de Cobblemon: botín de alto nivel y recompensas.",
+    "use": "Velocidad ×1.5, pero el portador queda bloqueado usando un solo movimiento hasta que cambie. Convierte a un atacante normal en el primero en golpear casi siempre."
+  },
+  {
+    "n": "Chaleco Asalto (Assault Vest)",
+    "cat": "Objetos equipados",
+    "aka": "assault vest chaleco asalto defensa especial equipado",
+    "rec": [
+      "Botín, recompensas y crafteo según la versión: confírmalo en JEI"
+    ],
+    "unl": "Objeto equipado de la Wiki oficial de Cobblemon: botín y recompensas de combate.",
+    "use": "Defensa especial ×1.5, pero el portador NO puede usar movimientos de estado (nada de curarse, dormirse ni subir estadísticas: solo atacar). Perfecto para tanques que solo pegan."
+  },
+  {
+    "n": "Botas Gruesas (Heavy-Duty Boots)",
+    "cat": "Objetos equipados",
+    "aka": "heavy duty boots botas gruesas trampas púas rocas equipado",
+    "rec": [
+      "Botín, recompensas y crafteo según la versión: confírmalo en JEI"
+    ],
+    "unl": "Objeto equipado de la Wiki oficial de Cobblemon: botín y recompensas de combate.",
+    "use": "El portador ignora el daño de las trampas de entrada (Trampa Rocas, Púas, Red Viscosa…). Si el rival llena el suelo de trampas, este es el contraobjeto."
+  },
+  {
+    "n": "Casco Dentado (Rocky Helmet)",
+    "cat": "Objetos equipados",
+    "aka": "rocky helmet casco dentado contacto equipado tanque",
+    "rec": [
+      "Botín, recompensas y crafteo según la versión: confírmalo en JEI"
+    ],
+    "unl": "Objeto equipado de la Wiki oficial de Cobblemon: botín y recompensas de combate.",
+    "use": "Quien golpee al portador con un movimiento de contacto pierde 1/6 de su salud. Pónselo a un tanque físico y que el rival se castigue solo."
+  },
+  {
+    "n": "Garra Rápida (Quick Claw)",
+    "cat": "Objetos equipados",
+    "aka": "quick claw garra rapida primero velocidad equipado",
+    "rec": [
+      "Botín, recompensas y crafteo según la versión: confírmalo en JEI"
+    ],
+    "unl": "Objeto equipado de la Wiki oficial de Cobblemon: botín y recompensas de combate.",
+    "use": "A veces (20%) el portador ataca primero dentro de su nivel de prioridad, aunque sea más lento. Un comodín de suerte para Pokémon lentos."
+  },
+  {
+    "n": "Huevo Suerte (Lucky Egg)",
+    "cat": "Objetos equipados",
+    "aka": "lucky egg huevo suerte experiencia nivel equipado",
+    "rec": [
+      "Botín raro y recompensas: confírmalo en JEI"
+    ],
+    "unl": "Objeto equipado de la Wiki oficial de Cobblemon: botín raro y recompensas de entrenadores/gimnasios.",
+    "use": "El portador gana un 50% más de experiencia en combate. Rota el huevo entre los Pokémon que estés subiendo y ahorras horas de farmeo."
+  },
+  {
+    "n": "Repartir Experiencia (Exp. Share)",
+    "cat": "Objetos equipados",
+    "aka": "exp share repartir experiencia equipado nivel",
+    "rec": [
+      "Botín y recompensas del modpack: confírmalo en JEI"
+    ],
+    "unl": "Objeto equipado de la Wiki oficial de Cobblemon.",
+    "use": "El portador recibe una parte de la experiencia de los combates aunque no participe. Para subir a un Pokémon débil sin exponerlo."
+  },
+  {
+    "n": "Raíz Grande (Big Root)",
+    "cat": "Objetos equipados",
+    "aka": "big root raiz grande drenaje absorcion cura equipado",
+    "rec": [
+      "Se recoge del mundo y tiene crafteo en varias versiones: confírmalo en JEI"
+    ],
+    "unl": "Objeto equipado de la Wiki oficial de Cobblemon; las raíces energéticas crecen en techos de cuevas frondosas (cuevas exuberantes).",
+    "use": "Los movimientos que roban salud (Drenadoras, Giga Drenado, Puño Drenaje…) curan un 30% más. Combina de maravilla con tanques Planta."
+  },
+  {
+    "n": "Eviolita (Eviolite)",
+    "cat": "Objetos equipados",
+    "aka": "eviolite mineral evolutivo defensa equipado no evolucionado",
+    "rec": [
+      "Botín raro y recompensas: confírmalo en JEI"
+    ],
+    "unl": "Objeto equipado clásico: botín de alto nivel en Cobblemon.",
+    "use": "Si el portador aún puede evolucionar, su Defensa y Defensa Especial suben un 50%. Algunos Pokémon sin evolucionar (Chansey, Dusclops, Porygon2) aguantan más con Eviolita que evolucionados."
+  },
+  {
+    "n": "Roca del Rey y Colmillo Agudo (King's Rock · Razor Fang)",
+    "cat": "Objetos equipados",
+    "aka": "kings rock roca rey razor fang colmillo retroceder flinch equipado",
+    "rec": [
+      "Botín y recompensas: confírmalo en JEI",
+      "La Roca del Rey equipada también sirve en intercambios especiales"
+    ],
+    "unl": "Objetos equipados de la Wiki oficial de Cobblemon: botín y recompensas de combate.",
+    "use": "Los movimientos dañinos del portador ganan un 10% de probabilidad de hacer retroceder al rival. Además, la Roca del Rey equipada evoluciona a Poliwhirl→Politoed y Slowpoke→Slowking por intercambio/Cable Link."
+  },
+  {
+    "n": "Garra Afilada (Razor Claw)",
+    "cat": "Objetos equipados",
+    "aka": "razor claw garra afilada critico sneasel weavile evolucion noche equipado",
+    "rec": [
+      "Botín y recompensas: confírmalo en JEI"
+    ],
+    "unl": "Objeto equipado de la Wiki oficial de Cobblemon: botín y recompensas de combate.",
+    "use": "Sube la probabilidad de golpe crítico del portador. Y equipada en Sneasel, lo evoluciona a Weavile subiendo de nivel de NOCHE."
+  },
+  {
+    "n": "Potenciadores de tipo (uno por tipo)",
+    "cat": "Objetos equipados",
+    "aka": "charcoal carbon magnet iman miracle seed semilla milagro mystic water agua mistica never melt ice hielo eterno black belt cinturon negro poison barb pua venenosa sharp beak pico afilado soft sand arena fina hard stone piedra dura silver powder polvo plata spell tag talisman dragon fang colmillo dragon silk scarf panuelo seda twisted spoon cuchara torcida black glasses gafas negras metal coat",
+    "rec": [
+      "Botín de Pokémon salvajes de ese tipo, cofres y crafteos sencillos según la versión: confírmalo en JEI"
+    ],
+    "unl": "Son 18 objetos, uno por tipo, de la lista oficial de objetos equipados de Cobblemon: Carbón (Fuego), Imán (Eléctrico), Semilla Milagro (Planta), Agua Mística (Agua), Hielo Eterno (Hielo), Cinturón Negro (Lucha), Púa Venenosa (Veneno), Arena Fina (Tierra), Pico Afilado (Volador), Cuchara Torcida (Psíquico), Polvo Plata (Bicho), Piedra Dura (Roca), Talismán (Fantasma), Colmillo Dragón (Dragón), Gafas Negras (Siniestro), Revestimiento Metálico (Acero), Pañuelo Seda (Normal)…",
+    "use": "Cada uno potencia un 20% los movimientos de SU tipo. No es el objeto más fuerte, pero es gratis de mantener, sin ningún efecto negativo: ideal mientras consigues los elegidos o la Vidaesfera."
+  },
+  {
+    "n": "Arcilla Luminosa y Gafas de Seguridad (Light Clay · Safety Goggles)",
+    "cat": "Objetos equipados",
+    "aka": "light clay arcilla luminosa pantallas reflect light screen safety goggles gafas seguridad esporas clima equipado",
+    "rec": [
+      "Botín y recompensas: confírmalo en JEI"
+    ],
+    "unl": "Objetos equipados de la Wiki oficial de Cobblemon: botín y recompensas de combate.",
+    "use": "Arcilla Luminosa: las pantallas del portador (Pantalla Luz, Reflejo, Velo Aurora) duran 8 turnos en vez de 5. Gafas de Seguridad: inmunidad a movimientos de polvos/esporas y al daño de clima (arena y granizo)."
+  },
+  {
+    "n": "Poké Snack",
+    "cat": "Cocina y cebo",
+    "aka": "poke snack pokesnack poke snacka snack cebo atraer spawns seasoning campfire pot comida pokemon salvajes",
+    "rec": [
+      "Fila de arriba: 3× leche (cubo de leche o Leche Moomoo)",
+      "Fila del medio: botella de miel + Vivichoke + botella de miel",
+      "Fila de abajo: 3× Granos Abundantes",
+      "A la derecha: hasta 3 condimentos de cebo (opcionales)"
+    ],
+    "unl": "Se cocina en la Olla de Fogata (Campfire Pot) puesta sobre una fogata encendida. NO se craftea en la mesa normal. Tienes la receta paso a paso y la tabla de condimentos en la sección «Cocina, Poké Snack y bayas» de esta guía.",
+    "use": "Se coloca en el suelo: los Pokémon salvajes aparecen alrededor y le dan una mordida al aparecer. Aguanta 9 mordidas. Con condimentos de cebo decides qué viene: cada baya de tipo hace ese tipo 10× más probable, la Baya Starf sube los shiny ×5 y la Manzana Dorada Encantada sube la rareza 10 niveles y los shiny ×10. No salta biomas ni horarios: solo multiplica lo que ya puede aparecer ahí."
+  },
+  {
+    "n": "Poké Cake",
+    "cat": "Cocina y cebo",
+    "aka": "poke cake pastel torta comida jugador hambre",
+    "rec": [
+      "3× leche + azúcar + Vivichoke + azúcar",
+      "3× Granos Abundantes"
+    ],
+    "unl": "Se cocina en la Olla de Fogata. Su condimento solo cambia el color: es cosmético.",
+    "use": "OJO: NO atrae Pokémon, aunque lo parezca. Es comida para el jugador, como un pastel: cada rebanada restaura 2 de hambre, 18 en total con sus 9 rebanadas."
+  },
+  {
+    "n": "Poké Bait (Cebo Pokémon)",
+    "cat": "Cocina y cebo",
+    "aka": "poke bait cebo pesca cana poke rod fishing bait seasoning",
+    "rec": [
+      "Sin forma en la Olla: 1 botella de miel + 1 champiñón (rojo o marrón) + 1 trigo",
+      "Hasta 3 condimentos de cebo",
+      "Salen 4 cebos por cocinada"
+    ],
+    "unl": "Se cocina en la Olla de Fogata sobre una fogata encendida.",
+    "use": "Se engancha a la Caña Pokémon (Poké Rod) como cebo al pescar: el condimento que lleve influye en qué Pokémon pica, igual que en el Poké Snack. Desde la 1.6 también puedes enganchar bayas sueltas a la caña como cebo."
+  },
+  {
+    "n": "Olla de Fogata (Campfire Pot)",
+    "cat": "Cocina y cebo",
+    "aka": "campfire pot olla fogata cocina cooking pot cobre apricorn",
+    "rec": [
+      "5× lingote de cobre",
+      "1× cristal",
+      "2× Apricorn de cualquier color (el color de la olla sale de aquí)"
+    ],
+    "unl": "Se craftea en la mesa de trabajo y se coloca SOBRE una fogata encendida para cocinar.",
+    "use": "El bloque de cocina de Cobblemon: Poké Snack, Poké Cake, Poké Bait, casi toda la comida, mochis y caramelos de hiperentrenamiento se cocinan aquí. Tiene 3 huecos de condimento y también hace recetas de destilería tempranas, antes del Nether."
+  },
+  {
+    "n": "Leche Moomoo (Moomoo Milk)",
+    "cat": "Cocina y cebo",
+    "aka": "moomoo milk leche vaca miltank botella",
+    "rec": [
+      "Se obtiene de vacas y Miltank con una botella o cubo"
+    ],
+    "unl": "La versión en botella de la leche de Cobblemon: sale en botín, intercambios y de ordeñar. En las recetas de la Olla vale cualquier leche: cubo de leche de Minecraft o Leche Moomoo.",
+    "use": "Ingrediente base del Poké Snack y del Poké Cake (3 por receta) y de varias comidas. Como condimento de efecto, la leche limpia los efectos del que la consume."
+  },
+  {
+    "n": "Granos Abundantes (Hearty Grains)",
+    "cat": "Cocina y cebo",
+    "aka": "hearty grains granos abundantes cultivo arroz trigo cocina",
+    "rec": [
+      "Se cultivan: planta sus semillas en tierra de cultivo"
+    ],
+    "unl": "Cultivo de Cobblemon: sus plantas crecen en granjas, en biomas húmedos y cerca de aldeas. Es de los primeros cultivos que conviene montar junto a los Apricorns.",
+    "use": "Ingrediente base de cocina: 3 en cada Poké Snack y Poké Cake, y la base de los mochis (con miel y la baya de cada estadística)."
+  },
+  {
+    "n": "Vivichoke y sus semillas (Vivichoke)",
+    "cat": "Cocina y cebo",
+    "aka": "vivichoke alcachofa semillas cultivo ingrediente snack",
+    "rec": [
+      "Se cultiva con Semillas de Vivichoke en tierra de cultivo"
+    ],
+    "unl": "Las semillas salen en cofres (templos de selva, mazmorras, aldeas) y en intercambios de aldeanos errantes. La planta crece como un cultivo normal.",
+    "use": "Ingrediente clave: va en el centro del Poké Snack y del Poké Cake, y en comidas como la Salsa de Vivichoke y el Vivichoke Estofado. Planta mucho: lo vas a gastar en cantidad."
+  },
+  {
+    "n": "Condimentos (Seasoning)",
+    "cat": "Cocina y cebo",
+    "aka": "seasoning condimento sazon sabor flavor nutrition effect bait cebo olla",
+    "rec": [
+      "No es un objeto: son los ingredientes extra de la Olla de Fogata"
+    ],
+    "unl": "Hay 4 tipos según la Wiki oficial: de sabor (los absorbe el Aprijuice), de nutrición y de efecto (los absorben las comidas y dan efectos al jugador) y de cebo (los absorben el Poké Snack y el Poké Bait). Cada receta solo absorbe su tipo.",
+    "use": "Son el corazón de la cocina: sin condimento, un Poké Snack atrae lo normal; con la baya correcta, atrae el tipo, la naturaleza, los IV o la rareza que buscas. La tabla completa está en la sección «Cocina, Poké Snack y bayas»."
+  },
+  {
+    "n": "Caña Pokémon (Poké Rod)",
+    "cat": "Utilidad y bloques",
+    "aka": "poke rod cana pesca fishing rod cebo bait magikarp",
+    "rec": [
+      "Crafteo según la versión: confírmalo en JEI (hay modelos por tipo de Ball)"
+    ],
+    "unl": "Crafteo; también sale en botín de estructuras acuáticas.",
+    "use": "La caña de pescar de Cobblemon: con ella pescas Pokémon de agua (Magikarp, Feebas, Dratini…) y tesoros; con Suerte Marina salen objetos mejores. Se le engancha Poké Bait o una baya como cebo para influir en lo que pica."
+  },
+  {
+    "n": "Pokédex (objeto)",
+    "cat": "Utilidad y bloques",
+    "aka": "pokedex objeto registro enciclopedia escanear",
+    "rec": [
+      "Crafteo según la versión: confírmalo en JEI"
+    ],
+    "unl": "Crafteo; en muchos mundos la recibes al inicio o en la primera aldea.",
+    "use": "Tu registro portátil: apunta a un Pokémon salvaje para ver su ficha, si ya lo tienes registrado y dónde aparece. Complementa la Pokédex de esta guía cuando estás dentro del juego."
+  },
+  {
+    "n": "Bloque de Pasto (Pasture Block)",
+    "cat": "Utilidad y bloques",
+    "aka": "pasture block pasto corral crianza breeding pokemon sueltos",
+    "rec": [
+      "Crafteo según la versión: confírmalo en JEI"
+    ],
+    "unl": "Crafteo.",
+    "use": "El corral de Cobblemon: deja a tus Pokémon vivir sueltos junto a tu base dentro de su rango. Con dos Pokémon compatibles del mismo grupo huevo es también donde ocurre la crianza y aparecen los huevos."
+  },
+  {
+    "n": "Máquina de Resurrección (Resurrection Machine)",
+    "cat": "Utilidad y bloques",
+    "aka": "resurrection machine maquina resurreccion fosiles fossil revivir tanque",
+    "rec": [
+      "Se arma por piezas: tanque y componentes de la máquina, según la versión (JEI)"
+    ],
+    "unl": "Crafteo avanzado; algunas piezas salen en estructuras fósiles.",
+    "use": "Aquí reviven los fósiles: metes un fósil completo, la máquina trabaja y sale el Pokémon fósil vivo (Omanyte, Kabuto, Aerodactyl, Cranidos…). Sin ella, los fósiles son solo colección."
+  },
+  {
+    "n": "Puerro Asado (Roasted Leek)",
+    "cat": "Comida",
+    "aka": "roasted leek puerro asado comida jugador medicinal leek",
+    "rec": [
+      "Puerro Medicinal cocinado (Olla de Fogata u horno)"
+    ],
+    "unl": "Comida de jugador de la lista oficial de Cobblemon: se cocina desde el Puerro Medicinal que crece junto a ríos y charcas.",
+    "use": "Comida rápida para el jugador: se come más rápido que la mayoría de comidas. El Puerro Medicinal también es ingrediente de pociones."
+  },
+  {
+    "n": "Guiso de Puerro y Patata (Leek and Potato Stew)",
+    "cat": "Comida",
+    "aka": "leek potato stew guiso puerro patata comida",
+    "rec": [
+      "Puerro Medicinal + patata asada + cuenco, en la Olla"
+    ],
+    "unl": "Se cocina en la Olla de Fogata.",
+    "use": "Comida contundente para el jugador: de las recetas de cocina temprana de Cobblemon."
+  },
+  {
+    "n": "Vivichoke Estofado (Braised Vivichoke)",
+    "cat": "Comida",
+    "aka": "braised vivichoke estofado comida",
+    "rec": [
+      "Vivichoke cocinado en la Olla"
+    ],
+    "unl": "Se cocina en la Olla de Fogata.",
+    "use": "Comida para el jugador hecha con el cultivo estrella de Cobblemon."
+  },
+  {
+    "n": "Salsa de Vivichoke (Vivichoke Dip)",
+    "cat": "Comida",
+    "aka": "vivichoke dip salsa mojar comida pan leche",
+    "rec": [
+      "Vivichoke + leche + cuenco + pan, en la Olla"
+    ],
+    "unl": "Se cocina en la Olla de Fogata.",
+    "use": "Comida para el jugador: la receta de Vivichoke más elaborada, pensada para comer fuera de casa."
+  },
+  {
+    "n": "Cola Sabrosa (Tasty Tail)",
+    "cat": "Comida",
+    "aka": "tasty tail cola slowpoke comida",
+    "rec": [
+      "Colas de Slowpoke (Slowpoke Tail), según la receta de la Olla"
+    ],
+    "unl": "Comida de la lista oficial: las colas se consiguen de Slowpoke y en botín/intercambios.",
+    "use": "Comida para el jugador. En los juegos es el manjar caro de Johto; aquí es una receta más de la Olla."
+  },
+  {
+    "n": "Manzana Caramelizada (Candied Apple)",
+    "cat": "Comida",
+    "aka": "candied apple manzana caramelizada dulce comida palo azucar",
+    "rec": [
+      "Manzana + azúcar + palo, en la Olla"
+    ],
+    "unl": "Se cocina en la Olla de Fogata.",
+    "use": "Comida dulce para el jugador. La manzana también es condimento de cebo (mordidas 50% más rápidas): decide si te la comes o la metes en un Poké Snack."
+  },
+  {
+    "n": "Bayas Caramelizadas (Candied Berries)",
+    "cat": "Comida",
+    "aka": "candied berries bayas caramelizadas dulce comida",
+    "rec": [
+      "3 bayas + azúcar + palo, en la Olla"
+    ],
+    "unl": "Se cocina en la Olla de Fogata con cualquier baya.",
+    "use": "Comida dulce para el jugador: una forma de aprovechar bayas que te sobren… si no las quieres de condimento."
+  },
+  {
+    "n": "Ponigiri (Ponigiri)",
+    "cat": "Comida",
+    "aka": "ponigiri onigiri arroz comida",
+    "rec": [
+      "Receta de la Olla con Granos Abundantes: confírmala en JEI"
+    ],
+    "unl": "Se cocina en la Olla de Fogata.",
+    "use": "Comida para el jugador de la lista oficial de Cobblemon, con forma de Rapidash."
+  },
+  {
+    "n": "Té Siniestro (Sinister Tea)",
+    "cat": "Comida",
+    "aka": "sinister tea te siniestro bebida comida",
+    "rec": [
+      "Receta de la Olla: confírmala en JEI"
+    ],
+    "unl": "Se cocina en la Olla de Fogata.",
+    "use": "Bebida para el jugador de la lista oficial. Relacionada con la línea de Sinistea: las tazas evolutivas están en la categoría Evolución."
+  },
+  {
+    "n": "Crujientes de Pewter y dulces regionales (Pewter Crunchies · Rage Candy Bar · Lava Cookie · Old Gateau · Casteliacone · Lumiose Galette · Big Malasada)",
+    "cat": "Comida",
+    "aka": "pewter crunchies rage candy bar lava cookie old gateau casteliacone lumiose galette big malasada dulces regionales comida estados",
+    "rec": [
+      "Se cocinan en la Olla de Fogata (ej.: la Big Malasada lleva trigo + leche + azúcar + melón; la Barra de Caramelo Ira, trigo + leche + azúcar + cacao)"
+    ],
+    "unl": "Los dulces clásicos de cada región de los juegos, todos en la lista oficial de comida de Cobblemon y cocinables en la Olla.",
+    "use": "Comida para el jugador. En los juegos varios de estos dulces curaban todos los problemas de estado de un Pokémon; en Cobblemon son recetas de cocina para ti."
+  },
+  {
+    "n": "Curry de Cola Ahumada (Smoked-Tail Curry)",
+    "cat": "Comida",
+    "aka": "smoked tail curry curry cola ahumada comida",
+    "rec": [
+      "Receta de la Olla con cola ahumada: confírmala en JEI"
+    ],
+    "unl": "Se cocina en la Olla de Fogata.",
+    "use": "Comida para el jugador de la lista oficial de Cobblemon."
+  },
+  {
+    "n": "Muffin de Ciudad Júbilo (Jubilife Muffin)",
+    "cat": "Comida",
+    "aka": "jubilife muffin muffin jubilo comida bayas dulces miel granos",
+    "rec": [
+      "2× Granos Abundantes + botella de miel + bayas dulces, en la Olla"
+    ],
+    "unl": "Se cocina en la Olla de Fogata.",
+    "use": "Comida para el jugador: una de las recetas dulces básicas de la Olla."
+  },
+  {
+    "n": "Mochi de Patata (Potato Mochi)",
+    "cat": "Comida",
+    "aka": "potato mochi mochi patata comida jugador",
+    "rec": [
+      "Receta de la Olla: confírmala en JEI"
+    ],
+    "unl": "Se cocina en la Olla de Fogata. No confundir con los Mochis de EVs de la categoría Entrenamiento: este es comida.",
+    "use": "Comida para el jugador de la lista oficial de Cobblemon."
+  },
+  {
+    "n": "Sándwich Abierto (Open-Faced Sandwich)",
+    "cat": "Comida",
+    "aka": "open faced sandwich sandwich abierto comida",
+    "rec": [
+      "Receta de la Olla: confírmala en JEI"
+    ],
+    "unl": "Se cocina en la Olla de Fogata.",
+    "use": "Comida para el jugador de la lista oficial de Cobblemon."
+  },
+  {
+    "n": "Preparado Medicinal (Medicinal Brew)",
+    "cat": "Medicina",
+    "aka": "medicinal brew preparado medicinal base pociones destileria brewing",
+    "rec": [
+      "Se destila con botánica medicinal en la Olla o el soporte de pociones"
+    ],
+    "unl": "Es la base líquida de la medicina de Cobblemon: de aquí salen pociones y objetos como la Cápsula Habilidad (con Aliento de Dragón, según la wiki).",
+    "use": "Ingrediente, no medicina final: guárdalo para destilar Pociones y Cápsulas Habilidad."
+  },
+  {
+    "n": "Pociones de salud (Potion · Super Potion · Hyper Potion · Max Potion · Full Restore)",
+    "cat": "Medicina",
+    "aka": "potion super potion hyper potion max potion full restore pocion superpocion hiperpocion restaura todo cura ps",
+    "rec": [
+      "Destilería con Preparado Medicinal y bayas/hierbas, según el nivel (JEI)"
+    ],
+    "unl": "Se elaboran destilando; la Olla de Fogata hace versiones tempranas antes del Nether. También salen en botín e intercambios.",
+    "use": "Curan PS fuera del Curador: Poción (poco), Superpoción, Hiperpoción, Poción Máxima (todo) y Restaura Todo (todos los PS + todos los estados). La escalera completa, en una tarjeta."
+  },
+  {
+    "n": "Remedios (Remedy · Fine Remedy · Superb Remedy)",
+    "cat": "Medicina",
+    "aka": "remedy fine remedy superb remedy remedio fino soberbio cura hierbas",
+    "rec": [
+      "Crafteo con hierbas medicinales y Raíz Energía, según el nivel (JEI)"
+    ],
+    "unl": "La línea «natural» de curación de Cobblemon, paralela a las pociones de destilería.",
+    "use": "Curan PS con ingredientes de plantas: Remedio, Remedio Fino y Remedio Soberbio, de menor a mayor. Amargos: en los juegos bajaban un poco la amistad."
+  },
+  {
+    "n": "Zumo de Bayas (Berry Juice)",
+    "cat": "Medicina",
+    "aka": "berry juice zumo jugo bayas cura equipado chansey shuckle",
+    "rec": [
+      "Se elabora con bayas (JEI)"
+    ],
+    "unl": "Medicina sencilla de la lista oficial; también puede llevarlo equipado un Pokémon.",
+    "use": "Cura PS: bebido desde el inventario o equipado, en cuyo caso el Pokémon se lo toma solo al estar bajo de salud."
+  },
+  {
+    "n": "Curas de estado (Antídoto · Despertar · Antiquemar · Anticongelante · Antiparalizante · Cura Total)",
+    "cat": "Medicina",
+    "aka": "antidote awakening burn heal ice heal paralyze heal full heal antidoto despertar antiquemar anticongelante antiparalizante cura total estados veneno sueno quemadura hielo paralisis",
+    "rec": [
+      "Destilería y crafteo con la baya de cada estado (JEI)"
+    ],
+    "unl": "Cada cura tiene su baya gemela: Ziuela/Antidoto (veneno), Antihielo (congelación)… Se elaboran y también salen en botín y tiendas.",
+    "use": "Una por estado: Antídoto (veneno), Despertar (sueño), Antiquemar (quemadura), Anticongelante (congelación), Antiparalizante (parálisis) y Cura Total (todos los estados). Lejos del Curador, lleva una de cada."
+  },
+  {
+    "n": "Éter y Elixir (Ether · Max Ether · Elixir · Max Elixir)",
+    "cat": "Medicina",
+    "aka": "ether max ether elixir max elixir eter pp movimientos restaura",
+    "rec": [
+      "Destilería con bayas Leppa y preparados (JEI)"
+    ],
+    "unl": "Se elaboran destilando; también son botín raro de estructuras.",
+    "use": "Restauran PP de movimientos: el Éter a un movimiento, el Éter Máximo a tope, el Elixir a todos los movimientos y el Elixir Máximo a todos a tope. Para combates largos contra legendarios."
+  },
+  {
+    "n": "Polvo Curación y raíces (Heal Powder · Energy Root)",
+    "cat": "Medicina",
+    "aka": "heal powder polvo curacion energy root raiz energia cura amarga",
+    "rec": [
+      "Crafteo con hierbas y Raíz Energía (JEI)"
+    ],
+    "unl": "La Raíz Energía crece bajo los techos de las cuevas exuberantes; también es la forma natural de la Raíz Grande.",
+    "use": "El Polvo Curación cura PS (amargo: amistad) y la Raíz Energía cura muchos PS de golpe. La Raíz Energía además es ingrediente de remedios."
+  },
+  {
+    "n": "Vitaminas (HP Up · Proteína · Hierro · Calcio · Zinc · Carbos · Más PP)",
+    "cat": "Entrenamiento",
+    "aka": "vitamin vitaminas hp up protein proteina iron hierro calcium calcio zinc carbos pp up pp max evs estadisticas",
+    "rec": [
+      "Se elaboran con bayas en la mesa y la destilería (JEI)"
+    ],
+    "unl": "Objetos de cambio de estadísticas de la lista oficial: se fabrican y salen como recompensas.",
+    "use": "Cada vitamina sube los EV de una estadística: HP Up (PS), Proteína (Ataque), Hierro (Defensa), Calcio (Ataque Especial), Zinc (Defensa Especial) y Carbos (Velocidad). Más PP y Más PP Máximo suben los PP de un movimiento."
+  },
+  {
+    "n": "Objetos X de combate (X Attack · X Defense · X Sp. Atk · X Sp. Def · X Speed · X Accuracy · Dire Hit · Guard Spec.)",
+    "cat": "Entrenamiento",
+    "aka": "x attack x defense x special objeto x combate dire hit guard spec precision ataque defensa velocidad",
+    "rec": [
+      "Se elaboran con bayas (JEI)"
+    ],
+    "unl": "Objetos de cambio de estadísticas de la lista oficial: crafteo y botín de gimnasios/tiendas.",
+    "use": "Se usan EN combate y suben una estadística solo durante esa pelea: Ataque, Defensa, At. Esp., Def. Esp., Velocidad o Precisión X. Crítico Directo sube el índice de críticos y Protección evita que te bajen estadísticas."
+  },
+  {
+    "n": "Plumas de EV (Feathers)",
+    "cat": "Entrenamiento",
+    "aka": "feather plumas health muscle resist genius clever swift evs 1 punto",
+    "rec": [
+      "Botín y recompensas; también las sueltan aves salvajes según la zona"
+    ],
+    "unl": "Objetos de estadísticas de la lista oficial de Cobblemon.",
+    "use": "Cada pluma sube 1 punto de EV de su estadística: Salud (PS), Músculo (Ataque), Resistencia (Defensa), Genio (At. Esp.), Ingenio (Def. Esp.) y Agilidad (Velocidad). La versión fina de las vitaminas."
+  },
+  {
+    "n": "Mochis de EV (Mochi)",
+    "cat": "Entrenamiento",
+    "aka": "mochi health muscle resist genius clever swift fresh start evs reset reinicio",
+    "rec": [
+      "En la Olla: Granos Abundantes + botella de miel + la baya de la estadística (Granate/PS, Kelpsy/Ataque, Qualot/Defensa, Hondew/At.Esp., Grepa/Def.Esp., Tamato/Velocidad)",
+      "El Mochi Fresco (Fresh-Start) lleva Baya Enigma en vez de baya de estadística"
+    ],
+    "unl": "Se cocinan en la Olla de Fogata, según la ficha oficial de Mochi de la wiki. Hay 7 mochis.",
+    "use": "Cada mochi sube 4 EV de su estadística al Pokémon que lo come. El Mochi Fresco hace lo contrario: pone TODOS los EV a 0, para reentrenar desde cero."
+  },
+  {
+    "n": "Caramelos de Hiperentrenamiento (Hyper Training Candy)",
+    "cat": "Entrenamiento",
+    "aka": "hyper training candy caramelo hiperentrenamiento health mighty tough smart courage quick sickly ivs bottle cap chapa",
+    "rec": [
+      "En la Olla: la baya de la estadística + panal de miel + un Caramelo de Experiencia (L da 1, XL da 3)"
+    ],
+    "unl": "Se cocinan en la Olla de Fogata: Salud (Granate), Poderoso (Kelpsy), Duro (Qualot), Listo (Hondew), Valor (Grepa) y Rápido (Tamato); el Caramelo Enfermizo lleva Baya Enigma.",
+    "use": "El hiperentrenamiento sube los IV de una estadística como si fueran perfectos en combate. Es el camino de final de juego para perfeccionar un Pokémon que ya quieres."
+  },
+  {
+    "n": "Cápsula Habilidad y Parche Habilidad (Ability Capsule · Ability Patch)",
+    "cat": "Entrenamiento",
+    "aka": "ability capsule ability patch capsula parche habilidad oculta hidden ability cambiar",
+    "rec": [
+      "Cápsula: destilar Preparado Medicinal con Aliento de Dragón, según la wiki",
+      "Parche: botín y recompensas de alto nivel"
+    ],
+    "unl": "Objetos de estadísticas de la lista oficial: la Cápsula se destila; el Parche es recompensa rara de endgame.",
+    "use": "La Cápsula cambia la habilidad del Pokémon por su otra habilidad normal. El Parche va más lejos: la cambia por su habilidad OCULTA. No funcionan si el Pokémon solo tiene una habilidad posible."
+  },
+  {
+    "n": "Mentas de naturaleza (Nature Mints) y sus semillas",
+    "cat": "Entrenamiento",
+    "aka": "mint menta naturaleza nature seeds semillas cultivo adamant modest timid jolly",
+    "rec": [
+      "Se cultivan: las Semillas de Menta salen cosechando plantas de menta"
+    ],
+    "unl": "Plantas de menta del mundo y cultivos: cada color de menta es una naturaleza. De la lista oficial de agricultura de Cobblemon.",
+    "use": "Una menta cambia la naturaleza efectiva del Pokémon (qué estadística sube y cuál baja) sin tocar su naturaleza «de nacimiento» para la crianza. Es el atajo para arreglar un Pokémon bueno con naturaleza mala."
+  },
+  {
+    "n": "Aprijuice (Zumo de Apricorn)",
+    "cat": "Entrenamiento",
+    "aka": "aprijuice zumo apricorn montar riding sabor flavor seasoning",
+    "rec": [
+      "Se elabora con Apricorns y condimentos de sabor (JEI)"
+    ],
+    "unl": "Objeto de estadísticas de la lista oficial, ligado a las monturas de Cobblemon.",
+    "use": "Se lo das a un Pokémon montable para mejorar sus estadísticas de monta. Los condimentos de SABOR que absorbe al elaborarlo alteran el perfil de sabores y el impulso que da cada zumo."
+  },
+  {
+    "n": "MT y Máquina de MT (TM · TM Machine)",
+    "cat": "Entrenamiento",
+    "aka": "tm mt maquina tecnicas technical machine movimientos ensenar gemas tipo type gems",
+    "rec": [
+      "Las MT se crean con Gemas de Tipo en la Máquina de MT (versiones nuevas del mod)"
+    ],
+    "unl": "Según la wiki, la actualización 1.8 de Cobblemon añadió las MT creadas desde Gemas de Tipo en su máquina. En Cobbleverse manda la versión de tu modpack: confírmalo en JEI.",
+    "use": "Una MT enseña un movimiento a un Pokémon compatible y se consume. Es la forma de completar el set de movimientos de tu equipo (y Mew puede aprender casi todas)."
+  },
+  {
+    "n": "Balls especiales (Dive · Safari · Sport · Dream · Beast Ball)",
+    "cat": "Poké Balls",
+    "aka": "dive ball safari ball sport ball dream ball beast ball buceo ensueno ente competi balls especiales ultraente",
+    "rec": [
+      "Botín, recompensas y crafteos especiales según la versión (JEI)"
+    ],
+    "unl": "Las Balls de nicho de la lista de Cobblemon: no salen de la receta estándar de Apricorns.",
+    "use": "Buceo Ball: ×3.5 bajo el agua · Safari Ball: la de las zonas safari · Sport/Competi Ball: la de concursos de captura · Dream/En Sueño Ball: mejor contra Pokémon dormidos · Beast/Ente Ball: pensada para Ultraentes, floja con el resto."
+  },
+  {
+    "n": "Protector, Electrizer y Magmatizador (Protector · Electirizer · Magmarizer)",
+    "cat": "Evolución",
+    "aka": "protector electirizer magmarizer rhydon rhyperior electabuzz electivire magmar magmortar intercambio equipado",
+    "rec": [
+      "Botín de estructuras y recompensas; algunos Pokémon salvajes los llevan equipados"
+    ],
+    "unl": "Objetos evolutivos de la lista oficial: cofres de minas/fortalezas y drops raros.",
+    "use": "La familia del Revestimiento Metálico: equipado + intercambio o Cable Link. Protector: Rhydon→Rhyperior · Electrizer: Electabuzz→Electivire · Magmatizador: Magmar→Magmortar."
+  },
+  {
+    "n": "Mejora y Disco Extraño (Up-Grade · Dubious Disc)",
+    "cat": "Evolución",
+    "aka": "upgrade up grade mejora dubious disc disco extrano porygon porygon2 porygon-z intercambio",
+    "rec": [
+      "Botín tecnológico: estructuras, ciudades y recompensas"
+    ],
+    "unl": "Objetos evolutivos de la lista oficial de Cobblemon.",
+    "use": "La doble evolución de Porygon: primero Mejora equipada + intercambio/Cable Link → Porygon2; después Disco Extraño equipado + otro intercambio/Cable Link → Porygon-Z."
+  },
+  {
+    "n": "Escama Dragón, Diente Abisal y Escama Abisal (Dragon Scale · Deep Sea Tooth · Deep Sea Scale)",
+    "cat": "Evolución",
+    "aka": "dragon scale escama dragon deep sea tooth scale diente escama abisal seadra kingdra clamperl huntail gorebyss intercambio",
+    "rec": [
+      "Botín acuático: pesca, cofres de océano y barcos hundidos"
+    ],
+    "unl": "Objetos evolutivos y equipados de la lista oficial.",
+    "use": "Escama Dragón equipada + intercambio/Cable Link: Seadra→Kingdra. Con Clamperl: Diente Abisal → Huntail (y duplica su At. Esp. equipado), Escama Abisal → Gorebyss (y duplica su Def. Esp. equipada)."
+  },
+  {
+    "n": "Piedra Oval y Tela Maldita (Oval Stone · Reaper Cloth)",
+    "cat": "Evolución",
+    "aka": "oval stone piedra oval reaper cloth tela maldita happiny chansey dusclops dusknoir dia intercambio",
+    "rec": [
+      "Botín y minería rara (JEI)"
+    ],
+    "unl": "Objetos evolutivos de la lista oficial de Cobblemon.",
+    "use": "Piedra Oval: Happiny sube de nivel de día llevándola → Chansey. Tela Maldita equipada + intercambio/Cable Link: Dusclops→Dusknoir."
+  },
+  {
+    "n": "Bloque de Turba y Augurita Negra (Peat Block · Black Augurite)",
+    "cat": "Evolución",
+    "aka": "peat block bloque turba black augurite augurita negra ursaring ursaluna luna llena scyther kleavor hisui",
+    "rec": [
+      "Botín de arqueología y estructuras antiguas (pantanos y ruinas)"
+    ],
+    "unl": "Objetos evolutivos de Hisui de la lista oficial de Cobblemon.",
+    "use": "Bloque de Turba: úsalo en Ursaring con luna llena → Ursaluna. Augurita Negra: úsala en Scyther → Kleavor. Son las evoluciones «a la antigua» de Hisui, sin intercambio."
+  },
+  {
+    "n": "Brazal y Corona de Galarica (Galarica Cuff · Galarica Wreath)",
+    "cat": "Evolución",
+    "aka": "galarica cuff wreath brazal corona nueces slowpoke galar slowbro slowking",
+    "rec": [
+      "Se tejen con Nueces de Galarica (Galarica Nuts), según la versión (JEI)"
+    ],
+    "unl": "Objetos evolutivos de Galar de la lista oficial; las nueces se recogen en biomas de Galar del mundo.",
+    "use": "Brazal de Galarica en Slowpoke de Galar → Slowbro de Galar. Corona de Galarica en Slowpoke de Galar → Slowking de Galar."
+  },
+  {
+    "n": "Saquito Perfumado y Nata Dulce (Sachet · Whipped Dream)",
+    "cat": "Evolución",
+    "aka": "sachet saquito perfumado whipped dream nata dulce spritzee aromatisse swirlix slurpuff intercambio equipado",
+    "rec": [
+      "Botín y crafteo dulce (JEI)"
+    ],
+    "unl": "Objetos evolutivos de la lista oficial de Cobblemon.",
+    "use": "Equipado + intercambio o Cable Link: Saquito → Spritzee evoluciona a Aromatisse; Nata Dulce → Swirlix evoluciona a Slurpuff."
+  },
+  {
+    "n": "Manzanas evolutivas (Tart Apple · Sweet Apple · Syrupy Apple)",
+    "cat": "Evolución",
+    "aka": "tart apple sweet apple syrupy apple manzana acida dulce almibarada applin flapple appletun dipplin hydrapple",
+    "rec": [
+      "Botín en huertos, robles y estructuras rurales"
+    ],
+    "unl": "Objetos evolutivos de la lista oficial: Applin aparece dentro de manzanas en los robles.",
+    "use": "Usa la manzana en Applin: Ácida → Flapple · Dulce → Appletun · Almibarada → Dipplin (que luego evoluciona a Hydrapple al nivel con un movimiento)."
+  },
+  {
+    "n": "Teteras y tazas (Cracked Pot · Chipped Pot · Unremarkable Teacup · Masterpiece Teacup)",
+    "cat": "Evolución",
+    "aka": "cracked pot chipped pot tetera rota astillada unremarkable masterpiece teacup taza sinistea polteageist poltchageist matcha",
+    "rec": [
+      "Botín de arqueología: cerámica de ruinas y estructuras"
+    ],
+    "unl": "Objetos evolutivos de la lista oficial de Cobblemon.",
+    "use": "Para las líneas del té: la tetera (rota o astillada según la forma, auténtica o falsificada) evoluciona a Sinistea → Polteageist; las tazas (común u obra maestra) hacen lo mismo con Poltchageist → Sinistcha."
+  },
+  {
+    "n": "Dulces de Milcery (Sweets)",
+    "cat": "Evolución",
+    "aka": "sweet dulces fresa berry love star ribbon flower clover milcery alcremie girar",
+    "rec": [
+      "Botín dulce y crafteo (JEI)"
+    ],
+    "unl": "Objetos evolutivos de la lista oficial: hay Dulce Fresa, Baya, Amor, Estrella, Cinta, Flor y Trébol.",
+    "use": "Dale un dulce a Milcery y gira sobre ti mismo: evoluciona a Alcremie, y la forma/crema depende del dulce, la hora y cuánto gires. La evolución más «repostera» del mod."
+  },
+  {
+    "n": "Pergaminos de Kubfu (Scroll of Darkness · Scroll of Waters)",
+    "cat": "Evolución",
+    "aka": "scroll darkness waters pergamino oscuridad aguas kubfu urshifu torres",
+    "rec": [
+      "Recompensa de las torres de Galar del modpack"
+    ],
+    "unl": "Objetos evolutivos singulares de la lista oficial, ligados a las torres de puño y agua.",
+    "use": "Muestra el pergamino a Kubfu tras completar su torre: Oscuridad → Urshifu estilo brusco; Aguas → Urshifu estilo fluido."
+  },
+  {
+    "n": "Armaduras de Charcadet (Auspicious Armor · Malicious Armor)",
+    "cat": "Evolución",
+    "aka": "auspicious armor malicious armor armadura auspiciosa maligna charcadet armarouge ceruledge",
+    "rec": [
+      "Botín de estructuras y arqueología (JEI)"
+    ],
+    "unl": "Objetos evolutivos de Paldea de la lista oficial de Cobblemon.",
+    "use": "Usa la armadura en Charcadet: Auspiciosa → Armarouge (Fuego/Psíquico) · Maligna → Ceruledge (Fuego/Fantasma)."
+  },
+  {
+    "n": "Objetos Power de EV (Power Weight · Bracer · Belt · Lens · Band · Anklet)",
+    "cat": "Objetos equipados",
+    "aka": "power weight bracer belt lens band anklet objetos power evs entrenamiento equipado macho brace",
+    "rec": [
+      "Botín y recompensas de combate (JEI)"
+    ],
+    "unl": "Familia completa de entrenamiento de la lista oficial de objetos equipados.",
+    "use": "Equipados, convierten los EV que gana el Pokémon en EV de UNA estadística concreta (PS, Ataque, Defensa, At.Esp., Def.Esp. o Velocidad según la pieza) y recortan la velocidad en combate: son para farmear EV en serio, no para pelear torneos."
+  },
+  {
+    "n": "Banda y Gafas de experto (Muscle Band · Wise Glasses · Expert Belt)",
+    "cat": "Objetos equipados",
+    "aka": "muscle band wise glasses expert belt banda musculo gafas expertas cinturon experto supereficaz equipado",
+    "rec": [
+      "Botín y recompensas (JEI)"
+    ],
+    "unl": "Objetos equipados de la lista oficial de Cobblemon.",
+    "use": "Potencias sin castigo: Banda Músculo sube un poco los golpes físicos, Gafas Expertas los especiales, y el Cinturón Experto sube un 20% los movimientos supereficaces. Menos que la Vidaesfera, pero gratis de mantener."
+  },
+  {
+    "n": "Lentes de precisión (Wide Lens · Zoom Lens · Scope Lens)",
+    "cat": "Objetos equipados",
+    "aka": "wide lens zoom lens scope lens lupa precision critico equipado periscopio",
+    "rec": [
+      "Botín y recompensas (JEI)"
+    ],
+    "unl": "Objetos equipados de la lista oficial.",
+    "use": "Lupa Ancha: +10% de precisión · Lupa Zoom: más precisión si el portador ataca después que el rival · Periscopio (Scope Lens): sube el índice de golpe crítico. Para sets de movimientos imprecisos o de críticos."
+  },
+  {
+    "n": "Bola Luz (Light Ball)",
+    "cat": "Objetos equipados",
+    "aka": "light ball bola luz pikachu ataque especial fisico duplica equipado volt tackle",
+    "rec": [
+      "La llevan algunos Pikachu salvajes: captura o farmea Pikachu"
+    ],
+    "unl": "Objeto equipado exclusivo de Pikachu de la lista oficial.",
+    "use": "Equipada en Pikachu, duplica su Ataque y su Ataque Especial: por eso un Pikachu con Bola Luz pega más que un Raichu… aunque aguanta mucho menos."
+  },
+  {
+    "n": "Campana Concha (Shell Bell)",
+    "cat": "Objetos equipados",
+    "aka": "shell bell campana concha cura dano equipado",
+    "rec": [
+      "Botín y recompensas (JEI)"
+    ],
+    "unl": "Objeto equipado de la lista oficial.",
+    "use": "El portador recupera salud igual a una fracción (1/8) del daño que hace: cura pegando. Buena en atacantes que no quieren gastar turnos en curarse."
+  },
+  {
+    "n": "Polvo Brillo y Lazo Destino (Bright Powder · Destiny Knot)",
+    "cat": "Objetos equipados",
+    "aka": "bright powder polvo brillo evasion destiny knot lazo destino crianza ivs enamora equipado",
+    "rec": [
+      "Botín y recompensas (JEI)"
+    ],
+    "unl": "Objetos equipados de la lista oficial.",
+    "use": "Polvo Brillo: el portador se vuelve más difícil de acertar (baja la precisión rival). Lazo Destino: si enamoran al portador, el rival también se enamora… y en crianza es EL objeto: hace que el huevo herede 5 IV entre los dos padres."
+  },
+  {
+    "n": "Campana Alivio y Piedra Eterna (Soothe Bell · Everstone)",
+    "cat": "Objetos equipados",
+    "aka": "soothe bell campana alivio amistad everstone piedra eterna naturaleza crianza no evoluciona equipado",
+    "rec": [
+      "Botín, intercambios y recompensas (JEI)"
+    ],
+    "unl": "Objetos equipados de la lista oficial.",
+    "use": "Campana Alivio: la amistad del portador sube el doble de rápido (clave para Espeon, Umbreon, Lucario…). Piedra Eterna: el portador NO evoluciona, y en crianza su huevo hereda su naturaleza."
+  },
+  {
+    "n": "Políticas de combate (Weakness Policy · Blunder Policy)",
+    "cat": "Objetos equipados",
+    "aka": "weakness policy blunder policy politica debilidad torpeza equipado supereficaz falla",
+    "rec": [
+      "Botín y recompensas de alto nivel (JEI)"
+    ],
+    "unl": "Objetos equipados de la lista oficial.",
+    "use": "Política Debilidad: si al portador le pegan supereficaz y sobrevive, su Ataque y At.Esp. suben 2 niveles (se consume). Política Torpeza: si falla un movimiento por precisión, su Velocidad sube 2 niveles (se consume)."
+  },
+  {
+    "n": "Rocas de clima (Heat Rock · Damp Rock · Icy Rock · Smooth Rock)",
+    "cat": "Objetos equipados",
+    "aka": "heat rock damp rock icy rock smooth rock roca clima sol lluvia granizo nieve arena equipado",
+    "rec": [
+      "Minería y botín (JEI)"
+    ],
+    "unl": "Objetos equipados de la lista oficial.",
+    "use": "Si el portador invoca su clima, dura 8 turnos en vez de 5: Ígnea (sol), Húmeda (lluvia), Glaciar (granizo/nieve) y Lisa (tormenta de arena). La base de los equipos de clima."
+  },
+  {
+    "n": "Semillas de terreno y Amplificador (Terrain Seeds · Terrain Extender)",
+    "cat": "Objetos equipados",
+    "aka": "electric seed psychic seed grassy seed misty seed semillas terreno terrain extender campo equipado defensa",
+    "rec": [
+      "Botín y recompensas (JEI)"
+    ],
+    "unl": "Objetos equipados de la lista oficial.",
+    "use": "Las semillas se activan cuando hay un campo activo (eléctrico, psíquico, hierba o niebla) y suben la Defensa o Def.Esp. del portador. El Amplificador de Terreno alarga el campo que invoque el portador a 8 turnos."
+  },
+  {
+    "n": "Bulbo, Musgo y Batería (Absorb Bulb · Luminous Moss · Cell Battery)",
+    "cat": "Objetos equipados",
+    "aka": "absorb bulb luminous moss cell battery bulbo absorcion musgo luminoso bateria celular equipado agua nieve electrico",
+    "rec": [
+      "Botín y recompensas (JEI)"
+    ],
+    "unl": "Objetos equipados de la lista oficial.",
+    "use": "Efectos de un solo uso al recibir su tipo: el Bulbo sube el At.Esp. si le pegan Agua, el Musgo Luminoso sube la Def.Esp. con ataques de nieve/hielo y la Batería sube el Ataque si le pegan Eléctrico."
+  },
+  {
+    "n": "Utilería de combate (Binding Band · Throat Spray · Punching Glove · Loaded Dice · Metronome)",
+    "cat": "Objetos equipados",
+    "aka": "binding band banda atadura throat spray aerosol garganta punching glove guante boxeo loaded dice dados trucados metronome metronomo equipado",
+    "rec": [
+      "Botín y recompensas (JEI)"
+    ],
+    "unl": "Objetos equipados recientes de la lista oficial.",
+    "use": "Banda Atadura: los efectos de atadura (cepos) hacen más daño por turno · Aerosol Garganta: sube el At.Esp. tras usar un movimiento de sonido · Guante de Boxeo: los puñetazos pegan más y dejan de ser «contacto» · Dados Trucados: los movimientos de golpes múltiples pegan más veces · Metrónomo (objeto): repetir el mismo movimiento lo va potenciando."
+  },
+  {
+    "n": "Peso y velocidad (Float Stone · Lagging Tail · Iron Ball)",
+    "cat": "Objetos equipados",
+    "aka": "float stone piedra flotante lagging tail cola plumbea iron ball bola ferrea equipado velocidad truco levitacion",
+    "rec": [
+      "Botín, minería y recompensas (JEI)"
+    ],
+    "unl": "Objetos equipados de la lista oficial.",
+    "use": "Piedra Flotante: el portador pesa la mitad (menos daño de patadas bajas y hierba lazo) · Cola Plúmbea: el portador ataca casi siempre el último · Bola Férrea: recorta la velocidad a la mitad, anula la inmunidad de los Volador/levitadores a Tierra y es oro para sets de Espacio Raro y para lanzarla con Lanzamiento."
+  },
+  {
+    "n": "Escape y cambio (Shed Shell · Eject Button · Eject Pack · Red Card)",
+    "cat": "Objetos equipados",
+    "aka": "shed shell muda concha eject button boton escape eject pack kit escape red card carta roja equipado cambio",
+    "rec": [
+      "Botín y recompensas (JEI)"
+    ],
+    "unl": "Objetos equipados de la lista oficial.",
+    "use": "Muda Concha: el portador siempre puede cambiar aunque lo atrapen · Botón Escape: tras recibir un golpe, cambia automáticamente por otro Pokémon · Kit Escape: si le bajan una estadística, cambia solo · Carta Roja: el rival que pegue al portador es expulsado y entra otro de su equipo."
+  },
+  {
+    "n": "Garfios, paraguas y globos (Grip Claw · Utility Umbrella · Room Service · Air Balloon)",
+    "cat": "Objetos equipados",
+    "aka": "grip claw garra garfio utility umbrella paraguas utilitario room service servicio habitaciones air balloon globo helio equipado",
+    "rec": [
+      "Botín y recompensas (JEI)"
+    ],
+    "unl": "Objetos equipados de la lista oficial.",
+    "use": "Garra Garfio: los cepos del portador duran más · Paraguas Utilitario: ignora sol y lluvia (ni le potencian ni le debilitan, ni se moja) · Servicio de Habitaciones: baja la Velocidad del portador si hay Espacio Raro (parece malo: es para ser el más lento a propósito) · Globo Helio: el portador levita e ignora Tierra hasta que le pegan y el globo explota."
+  },
+  {
+    "n": "Defensa moderna (Clear Amulet · Ability Shield · Covert Cloak · Protective Pads · Ring Target)",
+    "cat": "Objetos equipados",
+    "aka": "clear amulet amuleto claro ability shield escudo habilidad covert cloak capa furtiva protective pads protectores ring target objetivo equipado",
+    "rec": [
+      "Botín y recompensas (JEI)"
+    ],
+    "unl": "Los objetos equipados más nuevos de la lista oficial de Cobblemon.",
+    "use": "Amuleto Claro: el rival no puede bajarle las estadísticas · Escudo Habilidad: la habilidad del portador no se puede cambiar ni anular · Capa Furtiva: anula los efectos secundarios de los movimientos rivales · Protectores: sin efectos de contacto (ni cascos, ni púas, ni estados por toque) · Objetivo: los movimientos inmunes contra el portador dejan de serlo (para trucos con Lanzamiento)."
+  },
+  {
+    "n": "Púa Pegajosa, Polvos y Amuletos (Sticky Barb · Metal Powder · Quick Powder · Smoke Ball · Cleanse Tag · Fairy Feather)",
+    "cat": "Objetos equipados",
+    "aka": "sticky barb pua pegajosa metal powder polvo metalico quick powder polvo veloz ditto smoke ball bola humo cleanse tag amuleto limpio fairy feather pluma hada equipado",
+    "rec": [
+      "Botín y recompensas (JEI)"
+    ],
+    "unl": "Objetos equipados de la lista oficial.",
+    "use": "Púa Pegajosa: daña al portador cada turno, pero se pega a quien le golpee con contacto · Polvo Metálico y Polvo Veloz: equipados en Ditto duplican su Defensa y su Velocidad · Bola Humo: huir de salvajes siempre funciona · Amuleto Limpio: menos encuentros salvajes para quien lo lleva delante · Pluma Hada: potencia los movimientos Hada (completa la familia de potenciadores de tipo)."
+  },
+  {
+    "n": "Brote y semillas de Apricorn (Apricorn Sprout)",
+    "cat": "Cultivo y materiales",
+    "aka": "apricorn sprout brote semillas arbol plantar cultivo",
+    "rec": [
+      "Se recoge de los árboles de Apricorn y de cofres de aldeas"
+    ],
+    "unl": "De la lista oficial de agricultura: los brotes salen en cofres de aldeas (desierto, llanura, sabana, nieve y taiga) y en el cofre de bonificación.",
+    "use": "Se planta en tierra o hierba y crece el árbol de Apricorn de ese color. Replantar todo lo que coseches es lo que convierte 1 árbol en una granja de Balls."
+  },
+  {
+    "n": "Puerro Medicinal (Medicinal Leek)",
+    "cat": "Cultivo y materiales",
+    "aka": "medicinal leek puerro medicinal rio charca pociones comida farfetchd",
+    "rec": [
+      "Crece silvestre sobre el agua: orillas de ríos y charcas"
+    ],
+    "unl": "Planta natural de la lista oficial: crece en la superficie junto a ríos y estanques.",
+    "use": "Triple uso: ingrediente de pociones, comida (se come muy rápido y se asa para el Puerro Asado) y objeto equipado que sube los críticos de Farfetch'd y Sirfetch'd."
+  },
+  {
+    "n": "Hierbas especiales (Revival Herb · Mental Herb · Power Herb · White Herb · Mirror Herb)",
+    "cat": "Cultivo y materiales",
+    "aka": "revival herb hierba revivir mental herb power herb white herb mirror herb hierbas equipado estados",
+    "rec": [
+      "Crecen como plantas especiales y salen en botín (JEI)"
+    ],
+    "unl": "La familia de hierbas de la lista oficial de Cobblemon, entre lo natural y lo equipado.",
+    "use": "Hierba Revivir: revive a un Pokémon debilitado con toda la salud (amarga: baja amistad) · Hierba Mental (equipada): cura enamoramiento y bloqueos una vez · Hierba Poder (equipada): los movimientos de carga (Rayo Solar) se disparan en un turno · Hierba Blanca (equipada): restaura las estadísticas bajadas una vez · Hierba Espejo (equipada): copia las subidas de estadísticas del rival."
+  },
+  {
+    "n": "Flores de néctar, Nueces de Galarica y Mantillo (Nectar Flowers · Galarica Nuts · Mulch · Pep-Up Flower)",
+    "cat": "Cultivo y materiales",
+    "aka": "nectar flowers flores nectar oricorio galarica nuts nueces mulch mantillo pep up flower flor cultivo",
+    "rec": [
+      "Se recogen de sus plantas y flores en el mundo"
+    ],
+    "unl": "Materiales naturales de la lista oficial de agricultura de Cobblemon.",
+    "use": "Flores de Néctar: cambian el estilo de Oricorio según el néctar · Nueces de Galarica: se tejen en el Brazal y la Corona de Galarica de Slowpoke · Flor Pep-Up: material floral para recetas y tintes · Mantillo: abono para que los cultivos y bayas crezcan mejor."
+  },
+  {
+    "n": "Gemas de Tipo (Type Gems)",
+    "cat": "Cultivo y materiales",
+    "aka": "type gems gemas tipo hada fairy gem arqueologia mt tm maquina",
+    "rec": [
+      "Arqueología: cepillando arena/grava sospechosa en ruinas, y botín de estructuras"
+    ],
+    "unl": "Materiales de arqueología de la lista oficial de Cobblemon: una gema por tipo.",
+    "use": "Su gran uso actual: son el ingrediente para crear MT en la Máquina de MT (actualización 1.8 de Cobblemon). Guárdalas todas: cada gema es una futura MT de su tipo."
+  },
+  {
+    "n": "Monedas Reliquia y Gimmighoul (Relic Coin)",
+    "cat": "Exploración",
+    "aka": "relic coin moneda reliquia gimmighoul gholdengo ruinas tesoro 999",
+    "rec": [
+      "Botín de ruinas y estructuras antiguas; Gimmighoul las suelta y las guarda en su cofre"
+    ],
+    "unl": "Objeto misceláneo de la lista oficial, ligado a las ruinas de Gimmighoul. Tiene su propia bolsa (Relic Coin Pouch) para guardarlas.",
+    "use": "Son el tesoro de Gimmighoul: su evolución a Gholdengo gira alrededor de reunir 999 monedas de Gimmighoul en los juegos, y en Cobblemon las Monedas Reliquia son la moneda de las ruinas. Revísalo en JEI/wiki según tu versión."
+  },
+  {
+    "n": "Fósiles: la lista completa (los 15)",
+    "cat": "Exploración",
+    "aka": "fosiles lista helix dome old amber root claw skull armor cover plume jaw sail fossilized helix cupula ambar raiz garra craneo escudo cubierta pluma mandibula aleta omanyte kabuto aerodactyl lileep anorith cranidos shieldon tirtouga archen tyrunt amaura galar",
+    "rec": [
+      "Se extraen cepillando arena o grava sospechosa en las estructuras fósiles, según la Wiki oficial"
+    ],
+    "unl": "Cada fósil sale en su estructura y revive en la Máquina de Resurrección: Hélix→Omanyte · Cúpula→Kabuto · Ámbar Viejo→Aerodactyl · Raíz→Lileep · Garra→Anorith · Cráneo→Cranidos · Escudo (Armor)→Shieldon · Cubierta (Cover)→Tirtouga · Pluma (Plume)→Archen · Mandíbula (Jaw)→Tyrunt · Aleta (Sail)→Amaura. Los 4 fósiles de Galar (Pájaro, Dino, Draco y Pez fosilizados) se combinan dos a dos: Dracozolt, Arctozolt, Dracovish y Arctovish.",
+    "use": "La colección completa de fósiles de Cobblemon en una tarjeta: busca aquí por el nombre del fósil o del Pokémon («hélix», «amaura», «cráneo») y te dice qué revive de qué. Todos tienen su ficha en la Pokédex de esta guía."
+  },
+  {
+    "n": "Plantillas, cerámica y cuadros (Smithing Templates · Pottery Sherds · Paintings)",
+    "cat": "Exploración",
+    "aka": "smithing template plantilla herreria automaton armor trim pottery sherd ceramica sospechosa paintings cuadros decoracion",
+    "rec": [
+      "Arqueología y botín de estructuras: cepillando bloques sospechosos"
+    ],
+    "unl": "Los misceláneos de la lista oficial: plantillas de herrería (como el adorno de armadura Autómata), fragmentos de cerámica sospechosa para vasijas decoradas y cuadros decorativos de Cobblemon.",
+    "use": "Contenido de exploración y decoración: no son de combate, pero salen al buscar fósiles y gemas en las mismas ruinas, y completan el catálogo del mod."
+  }
+]

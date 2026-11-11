@@ -1,0 +1,582 @@
+{
+  "seasonings": [
+    {
+      "k": "Manzana Dorada Encantada (Enchanted Golden Apple)",
+      "v": "La más fuerte de todas: mordidas instantáneas, rareza +10 niveles y shiny ×10. Para hunts de ultrarraros."
+    },
+    {
+      "k": "Manzana Dorada (Golden Apple)",
+      "v": "Mordidas 75% más rápidas, rareza +1 nivel y shiny ×2."
+    },
+    {
+      "k": "Melón Reluciente y Zanahoria Dorada (Glistering Melon · Golden Carrot)",
+      "v": "Cada uno sube la rareza +1 nivel: viene lo raro del bioma, no lo común."
+    },
+    {
+      "k": "Baya Starf (Starf Berry)",
+      "v": "Shiny ×5. La baya de los shiny hunters: está también en la tabla de bayas."
+    },
+    {
+      "k": "Baya Enigma (Enigma Berry)",
+      "v": "Atrae Pokémon con habilidad oculta (5% por mordida). También es la base del Mochi Fresco y del Caramelo Enfermizo."
+    },
+    {
+      "k": "Baya Hopo (Hopo Berry)",
+      "v": "Sube la probabilidad de que venga un Pokémon Alfa (2%)."
+    },
+    {
+      "k": "Baya Micle (Micle Berry)",
+      "v": "Sube la probabilidad de que el Pokémon traiga una Marca (5%)."
+    },
+    {
+      "k": "Manzana, Baya Oran, Baya Zidra y Bayas Dulces (Apple · Oran · Sitrus · Sweet Berries)",
+      "v": "Aceleran las mordidas del snack: manzana y Zidra −50%, Oran y bayas luminosas −33%, bayas dulces −25%. Más mordidas por minuto = más Pokémon por snack."
+    },
+    {
+      "k": "Baya Leppa (Leppa Berry)",
+      "v": "Lo que viene llega con +5 niveles. Útil para capturar ya entrenado."
+    },
+    {
+      "k": "Baya Kee y Baya Maranga (Kee · Maranga Berry)",
+      "v": "Atraen hembras (Kee) o machos (Maranga), 25%: para crianza dirigida."
+    },
+    {
+      "k": "Bayas Jaboca y Rowap (Jaboca · Rowap Berry)",
+      "v": "Tocan el tamaño del Pokémon que viene: Jaboca lo agranda y Rowap lo achica ligeramente."
+    },
+    {
+      "k": "Baya Custap (Custap Berry)",
+      "v": "Permite volver a tirar los drops (reroll) de lo que venga."
+    }
+  ],
+  "berries": [
+    {
+      "n": "Baya Oran (Oran Berry)",
+      "eff": "Equipada o en mano: cura 10 PS.",
+      "bait": "Mordidas 33% más rápidas.",
+      "aka": "oran berry cura ps"
+    },
+    {
+      "n": "Baya Zidra (Sitrus Berry)",
+      "eff": "Equipada o en mano: cura el 25% de los PS.",
+      "bait": "Mordidas 50% más rápidas.",
+      "aka": "sitrus berry cura ps"
+    },
+    {
+      "n": "Baya Ziuela (Cheri Berry)",
+      "eff": "Cura la parálisis.",
+      "bait": "Atrae grupos huevo Hada y Planta ×10.",
+      "aka": "cheri berry paralisis"
+    },
+    {
+      "n": "Baya Atania (Chesto Berry)",
+      "eff": "Despierta del sueño.",
+      "bait": "Atrae grupos huevo Humanoide y Volador ×10.",
+      "aka": "chesto berry sueno despertar"
+    },
+    {
+      "n": "Baya Meloc (Pecha Berry)",
+      "eff": "Cura el envenenamiento.",
+      "bait": "Atrae grupos huevo Agua 3 y Bicho ×10.",
+      "aka": "pecha berry veneno"
+    },
+    {
+      "n": "Baya Safre (Rawst Berry)",
+      "eff": "Cura la quemadura.",
+      "bait": "Atrae grupo huevo Campo ×10.",
+      "aka": "rawst berry quemadura"
+    },
+    {
+      "n": "Baya Perasi (Aspear Berry)",
+      "eff": "Descongela.",
+      "bait": "Atrae grupos huevo Agua 1 y Agua 2 ×10.",
+      "aka": "aspear berry hielo congelacion"
+    },
+    {
+      "n": "Baya Caquic (Persim Berry)",
+      "eff": "Cura la confusión.",
+      "bait": "Atrae grupos huevo Mineral y Amorfo ×10.",
+      "aka": "persim berry confusion"
+    },
+    {
+      "n": "Baya Aranja (Lum Berry)",
+      "eff": "Cura TODOS los problemas de estado.",
+      "bait": "Atrae grupos huevo Dragón y Monstruo ×10.",
+      "aka": "lum berry cura todo estados"
+    },
+    {
+      "n": "Baya Leppa (Leppa Berry)",
+      "eff": "Restaura PP de un movimiento.",
+      "bait": "Lo que viene llega con +5 niveles.",
+      "aka": "leppa berry pp niveles"
+    },
+    {
+      "n": "Baya Figy (Figy Berry)",
+      "eff": "Al bajar la salud cura 1/3 de los PS, pero confunde si al Pokémon no le gusta el sabor.",
+      "bait": "Atrae naturalezas que suben Ataque, al 50%.",
+      "aka": "figy berry confusion cura naturaleza ataque"
+    },
+    {
+      "n": "Baya Wiki (Wiki Berry)",
+      "eff": "Al bajar la salud cura 1/3 de los PS, pero confunde si al Pokémon no le gusta el sabor.",
+      "bait": "Atrae naturalezas que suben At.Esp., al 50%.",
+      "aka": "wiki berry confusion cura naturaleza ataque especial"
+    },
+    {
+      "n": "Baya Mago (Mago Berry)",
+      "eff": "Al bajar la salud cura 1/3 de los PS, pero confunde si al Pokémon no le gusta el sabor.",
+      "bait": "Atrae naturalezas que suben Velocidad, al 50%.",
+      "aka": "mago berry confusion cura naturaleza velocidad"
+    },
+    {
+      "n": "Baya Aguav (Aguav Berry)",
+      "eff": "Al bajar la salud cura 1/3 de los PS, pero confunde si al Pokémon no le gusta el sabor.",
+      "bait": "Atrae naturalezas que suben Def.Esp., al 50%.",
+      "aka": "aguav berry confusion cura naturaleza defensa especial"
+    },
+    {
+      "n": "Baya Iapapa (Iapapa Berry)",
+      "eff": "Al bajar la salud cura 1/3 de los PS, pero confunde si al Pokémon no le gusta el sabor.",
+      "bait": "Atrae naturalezas que suben Defensa, al 50%.",
+      "aka": "iapapa berry confusion cura naturaleza defensa"
+    },
+    {
+      "n": "Baya Pomeg (Pomeg Berry)",
+      "eff": "Baya de entrenamiento: baja 10 EV de PS y sube la amistad. Ingrediente de los Mochis de EV y de los Caramelos de Hiperentrenamiento.",
+      "bait": "Atrae Pokémon cuyo rendimiento de EV es de PS.",
+      "aka": "pomeg berry ev ps mochi"
+    },
+    {
+      "n": "Baya Kelpsy (Kelpsy Berry)",
+      "eff": "Baya de entrenamiento: baja 10 EV de Ataque y sube la amistad. Ingrediente de los Mochis de EV y de los Caramelos de Hiperentrenamiento.",
+      "bait": "Atrae Pokémon cuyo rendimiento de EV es de Ataque.",
+      "aka": "kelpsy berry ev ataque mochi"
+    },
+    {
+      "n": "Baya Qualot (Qualot Berry)",
+      "eff": "Baya de entrenamiento: baja 10 EV de Defensa y sube la amistad. Ingrediente de los Mochis de EV y de los Caramelos de Hiperentrenamiento.",
+      "bait": "Atrae Pokémon cuyo rendimiento de EV es de Defensa.",
+      "aka": "qualot berry ev defensa mochi"
+    },
+    {
+      "n": "Baya Hondew (Hondew Berry)",
+      "eff": "Baya de entrenamiento: baja 10 EV de At.Esp. y sube la amistad. Ingrediente de los Mochis de EV y de los Caramelos de Hiperentrenamiento.",
+      "bait": "Atrae Pokémon cuyo rendimiento de EV es de At.Esp.",
+      "aka": "hondew berry ev ataque especial mochi"
+    },
+    {
+      "n": "Baya Grepa (Grepa Berry)",
+      "eff": "Baya de entrenamiento: baja 10 EV de Def.Esp. y sube la amistad. Ingrediente de los Mochis de EV y de los Caramelos de Hiperentrenamiento.",
+      "bait": "Atrae Pokémon cuyo rendimiento de EV es de Def.Esp.",
+      "aka": "grepa berry ev defensa especial mochi"
+    },
+    {
+      "n": "Baya Tamato (Tamato Berry)",
+      "eff": "Baya de entrenamiento: baja 10 EV de Velocidad y sube la amistad. Ingrediente de los Mochis de EV y de los Caramelos de Hiperentrenamiento.",
+      "bait": "Atrae Pokémon cuyo rendimiento de EV es de Velocidad.",
+      "aka": "tamato berry ev velocidad mochi"
+    },
+    {
+      "n": "Baya Occa (Occa Berry)",
+      "eff": "Equipada: reduce el daño supereficaz de Fuego.",
+      "bait": "Tipo FUEGO ×10.",
+      "aka": "occa berry fuego tipo cebo"
+    },
+    {
+      "n": "Baya Passho (Passho Berry)",
+      "eff": "Equipada: reduce el daño supereficaz de Agua.",
+      "bait": "Tipo AGUA ×10.",
+      "aka": "passho berry agua tipo cebo"
+    },
+    {
+      "n": "Baya Wacan (Wacan Berry)",
+      "eff": "Equipada: reduce el daño supereficaz de Eléctrico.",
+      "bait": "Tipo ELÉCTRICO ×10.",
+      "aka": "wacan berry electrico tipo cebo"
+    },
+    {
+      "n": "Baya Rindo (Rindo Berry)",
+      "eff": "Equipada: reduce el daño supereficaz de Planta.",
+      "bait": "Tipo PLANTA ×10.",
+      "aka": "rindo berry planta tipo cebo"
+    },
+    {
+      "n": "Baya Yache (Yache Berry)",
+      "eff": "Equipada: reduce el daño supereficaz de Hielo.",
+      "bait": "Tipo HIELO ×10.",
+      "aka": "yache berry hielo tipo cebo"
+    },
+    {
+      "n": "Baya Chople (Chople Berry)",
+      "eff": "Equipada: reduce el daño supereficaz de Lucha.",
+      "bait": "Tipo LUCHA ×10.",
+      "aka": "chople berry lucha tipo cebo"
+    },
+    {
+      "n": "Baya Kebia (Kebia Berry)",
+      "eff": "Equipada: reduce el daño supereficaz de Veneno.",
+      "bait": "Tipo VENENO ×10.",
+      "aka": "kebia berry veneno tipo cebo"
+    },
+    {
+      "n": "Baya Shuca (Shuca Berry)",
+      "eff": "Equipada: reduce el daño supereficaz de Tierra.",
+      "bait": "Tipo TIERRA ×10.",
+      "aka": "shuca berry tierra tipo cebo"
+    },
+    {
+      "n": "Baya Coba (Coba Berry)",
+      "eff": "Equipada: reduce el daño supereficaz de Volador.",
+      "bait": "Tipo VOLADOR ×10.",
+      "aka": "coba berry volador tipo cebo"
+    },
+    {
+      "n": "Baya Payapa (Payapa Berry)",
+      "eff": "Equipada: reduce el daño supereficaz de Psíquico.",
+      "bait": "Tipo PSÍQUICO ×10.",
+      "aka": "payapa berry psiquico tipo cebo"
+    },
+    {
+      "n": "Baya Kasib (Kasib Berry)",
+      "eff": "Equipada: reduce el daño supereficaz de Fantasma.",
+      "bait": "Tipo FANTASMA ×10.",
+      "aka": "kasib berry fantasma tipo cebo"
+    },
+    {
+      "n": "Baya Babiri (Babiri Berry)",
+      "eff": "Equipada: reduce el daño supereficaz de Acero.",
+      "bait": "Tipo ACERO ×10.",
+      "aka": "babiri berry acero tipo cebo"
+    },
+    {
+      "n": "Baya Charti (Charti Berry)",
+      "eff": "Equipada: reduce el daño supereficaz de Roca.",
+      "bait": "Tipo ROCA ×10.",
+      "aka": "charti berry roca tipo cebo"
+    },
+    {
+      "n": "Baya Chilan (Chilan Berry)",
+      "eff": "Equipada: reduce el daño de Normal.",
+      "bait": "Tipo NORMAL ×10.",
+      "aka": "chilan berry normal tipo cebo"
+    },
+    {
+      "n": "Baya Roseli (Roseli Berry)",
+      "eff": "Equipada: reduce el daño supereficaz de Hada.",
+      "bait": "Tipo HADA ×10.",
+      "aka": "roseli berry hada tipo cebo"
+    },
+    {
+      "n": "Baya Colbur (Colbur Berry)",
+      "eff": "Equipada: reduce el daño supereficaz de Siniestro.",
+      "bait": "Tipo SINIESTRO ×10.",
+      "aka": "colbur berry siniestro oscuro tipo cebo"
+    },
+    {
+      "n": "Baya Haban (Haban Berry)",
+      "eff": "Equipada: reduce el daño supereficaz de Dragón.",
+      "bait": "Tipo DRAGÓN ×10.",
+      "aka": "haban berry dragon tipo cebo"
+    },
+    {
+      "n": "Baya Tanga (Tanga Berry)",
+      "eff": "Equipada: reduce el daño supereficaz de Bicho.",
+      "bait": "Tipo BICHO ×10.",
+      "aka": "tanga berry bicho tipo cebo"
+    },
+    {
+      "n": "Baya Liechi (Liechi Berry)",
+      "eff": "Equipada: con 1/4 de PS o menos, sube el Ataque 1 nivel.",
+      "bait": "Como cebo, sube +5 el IV de Ataque en lo que viene.",
+      "aka": "liechi berry iv ataque"
+    },
+    {
+      "n": "Baya Ganlon (Ganlon Berry)",
+      "eff": "Equipada: con 1/4 de PS o menos, sube la Defensa 1 nivel.",
+      "bait": "Como cebo, sube +5 el IV de Defensa en lo que viene.",
+      "aka": "ganlon berry iv defensa"
+    },
+    {
+      "n": "Baya Salac (Salac Berry)",
+      "eff": "Equipada: con 1/4 de PS o menos, sube la Velocidad 1 nivel.",
+      "bait": "Como cebo, sube +5 el IV de Velocidad en lo que viene.",
+      "aka": "salac berry iv velocidad"
+    },
+    {
+      "n": "Baya Petaya (Petaya Berry)",
+      "eff": "Equipada: con 1/4 de PS o menos, sube el At.Esp. 1 nivel.",
+      "bait": "Como cebo, sube +5 el IV de At.Esp. en lo que viene.",
+      "aka": "petaya berry iv ataque especial"
+    },
+    {
+      "n": "Baya Apicot (Apicot Berry)",
+      "eff": "Equipada: con 1/4 de PS o menos, sube la Def.Esp. 1 nivel.",
+      "bait": "Como cebo, sube +5 el IV de Def.Esp. en lo que viene.",
+      "aka": "apicot berry iv defensa especial"
+    },
+    {
+      "n": "Baya Lansat (Lansat Berry)",
+      "eff": "Equipada: con 1/4 de PS o menos, sube el índice de críticos 1 nivel.",
+      "bait": "Como cebo, sube +5 el IV de PS en lo que viene.",
+      "aka": "lansat berry iv critico ps"
+    },
+    {
+      "n": "Baya Starf (Starf Berry)",
+      "eff": "La baya más rara: sube mucho una estadística al azar al estar bajo de salud.",
+      "bait": "Shiny ×5. La baya del shiny hunting.",
+      "aka": "starf berry shiny rara"
+    },
+    {
+      "n": "Baya Enigma (Enigma Berry)",
+      "eff": "Baya rarísima ligada a eventos.",
+      "bait": "Atrae Pokémon con habilidad oculta (5%). Base del Mochi Fresco.",
+      "aka": "enigma berry habilidad oculta"
+    },
+    {
+      "n": "Baya Hopo (Hopo Berry)",
+      "eff": "Baya de mutación ligada a los Pokémon Alfa.",
+      "bait": "Sube la probabilidad de Pokémon Alfa (2%).",
+      "aka": "hopo berry alfa alpha"
+    },
+    {
+      "n": "Baya Micle (Micle Berry)",
+      "eff": "Baya rara de precisión.",
+      "bait": "Sube la probabilidad de que el Pokémon traiga una Marca (5%).",
+      "aka": "micle berry marca mark"
+    },
+    {
+      "n": "Baya Kee (Kee Berry)",
+      "eff": "Equipada: sube la Defensa tras recibir un golpe físico.",
+      "bait": "Atrae hembras (25%): crianza dirigida.",
+      "aka": "kee berry hembra sexo defensa"
+    },
+    {
+      "n": "Baya Maranga (Maranga Berry)",
+      "eff": "Equipada: sube la Def.Esp. tras recibir un golpe especial.",
+      "bait": "Atrae machos (25%): crianza dirigida.",
+      "aka": "maranga berry macho sexo defensa especial"
+    },
+    {
+      "n": "Baya Custap (Custap Berry)",
+      "eff": "Equipada: con poca salud, el portador actúa primero.",
+      "bait": "Vuelve a tirar (reroll) los drops de lo que venga.",
+      "aka": "custap berry prioridad drops"
+    },
+    {
+      "n": "Baya Jaboca (Jaboca Berry)",
+      "eff": "Equipada: devuelve daño al rival que golpea al portador con un ataque físico (pierde 1/8 de sus PS).",
+      "bait": "Toca el tamaño: agranda lo que viene.",
+      "aka": "jaboca berry tamano size dano fisico"
+    },
+    {
+      "n": "Baya Rowap (Rowap Berry)",
+      "eff": "Equipada: devuelve daño al rival que golpea al portador con un ataque especial (pierde 1/8 de sus PS).",
+      "bait": "Toca el tamaño: achica lo que viene.",
+      "aka": "rowap berry tamano size dano especial"
+    },
+    {
+      "n": "Baya Eggant (Eggant Berry)",
+      "eff": "La baya «huevo»: su sabor es equilibrado en todo.",
+      "bait": "Atrae grupo huevo Ditto ×10… y en la Olla solo cambia el COLOR de la comida: es el condimento de sabor neutro.",
+      "aka": "eggant berry ditto color sabor"
+    },
+    {
+      "n": "Baya Razz (Razz Berry)",
+      "eff": "Baya de sabor de las mutaciones: sin gran efecto de combate propio.",
+      "bait": "Condimento de naturaleza: atrae naturalezas que suben Ataque (25%).",
+      "aka": "razz berry sabor naturaleza ataque mutacion"
+    },
+    {
+      "n": "Baya Bluk (Bluk Berry)",
+      "eff": "Baya de sabor de las mutaciones: sin gran efecto de combate propio.",
+      "bait": "Condimento de naturaleza: atrae naturalezas que suben At.Esp. (25%).",
+      "aka": "bluk berry sabor naturaleza ataque especial mutacion"
+    },
+    {
+      "n": "Baya Nanab (Nanab Berry)",
+      "eff": "Baya de sabor de las mutaciones: sin gran efecto de combate propio.",
+      "bait": "Condimento de naturaleza: atrae naturalezas que suben Velocidad (25%).",
+      "aka": "nanab berry sabor naturaleza velocidad mutacion"
+    },
+    {
+      "n": "Baya Wepear (Wepear Berry)",
+      "eff": "Baya de sabor de las mutaciones: sin gran efecto de combate propio.",
+      "bait": "Condimento de naturaleza: atrae naturalezas que suben Def.Esp. (25%).",
+      "aka": "wepear berry sabor naturaleza defensa especial mutacion"
+    },
+    {
+      "n": "Baya Pinap (Pinap Berry)",
+      "eff": "Baya de sabor de las mutaciones: sin gran efecto de combate propio.",
+      "bait": "Condimento de naturaleza: atrae naturalezas que suben Defensa (25%).",
+      "aka": "pinap berry sabor naturaleza defensa mutacion"
+    },
+    {
+      "n": "Baya Cornn (Cornn Berry)",
+      "eff": "Baya de sabor de las mutaciones: sin gran efecto de combate propio.",
+      "bait": "Condimento de naturaleza: atrae naturalezas que suben At.Esp. (75%).",
+      "aka": "cornn berry sabor naturaleza ataque especial mutacion"
+    },
+    {
+      "n": "Baya Magost (Magost Berry)",
+      "eff": "Baya de sabor de las mutaciones: sin gran efecto de combate propio.",
+      "bait": "Condimento de naturaleza: atrae naturalezas que suben Velocidad (75%).",
+      "aka": "magost berry sabor naturaleza velocidad mutacion"
+    },
+    {
+      "n": "Baya Rabuta (Rabuta Berry)",
+      "eff": "Baya de sabor de las mutaciones: sin gran efecto de combate propio.",
+      "bait": "Condimento de naturaleza: atrae naturalezas que suben Def.Esp. (75%).",
+      "aka": "rabuta berry sabor naturaleza defensa especial mutacion"
+    },
+    {
+      "n": "Baya Nomel (Nomel Berry)",
+      "eff": "Baya de sabor de las mutaciones: sin gran efecto de combate propio.",
+      "bait": "Condimento de naturaleza: atrae naturalezas que suben Defensa (75%).",
+      "aka": "nomel berry sabor naturaleza defensa mutacion"
+    },
+    {
+      "n": "Baya Spelon (Spelon Berry)",
+      "eff": "Baya de sabor de las mutaciones: sin gran efecto de combate propio.",
+      "bait": "Condimento de naturaleza: atrae naturalezas que suben Ataque (100%).",
+      "aka": "spelon berry sabor naturaleza ataque mutacion"
+    },
+    {
+      "n": "Baya Pamtre (Pamtre Berry)",
+      "eff": "Baya de sabor de las mutaciones: sin gran efecto de combate propio.",
+      "bait": "Condimento de naturaleza: atrae naturalezas que suben At.Esp. (100%).",
+      "aka": "pamtre berry sabor naturaleza ataque especial mutacion"
+    },
+    {
+      "n": "Baya Watmel (Watmel Berry)",
+      "eff": "Baya de sabor de las mutaciones: sin gran efecto de combate propio.",
+      "bait": "Condimento de naturaleza: atrae naturalezas que suben Velocidad (100%).",
+      "aka": "watmel berry sabor naturaleza velocidad mutacion"
+    },
+    {
+      "n": "Baya Durin (Durin Berry)",
+      "eff": "Baya de sabor de las mutaciones: sin gran efecto de combate propio.",
+      "bait": "Condimento de naturaleza: atrae naturalezas que suben Def.Esp. (100%).",
+      "aka": "durin berry sabor naturaleza defensa especial mutacion"
+    },
+    {
+      "n": "Baya Belue (Belue Berry)",
+      "eff": "Baya de sabor de las mutaciones: sin gran efecto de combate propio.",
+      "bait": "Condimento de naturaleza: atrae naturalezas que suben Defensa (100%).",
+      "aka": "belue berry sabor naturaleza defensa mutacion"
+    },
+    {
+      "n": "Baya Touga (Touga Berry)",
+      "eff": "Cura la confusión.",
+      "bait": "Condimento de naturaleza: atrae naturalezas que suben Ataque (75%).",
+      "aka": "touga berry confusion naturaleza ataque mutacion"
+    }
+  ],
+  "ingredients": [
+    {
+      "v": "leche",
+      "label": "Leche",
+      "keys": [
+        "leche"
+      ]
+    },
+    {
+      "v": "miel",
+      "label": "Miel",
+      "keys": [
+        "miel"
+      ]
+    },
+    {
+      "v": "vivichoke",
+      "label": "Vivichoke",
+      "keys": [
+        "vivichoke"
+      ]
+    },
+    {
+      "v": "granos-abundantes",
+      "label": "Granos Abundantes",
+      "keys": [
+        "granos abundantes",
+        "hearty grains"
+      ]
+    },
+    {
+      "v": "azucar",
+      "label": "Azúcar",
+      "keys": [
+        "azucar"
+      ]
+    },
+    {
+      "v": "apricorn",
+      "label": "Apricorn",
+      "keys": [
+        "apricorn"
+      ]
+    },
+    {
+      "v": "champinon",
+      "label": "Champiñón",
+      "keys": [
+        "champinon"
+      ]
+    },
+    {
+      "v": "trigo",
+      "label": "Trigo",
+      "keys": [
+        "trigo"
+      ]
+    },
+    {
+      "v": "manzana",
+      "label": "Manzana",
+      "keys": [
+        "manzana"
+      ]
+    },
+    {
+      "v": "patata",
+      "label": "Patata",
+      "keys": [
+        "patata"
+      ]
+    },
+    {
+      "v": "puerro",
+      "label": "Puerro Medicinal",
+      "keys": [
+        "puerro"
+      ]
+    },
+    {
+      "v": "cacao",
+      "label": "Cacao",
+      "keys": [
+        "cacao"
+      ]
+    },
+    {
+      "v": "melon",
+      "label": "Melón",
+      "keys": [
+        "melon"
+      ]
+    },
+    {
+      "v": "cobre",
+      "label": "Cobre",
+      "keys": [
+        "cobre"
+      ]
+    },
+    {
+      "v": "cristal",
+      "label": "Cristal",
+      "keys": [
+        "cristal"
+      ]
+    }
+  ]
+}

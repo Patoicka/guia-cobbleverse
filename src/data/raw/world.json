@@ -1,0 +1,78 @@
+{
+  "biomes": [
+    {
+      "k": "Llanuras y praderas",
+      "v": "El bioma de inicio: Apricorns, bayas, Mareep, Eevee (raro), Shinx, Pawmi, Rookidee, Pidgey y Rattata. Ideal para la primera granja y subir niveles bajos."
+    },
+    {
+      "k": "Bosques (roble, abedul, oscuro)",
+      "v": "Caterpie, Weedle, Pikachu, Ralts (raro), Zorua de noche, setas y bayas. El bosque oscuro y la noche traen Fantasma y Siniestro: lleva la Ocaso Ball."
+    },
+    {
+      "k": "Selva",
+      "v": "Planta, Bicho y Veneno en cantidad: Bulbasaur salvaje es más probable aquí, además de Snivy, Rowlet y Mew como aparición singular rarísima. Madera y lianas para construir."
+    },
+    {
+      "k": "Desierto y sabana",
+      "v": "Trapinch, Sandile, Hippopotas, Larvesta (rarísimo), Charmander y Torchic en zonas cálidas. Fósiles en grava sospechosa y templos con botín."
+    },
+    {
+      "k": "Montañas, picos y grava",
+      "v": "Gible, Bagon, Larvitar (raros, en cuevas de montaña), Geodude, Aron, Machop. Aquí salen fragmentos de varias piedras evolutivas y la Piedra Rodante del Cielo."
+    },
+    {
+      "k": "Cuevas (superficie y profundas)",
+      "v": "Zubat, Geodude, Onix, Woobat, Roggenrola; en capas profundas: Tumblestone negra, Deino, piedras Alba/Anochecer y diamantes de Minecraft. De noche en superficie equivale a cueva para la Ocaso Ball… pero dentro es siempre «cueva»."
+    },
+    {
+      "k": "Pantano y manglar",
+      "v": "Wooper, Mudkip, Goomy (con lluvia), Froakie, Croagunk. La lluvia del pantano es la que necesitas para Goodra: marca el sitio en el mapa."
+    },
+    {
+      "k": "Océano, ríos y playas",
+      "v": "Magikarp (¡Gyarados al 20!), Tentacool, Wingull, Piplup en costas frías, pesca de Feebas y Dratini. Busca barcos hundidos y ruinas: Escama Prisma y buen botín."
+    },
+    {
+      "k": "Tundra, taiga y picos nevados",
+      "v": "Snover, Swinub, Vulpix y Sandshrew de Alola, Frigibax en cuevas nevadas, Beldum en montaña nevada (rarísimo). Piedra Hielo minando y en iglús."
+    },
+    {
+      "k": "Badlands / mesetas",
+      "v": "Roca, Tierra y Fuego: Numel, Torkoal, Larvitar en cañones, minas abandonadas con cofres (buena fuente de Caramelos Raros y objetos de evolución)."
+    },
+    {
+      "k": "Nether (Minecraft)",
+      "v": "Fuego y Roca extremos: Slugma, Numel, Torkoal y apariciones de tipo Fuego raras; fragmentos de Piedra Fuego y botín de fortalezas. Ve con equipo Agua/Tierra y cuidado con la lava."
+    },
+    {
+      "k": "End (Minecraft)",
+      "v": "Psíquico y Dragón de alto nivel y el botín top del juego: ciudades del End = una de las fuentes reales de Master Ball y objetos raros. Solo con equipo 55+."
+    }
+  ],
+  "structures": [
+    {
+      "h": "Aldeas y pueblos de Cobbleverse",
+      "p": "Centros Pokémon con Curador y tienda, entrenadores y, en las ciudades grandes, gimnasio. Son tus puestos avanzados: duerme, cura y deja un PC."
+    },
+    {
+      "h": "Gimnasios",
+      "p": "El corazón del modpack: líderes con equipos temáticos por nivel creciente. Recompensas típicas: MT, objetos de evolución y, en los altos, megapiedras y objetos clave."
+    },
+    {
+      "h": "Santuarios legendarios",
+      "p": "Estructuras especiales ligadas a los legendarios de invocación (aves de Kanto y bestias de Johto en muchas configuraciones): pide el objeto de invocación correcto y un equipo 60+."
+    },
+    {
+      "h": "Ruinas y templos",
+      "p": "Desiertos, selvas y océanos: trampas, cofres con fósiles, piedras evolutivas y Caramelos Raros. Honedge ronda las ruinas de noche."
+    },
+    {
+      "h": "Minas abandonadas y mazmorras",
+      "p": "Cofres con objetos de evolución (Revestimiento Metálico, Escama Prisma, piedras), Caramelos Raros y MT. Revisa cada cofre: en Cobblemon el botín «de Minecraft» se mezcla con el de Pokémon."
+    },
+    {
+      "h": "Barcos hundidos y tesoros",
+      "p": "Bajo el agua: Escamas Prisma, perlas y botín para la línea de Feebas. Lleva respiración acuática o un Pokémon que te ayude a bucear."
+    }
+  ]
+}

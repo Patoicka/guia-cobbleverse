@@ -1,0 +1,308 @@
+{
+  "types": [
+    "Normal",
+    "Fuego",
+    "Agua",
+    "Eléctrico",
+    "Planta",
+    "Hielo",
+    "Lucha",
+    "Veneno",
+    "Tierra",
+    "Volador",
+    "Psíquico",
+    "Bicho",
+    "Roca",
+    "Fantasma",
+    "Dragón",
+    "Siniestro",
+    "Acero",
+    "Hada"
+  ],
+  "colors": {
+    "Normal": "#A8A77A",
+    "Fuego": "#EE8130",
+    "Agua": "#6390F0",
+    "Eléctrico": "#d9a400",
+    "Planta": "#7AC74C",
+    "Hielo": "#74b8b3",
+    "Lucha": "#C22E28",
+    "Veneno": "#A33EA1",
+    "Tierra": "#c99a3f",
+    "Volador": "#8d7fd6",
+    "Psíquico": "#F95587",
+    "Bicho": "#A6B91A",
+    "Roca": "#B6A136",
+    "Fantasma": "#735797",
+    "Dragón": "#6F35FC",
+    "Siniestro": "#705746",
+    "Acero": "#7d7d99",
+    "Hada": "#D685AD"
+  },
+  "chart": {
+    "Normal": {
+      "f": [],
+      "d": [
+        "Roca",
+        "Acero"
+      ],
+      "n": [
+        "Fantasma"
+      ]
+    },
+    "Fuego": {
+      "f": [
+        "Planta",
+        "Hielo",
+        "Bicho",
+        "Acero"
+      ],
+      "d": [
+        "Fuego",
+        "Agua",
+        "Roca",
+        "Dragón"
+      ],
+      "n": []
+    },
+    "Agua": {
+      "f": [
+        "Fuego",
+        "Tierra",
+        "Roca"
+      ],
+      "d": [
+        "Agua",
+        "Planta",
+        "Dragón"
+      ],
+      "n": []
+    },
+    "Eléctrico": {
+      "f": [
+        "Agua",
+        "Volador"
+      ],
+      "d": [
+        "Eléctrico",
+        "Planta",
+        "Dragón"
+      ],
+      "n": [
+        "Tierra"
+      ]
+    },
+    "Planta": {
+      "f": [
+        "Agua",
+        "Tierra",
+        "Roca"
+      ],
+      "d": [
+        "Fuego",
+        "Planta",
+        "Veneno",
+        "Volador",
+        "Bicho",
+        "Dragón",
+        "Acero"
+      ],
+      "n": []
+    },
+    "Hielo": {
+      "f": [
+        "Planta",
+        "Tierra",
+        "Volador",
+        "Dragón"
+      ],
+      "d": [
+        "Fuego",
+        "Agua",
+        "Hielo",
+        "Acero"
+      ],
+      "n": []
+    },
+    "Lucha": {
+      "f": [
+        "Normal",
+        "Hielo",
+        "Roca",
+        "Siniestro",
+        "Acero"
+      ],
+      "d": [
+        "Veneno",
+        "Volador",
+        "Psíquico",
+        "Bicho",
+        "Hada"
+      ],
+      "n": [
+        "Fantasma"
+      ]
+    },
+    "Veneno": {
+      "f": [
+        "Planta",
+        "Hada"
+      ],
+      "d": [
+        "Veneno",
+        "Tierra",
+        "Roca",
+        "Fantasma"
+      ],
+      "n": [
+        "Acero"
+      ]
+    },
+    "Tierra": {
+      "f": [
+        "Fuego",
+        "Eléctrico",
+        "Veneno",
+        "Roca",
+        "Acero"
+      ],
+      "d": [
+        "Planta",
+        "Bicho"
+      ],
+      "n": [
+        "Volador"
+      ]
+    },
+    "Volador": {
+      "f": [
+        "Planta",
+        "Lucha",
+        "Bicho"
+      ],
+      "d": [
+        "Eléctrico",
+        "Roca",
+        "Acero"
+      ],
+      "n": []
+    },
+    "Psíquico": {
+      "f": [
+        "Lucha",
+        "Veneno"
+      ],
+      "d": [
+        "Psíquico",
+        "Acero"
+      ],
+      "n": [
+        "Siniestro"
+      ]
+    },
+    "Bicho": {
+      "f": [
+        "Planta",
+        "Psíquico",
+        "Siniestro"
+      ],
+      "d": [
+        "Fuego",
+        "Lucha",
+        "Veneno",
+        "Volador",
+        "Fantasma",
+        "Acero",
+        "Hada"
+      ],
+      "n": []
+    },
+    "Roca": {
+      "f": [
+        "Fuego",
+        "Hielo",
+        "Volador",
+        "Bicho"
+      ],
+      "d": [
+        "Lucha",
+        "Tierra",
+        "Acero"
+      ],
+      "n": []
+    },
+    "Fantasma": {
+      "f": [
+        "Psíquico",
+        "Fantasma"
+      ],
+      "d": [
+        "Siniestro"
+      ],
+      "n": [
+        "Normal"
+      ]
+    },
+    "Dragón": {
+      "f": [
+        "Dragón"
+      ],
+      "d": [
+        "Acero"
+      ],
+      "n": [
+        "Hada"
+      ]
+    },
+    "Siniestro": {
+      "f": [
+        "Psíquico",
+        "Fantasma"
+      ],
+      "d": [
+        "Lucha",
+        "Siniestro",
+        "Hada"
+      ],
+      "n": []
+    },
+    "Acero": {
+      "f": [
+        "Hielo",
+        "Roca",
+        "Hada"
+      ],
+      "d": [
+        "Fuego",
+        "Agua",
+        "Eléctrico",
+        "Acero"
+      ],
+      "n": []
+    },
+    "Hada": {
+      "f": [
+        "Lucha",
+        "Dragón",
+        "Siniestro"
+      ],
+      "d": [
+        "Fuego",
+        "Veneno",
+        "Acero"
+      ],
+      "n": []
+    }
+  },
+  "lightTypes": [
+    "Eléctrico",
+    "Tierra",
+    "Roca",
+    "Bicho",
+    "Normal",
+    "Hielo",
+    "Hada",
+    "Planta",
+    "Acero"
+  ]
+}
