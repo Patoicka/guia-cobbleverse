@@ -1,0 +1,119 @@
+.method {
+  padding: var(--space-5) 0 var(--space-6);
+  border-top: 1px solid var(--line);
+}
+
+.method:first-of-type {
+  border-top: 0;
+  padding-top: var(--space-2);
+}
+
+.methodHead {
+  margin-bottom: var(--space-4);
+}
+
+.h2 {
+  font-size: var(--fs-xl);
+  font-weight: 700;
+}
+
+.h3 {
+  font-size: var(--fs-md);
+  font-weight: 700;
+  margin-bottom: var(--space-1);
+}
+
+.lede {
+  margin-top: var(--space-2);
+  color: var(--ink-2);
+  max-width: 64ch;
+}
+
+.examples {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.example {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: 60px;
+  padding: var(--space-2) var(--space-4) var(--space-2) var(--space-2);
+  border-radius: var(--r-md);
+  background: var(--surface);
+}
+
+.sprites {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  min-width: 44px;
+}
+
+.sprites[data-count='0'] {
+  min-width: 0;
+}
+
+.spriteLink {
+  display: grid;
+  place-items: center;
+  border-radius: var(--r-sm);
+}
+
+.spriteLink + .spriteLink {
+  margin-left: -14px;
+}
+
+.spriteLink:hover {
+  background: var(--surface-2);
+}
+
+.note {
+  margin-top: var(--space-4);
+  padding-left: var(--space-4);
+  border-left: 3px solid var(--accent);
+  color: var(--ink);
+  max-width: 70ch;
+}
+
+.specials {
+  display: grid;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.special {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+  padding: var(--space-4);
+  border-radius: var(--r-md);
+  background: var(--surface);
+}
+
+.text {
+  color: var(--ink-2);
+  max-width: 72ch;
+}
+
+@media (max-width: 860px) {
+  .examples {
+    grid-template-columns: 1fr;
+  }
+
+  .h2 {
+    font-size: var(--fs-lg);
+  }
+
+  .special {
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+}
