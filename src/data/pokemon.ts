@@ -121,7 +121,8 @@ const ALL: Pokemon[] = (rawPokemon as RawPokemon[])
     const sp = api.species[p.dex] ?? {};
     const types = p.t as PokeType[];
     const weak = matchup(types).weak[0] ?? null;
-    const text = `${p.evo} ${p.note}`;
+    // Solo cuenta lo que se dice de ESTE Pokémon: lo que va después de "→" habla de sus evoluciones.
+    const own = p.evo.split('→')[0];
     return {
       slug: slugify(p.n),
       name: p.n,
@@ -134,8 +135,8 @@ const ALL: Pokemon[] = (rawPokemon as RawPokemon[])
       time: deriveTime(p.loc),
       rarity: deriveRarity(p, Boolean(sp.legendary || sp.mythical)),
       evoMethods: deriveEvoMethods(p.evo),
-      hasMega: /mega/i.test(text),
-      hasGmax: /gigamax/i.test(text),
+      hasMega: /\bmega(evoluci\w*)?\b/i.test(own),
+      hasGmax: /gigamax/i.test(own),
       worstWeakness: weak ? { type: weak.type, mult: weak.mult } : null,
       chainId: sp.chainId ?? null,
     };

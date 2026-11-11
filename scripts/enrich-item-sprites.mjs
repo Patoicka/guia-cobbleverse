@@ -100,3 +100,18 @@ for (const item of items) {
 
 writeFileSync(resolve(root, 'src/data/raw/item-sprites.json'), JSON.stringify(result, null, 2) + '\n');
 console.log(`✓ item-sprites.json — ${found} de ${items.length} objetos con sprite`);
+
+/* ---------- Bayas: "(Oran Berry)" → oran-berry ---------- */
+const cooking = JSON.parse(readFileSync(resolve(root, 'src/data/raw/cooking.json'), 'utf8'));
+const berrySprites = {};
+let berriesFound = 0;
+for (const b of cooking.berries) {
+  const en = b.n.match(/\(([^)]+)\)/)?.[1] ?? '';
+  const slug = slugify(en);
+  if (slug && (await exists(slug))) {
+    berrySprites[slugify(b.n)] = slug;
+    berriesFound++;
+  }
+}
+writeFileSync(resolve(root, 'src/data/raw/berry-sprites.json'), JSON.stringify(berrySprites, null, 2) + '\n');
+console.log(`✓ berry-sprites.json — ${berriesFound} de ${cooking.berries.length} bayas con sprite`);

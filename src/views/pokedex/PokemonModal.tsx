@@ -1,12 +1,10 @@
 import type { RefObject } from 'react';
 import { getChain, type Pokemon } from '../../data/pokemon';
-import { TypeBadge } from '../../components/TypeBadge';
-import { Sprite } from '../../components/Sprite';
+import { PokemonHero } from '../../components/PokemonHero';
 import { DamageTable } from '../../components/DamageTable';
 import { EvolutionChain } from '../../components/EvolutionChain';
 import { DetailFacts, DetailModal, DetailSection, DetailText } from '../../components/DetailModal';
 import { TIME_LABEL } from './filters';
-import s from './PokemonModal.module.css';
 
 interface Props {
   pokemon: Pokemon | undefined;
@@ -33,27 +31,16 @@ export function PokemonModal({ pokemon: p, prev, next, onNavigate, onClose, retu
     >
       {p && (
         <>
-          <section className={s.hero}>
-            <div className={s.pedestal}>
-              <Sprite dex={p.dex} name={p.name} size={144} className={s.heroSprite} />
-            </div>
-            <div className={s.identity}>
-              <p className={`${s.dexNo} num`}>Nº {String(p.dex).padStart(4, '0')}</p>
-              <DetailModal.Title className={s.name}>{p.name}</DetailModal.Title>
-              <div className={s.types}>
-                {p.types.map((t) => (
-                  <TypeBadge key={t} type={t} size="md" />
-                ))}
-              </div>
-              {(p.hasMega || p.hasGmax || p.rarity === 'legendario') && (
-                <ul className={s.tags}>
-                  {p.rarity === 'legendario' && <li>Legendario</li>}
-                  {p.hasMega && <li>Megaevolución</li>}
-                  {p.hasGmax && <li>Gigamax</li>}
-                </ul>
-              )}
-            </div>
-          </section>
+          <PokemonHero
+            dex={p.dex}
+            name={p.name}
+            types={p.types}
+            tags={[
+              ...(p.rarity === 'legendario' ? ['Legendario'] : []),
+              ...(p.hasMega ? ['Megaevolución'] : []),
+              ...(p.hasGmax ? ['Gigamax'] : []),
+            ]}
+          />
 
           <DetailSection title="Daño que recibe">
             <DamageTable types={p.types} />

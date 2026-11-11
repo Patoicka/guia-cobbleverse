@@ -88,6 +88,14 @@ function derivePurpose(cat: string): Purpose {
 
 const sprites = rawSprites as Record<string, string>;
 
+/** Objetos propios de Cobblemon cuyo sprite viene de la guía original (public/sprites/cook). */
+const LOCAL_SPRITES: Record<string, string> = {
+  'poke-snack': 'local:poke-snack',
+  'poke-cake': 'local:poke-cake',
+  'poke-bait-cebo-pokemon': 'local:poke-bait',
+  'olla-de-fogata-campfire-pot': 'local:olla',
+};
+
 const ALL: Item[] = (rawItems as RawItem[]).map((i) => {
   const slug = slugify(i.n);
   const paren = i.n.match(/\(([^)]+)\)/);
@@ -102,7 +110,7 @@ const ALL: Item[] = (rawItems as RawItem[]).map((i) => {
     obtainText: i.unl,
     useText: i.use,
     aliases: i.aka ?? '',
-    sprite: sprites[slug] ?? null,
+    sprite: sprites[slug] ?? LOCAL_SPRITES[slug] ?? null,
     obtain,
     purpose: derivePurpose(i.cat),
     craftable: obtain.includes('crafteo'),
@@ -123,5 +131,6 @@ export function getItemBySlug(slug: string): Item | undefined {
 }
 
 export function itemSpriteUrl(sprite: string): string {
+  if (sprite.startsWith('local:')) return `${import.meta.env.BASE_URL}sprites/cook/${sprite.slice(6)}.png`;
   return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/${sprite}.png`;
 }
