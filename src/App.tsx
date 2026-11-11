@@ -5,6 +5,7 @@ import { useRoute } from './lib/router';
 import { SECTIONS } from './nav';
 import { Inicio } from './views/Inicio';
 import { Pokedex } from './views/pokedex/Pokedex';
+import { Objetos } from './views/objetos/Objetos';
 import { Pending } from './views/Pending';
 import s from './App.module.css';
 
@@ -46,6 +47,7 @@ export default function App() {
       <main id="contenido" className={s.main} tabIndex={-1}>
         {sectionId === 'inicio' && <Inicio />}
         {sectionId === 'pokedex' && <Pokedex />}
+        {sectionId === 'objetos' && <Objetos />}
         {!section.ready && <Pending section={section} />}
       </main>
       <MobileNav active={sectionId} />

@@ -1,0 +1,85 @@
+.hero {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+  padding-bottom: var(--space-5);
+}
+
+/* Casilla de inventario: el guiño a Minecraft de la ficha de objetos */
+.tile {
+  flex: 0 0 auto;
+  width: 104px;
+  height: 104px;
+  display: grid;
+  place-items: center;
+  border-radius: 4px;
+  background: #2b333c;
+  box-shadow:
+    inset 3px 3px 0 #1a1f25,
+    inset -3px -3px 0 #3d4855;
+}
+
+.category {
+  color: var(--ink-3);
+  font-size: var(--fs-sm);
+}
+
+.name {
+  margin: 2px 0 var(--space-1);
+  font-size: var(--fs-xl);
+  font-weight: 800;
+}
+
+.english {
+  color: var(--ink-2);
+}
+
+.recipe {
+  display: grid;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.recipeLine {
+  display: grid;
+  grid-template-columns: minmax(0, 120px) 1fr;
+  gap: var(--space-3);
+  align-items: baseline;
+}
+
+.recipeLabel {
+  color: var(--ink-2);
+  font-size: var(--fs-sm);
+}
+
+.parts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.part {
+  padding: 4px 10px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-sm);
+  background: var(--surface-2);
+  font-size: var(--fs-sm);
+}
+
+@media (max-width: 640px) {
+  .recipeLine {
+    grid-template-columns: 1fr;
+    gap: var(--space-1);
+  }
+
+  .recipeLabel:empty {
+    display: none;
+  }
+
+  .tile {
+    width: 88px;
+    height: 88px;
+  }
+}

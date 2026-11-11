@@ -28,7 +28,7 @@ export const NAV: SectionGroup[] = [
     label: 'Consultar',
     items: [
       { id: 'pokedex', label: 'Pokédex', icon: BookOpen, count: getPokemon().length, ready: true },
-      { id: 'objetos', label: 'Objetos', icon: Package, count: items.length, ready: false },
+      { id: 'objetos', label: 'Objetos', icon: Package, count: items.length, ready: true },
       { id: 'tipos', label: 'Tipos', icon: Swords, count: types.types.length, ready: false },
     ],
   },
