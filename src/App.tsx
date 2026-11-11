@@ -6,6 +6,7 @@ import { SECTIONS } from './nav';
 import { Inicio } from './views/Inicio';
 import { Pokedex } from './views/pokedex/Pokedex';
 import { Objetos } from './views/objetos/Objetos';
+import { Tipos } from './views/tipos/Tipos';
 import { Pending } from './views/Pending';
 import s from './App.module.css';
 
@@ -48,6 +49,7 @@ export default function App() {
         {sectionId === 'inicio' && <Inicio />}
         {sectionId === 'pokedex' && <Pokedex />}
         {sectionId === 'objetos' && <Objetos />}
+        {sectionId === 'tipos' && <Tipos />}
         {!section.ready && <Pending section={section} />}
       </main>
       <MobileNav active={sectionId} />

@@ -22,13 +22,17 @@ src/
     pokemon.ts      capa de datos: getPokemon(), getPokemonBySlug(), getChain()
     types.ts        tabla de tipos y cálculo de debilidades
   lib/              router por hash, búsqueda sin acentos, sprites
-  components/       Sidebar, MobileNav, TypeBadge, Sprite
+  components/       piezas compartidas: barra de búsqueda, panel de filtros,
+                    modal de ficha, pestañas de categoría, tabla de daño…
   views/
     Inicio.tsx
-    pokedex/        lista, panel de filtros, modal de ficha y lógica de filtros
+    pokedex/        lista, filtros y ficha de cada Pokémon
+    objetos/        objetos por categoría, filtros y ficha con receta
+    tipos/          calculadora (me atacan / yo ataco) y tabla 18×18
 scripts/
   extract-from-html.mjs   pasa los datos de la versión HTML (Muse) a src/data/raw
   enrich-pokeapi.mjs      trae cadenas evolutivas y datos extra de PokeAPI
+  enrich-item-sprites.mjs busca el sprite de PokeAPI de cada objeto
 ```
 
 Los componentes nunca leen los JSON directo: pasan por `src/data/*.ts`. Si los datos cambian de origen (script de sync con el modpack, un backend), solo cambia esa capa.
@@ -39,8 +43,9 @@ Los componentes nunca leen los JSON directo: pasan por `src/data/*.ts`. Si los d
 # 1. Desde la versión HTML exportada de Muse
 node scripts/extract-from-html.mjs ruta/a/Guia_Cobbleverse.html
 
-# 2. Cadenas evolutivas y legendarios desde PokeAPI
+# 2. Cadenas evolutivas, legendarios y sprites de objetos desde PokeAPI
 node scripts/enrich-pokeapi.mjs
+node scripts/enrich-item-sprites.mjs
 ```
 
 ### Plan de sincronización con el modpack (fase 2)
@@ -58,6 +63,8 @@ El router usa el hash, así funciona en cualquier hosting estático:
 
 - `#/pokedex?tipo=fuego&bioma=desierto&hora=dia` — filtros compartibles
 - `#/pokedex/gengar` — abre la ficha de Gengar
+- `#/objetos?cat=poke-balls` — una categoría de objetos
+- `#/tipos?tipo=dragon&tipo=volador` — debilidades de Dragón/Volador
 
 ## Créditos
 

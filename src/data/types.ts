@@ -17,7 +17,7 @@ export function typeInk(t: string): string {
   return LIGHT.has(t) ? '#161b14' : '#ffffff';
 }
 
-function mult(atk: string, def: string): number {
+export function mult(atk: string, def: string): number {
   const c = CHART[atk];
   if (!c) return 1;
   if (c.n.includes(def)) return 0;
@@ -55,4 +55,22 @@ export function formatMult(m: number): string {
   if (m === 0.25) return '×¼';
   if (m === 0.5) return '×½';
   return `×${m}`;
+}
+
+export interface Offense {
+  strong: PokeType[];
+  weak: PokeType[];
+  none: PokeType[];
+}
+
+/** Contra qué tipos pega fuerte, flojo o nada un ataque de este tipo. */
+export function offense(atk: string): Offense {
+  const out: Offense = { strong: [], weak: [], none: [] };
+  for (const def of TYPES) {
+    const m = mult(atk, def);
+    if (m === 2) out.strong.push(def);
+    else if (m === 0.5) out.weak.push(def);
+    else if (m === 0) out.none.push(def);
+  }
+  return out;
 }
