@@ -23,7 +23,7 @@
 .heroInner {
   position: relative;
   width: 100%;
-  max-width: 1040px;
+  max-width: none;
   padding: var(--space-7) var(--space-6) var(--space-5);
 }
 
@@ -40,7 +40,7 @@
   font-size: clamp(2.25rem, 5vw, 3.5rem);
   letter-spacing: 0;
   line-height: 1;
-  text-shadow: 0 4px 0 rgba(0, 0, 0, 0.45);
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.55);
 }
 
 .lede {
@@ -63,15 +63,14 @@
   gap: var(--space-3);
   height: 54px;
   padding: 0 var(--space-4);
-  border: 1px solid var(--line-strong);
+  border: 2px solid var(--field-line);
   border-radius: var(--r-md);
-  background: rgba(26, 32, 38, 0.92);
-  color: var(--ink-3);
+  background: var(--field);
+  color: var(--field-muted);
 }
 
 .search:focus-within {
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px var(--accent-soft);
 }
 
 .search input {
@@ -79,7 +78,7 @@
   height: 100%;
   border: 0;
   background: none;
-  color: var(--ink);
+  color: var(--field-ink);
   font-size: 1.0625rem;
 }
 
@@ -88,7 +87,7 @@
 }
 
 .search input::placeholder {
-  color: var(--ink-3);
+  color: var(--field-muted);
 }
 
 .go {
@@ -98,6 +97,7 @@
   border-radius: var(--r-md);
   background: var(--accent);
   color: var(--accent-ink);
+  box-shadow: var(--raise);
   font-weight: 700;
   font-size: var(--fs-md);
 }
@@ -120,7 +120,7 @@
 }
 
 .tryBtn:hover {
-  text-decoration-color: var(--accent);
+  text-decoration-color: var(--accent-text);
 }
 
 .results {
@@ -128,9 +128,10 @@
   margin: var(--space-2) 0 0;
   padding: var(--space-1);
   list-style: none;
-  border: 1px solid var(--line-strong);
+  border: 2px solid var(--line-strong);
   border-radius: var(--r-md);
   background: var(--surface);
+  box-shadow: var(--raise), var(--drop);
 }
 
 .result {
@@ -160,7 +161,7 @@
 
 /* ---------- Tareas ---------- */
 .tasks {
-  max-width: 1040px;
+  max-width: none;
   padding: var(--space-6) var(--space-6) 0;
 }
 
@@ -200,7 +201,7 @@
 .taskIcon {
   flex: 0 0 auto;
   margin-top: 2px;
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 .task[data-pending] .taskIcon {

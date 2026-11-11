@@ -2,7 +2,7 @@
   position: fixed;
   inset: 0;
   z-index: 50;
-  background: rgba(5, 8, 10, 0.7);
+  background: rgba(0, 0, 0, 0.6);
   animation: fade 0.16s ease-out;
 }
 
@@ -18,14 +18,14 @@
   flex-direction: column;
   transform: translateX(-50%);
   background: var(--surface);
-  border: 1px solid var(--line-strong);
+  border: 2px solid #000;
   border-radius: var(--r-lg);
-  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--raise), var(--drop);
   animation: pop 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .modal:focus-visible {
-  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--raise), var(--drop);
 }
 
 @keyframes fade {

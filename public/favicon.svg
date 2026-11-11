@@ -1,5 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges">
-  <rect width="16" height="16" rx="2" fill="#8a6236"/>
-  <path fill="#7bc74d" d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3h-2v2h-2V5H9v3H7V5H4v2H2V5H0z"/>
-  <path fill="#6b4a2b" d="M3 10h2v2H3zM10 9h2v2h-2zM7 12h2v2H7z"/>
+  <!-- Poké Ball pixelada -->
+  <path fill="#0b0d0f" d="M5 0h6v1h2v1h1v2h1v2h1v4h-1v2h-1v2h-1v1h-2v1H5v-1H3v-1H2v-2H1v-2H0V6h1V4h1V2h1V1h2z"/>
+  <path fill="#e3350d" d="M5 1h6v1h2v2h1v2h1v1H10v-1H6v1H1V6h1V4h1V2h2z"/>
+  <path fill="#f5f5f5" d="M1 9h5v1h4V9h5v1h-1v2h-1v2h-2v1H5v-1H3v-2H2v-2H1z"/>
+  <path fill="#ff8a6a" d="M4 3h2v1H5v1H4z"/>
+  <path fill="#f5f5f5" d="M7 7h2v2H7z"/>
 </svg>

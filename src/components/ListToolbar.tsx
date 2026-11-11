@@ -51,27 +51,6 @@ export function FilterButton({ active, onClick }: { active: number; onClick: () 
   );
 }
 
-interface SortProps<K extends string> {
-  value: K;
-  options: Record<K, string>;
-  onChange: (k: K) => void;
-}
-
-export function SortSelect<K extends string>({ value, options, onChange }: SortProps<K>) {
-  return (
-    <label className={s.sort}>
-      <span className={s.sortLabel}>Ordenar</span>
-      <select value={value} onChange={(e) => onChange(e.target.value as K)}>
-        {(Object.keys(options) as K[]).map((k) => (
-          <option key={k} value={k}>
-            {options[k]}
-          </option>
-        ))}
-      </select>
-    </label>
-  );
-}
-
 export function ViewToggle({ value, onChange }: { value: 'list' | 'grid'; onChange: (v: 'list' | 'grid') => void }) {
   return (
     <div className={s.viewToggle} role="group" aria-label="Vista">

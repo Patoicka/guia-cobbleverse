@@ -11,7 +11,7 @@
 
 .row {
   display: grid;
-  grid-template-columns: 52px minmax(150px, 1fr) minmax(0, 1fr) minmax(0, 1.4fr) 18px;
+  grid-template-columns: 52px minmax(130px, 190px) minmax(150px, 200px) minmax(0, 1fr) 18px;
   align-items: center;
   gap: var(--space-4);
   width: 100%;
@@ -41,7 +41,6 @@
 .meta {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
   align-items: center;
   gap: 6px;
 }
@@ -80,10 +79,6 @@
   .types,
   .meta {
     grid-column: 2;
-  }
-
-  .meta {
-    justify-content: flex-start;
   }
 
   .chev {

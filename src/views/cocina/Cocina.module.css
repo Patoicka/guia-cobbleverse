@@ -78,10 +78,8 @@
   width: 64px;
   height: 64px;
   border-radius: 4px;
-  background: #2b333c;
-  box-shadow:
-    inset 3px 3px 0 #1a1f25,
-    inset -3px -3px 0 #3d4855;
+  background: var(--slot);
+  box-shadow: var(--sink);
 }
 
 .recipeTitle {
@@ -108,7 +106,7 @@
 .flag[data-on] {
   border-color: transparent;
   background: var(--accent-soft);
-  color: var(--accent);
+  color: var(--accent-text);
   font-weight: 700;
 }
 
@@ -124,10 +122,8 @@
   padding: 8px;
   width: max-content;
   border-radius: 4px;
-  background: #1f262d;
-  box-shadow:
-    inset 2px 2px 0 #151a1f,
-    inset -2px -2px 0 #323c47;
+  background: var(--surface-2);
+  box-shadow: var(--sink);
 }
 
 .slot {
@@ -136,10 +132,8 @@
   height: 52px;
   padding: 2px 4px;
   border-radius: 2px;
-  background: #2b333c;
-  box-shadow:
-    inset 2px 2px 0 #171c21,
-    inset -2px -2px 0 #3d4855;
+  background: var(--slot);
+  box-shadow: var(--sink);
   font-size: 12px;
   font-weight: 700;
   line-height: 1.15;

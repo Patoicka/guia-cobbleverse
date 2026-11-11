@@ -1,15 +1,16 @@
+import { useState } from 'react';
 import { EVO_METHODS, EVO_SPECIAL } from '../../data/guide';
 import type { Pokemon } from '../../data/pokemon';
 import { useRoute } from '../../lib/router';
 import { matchesQuery } from '../../lib/text';
 import { useDebouncedQuery } from '../../lib/useDebouncedQuery';
-import { EmptyResults, Page, PageHeader, ResultStatus, SearchField, Toolbar } from '../../components/ListToolbar';
-import { CategoryTabs } from '../../components/CategoryTabs';
+import { EmptyResults, FilterButton, Page, PageHeader, ResultStatus, SearchField, Toolbar } from '../../components/ListToolbar';
+import { FilterGroup, FilterOption, FilterPanel, OptionRow } from '../../components/FilterPanel';
 import { PokeLink, PokeText } from '../../components/PokeLink';
 import { Sprite } from '../../components/Sprite';
 import s from './Evoluciones.module.css';
 
-const SPECIAL_TAB = 'mas-preguntadas';
+const SPECIAL = 'mas-preguntadas';
 
 function Sprites({ list }: { list: Pokemon[] }) {
   const shown = list.slice(0, 3);
@@ -27,16 +28,16 @@ function Sprites({ list }: { list: Pokemon[] }) {
 export function Evoluciones() {
   const { params, navigate } = useRoute();
   const q = params.get('q') ?? '';
-  const tab = params.get('metodo') ?? '';
+  const methodParam = params.get('metodo') ?? '';
+  const method = methodParam === SPECIAL || EVO_METHODS.some((m) => m.slug === methodParam) ? methodParam : '';
+  const [sheetOpen, setSheetOpen] = useState(false);
 
-  function setParams(next: { q?: string; tab?: string }) {
-    const p = new URLSearchParams(params);
+  function setParams(next: { q?: string; method?: string }) {
     const nq = next.q ?? q;
-    const nt = next.tab ?? tab;
+    const nm = next.method ?? method;
+    const p = new URLSearchParams();
     if (nq) p.set('q', nq);
-    else p.delete('q');
-    if (nt) p.set('metodo', nt);
-    else p.delete('metodo');
+    if (nm) p.set('metodo', nm);
     navigate(['evoluciones'], p, { replace: true });
   }
   const search = useDebouncedQuery(q, (value) => setParams({ q: value }));
@@ -49,9 +50,17 @@ export function Evoluciones() {
   }));
   const specials = EVO_SPECIAL.filter((x) => !q || matchesQuery(`${x.title} ${x.text}`, q));
 
-  const visibleMethods = methods.filter((m) => m.examples.length && (!tab || tab === m.slug));
-  const showSpecial = specials.length > 0 && (!tab || tab === SPECIAL_TAB);
+  const visibleMethods = methods.filter((m) => m.examples.length && (!method || method === m.slug));
+  const showSpecial = specials.length > 0 && (!method || method === SPECIAL);
   const total = visibleMethods.reduce((n, m) => n + m.examples.length, 0) + (showSpecial ? specials.length : 0);
+  const all = EVO_METHODS.reduce((n, m) => n + m.examples.length, 0) + EVO_SPECIAL.length;
+
+  const options = [
+    ...methods.map((m) => ({ value: m.slug, label: m.title, count: m.examples.length })),
+    { value: SPECIAL, label: 'Las más preguntadas', count: specials.length },
+  ];
+  const chosen = options.find((o) => o.value === method);
+  const chips = chosen ? [{ key: 'm', label: chosen.label, onRemove: () => setParams({ method: '' }) }] : [];
 
   return (
     <Page>
@@ -67,28 +76,19 @@ export function Evoluciones() {
           placeholder="Busca un Pokémon o una condición: lluvia, pasos, luna"
           label="Buscar en evoluciones"
         />
+        <FilterButton active={chips.length} onClick={() => setSheetOpen(true)} />
       </Toolbar>
 
-      <CategoryTabs
-        label="Método de evolución"
-        allLabel="Todos"
-        allCount={methods.reduce((n, m) => n + m.examples.length, 0) + specials.length}
-        value={tab}
-        onChange={(t) => setParams({ tab: t })}
-        options={[
-          ...methods.map((m) => ({ value: m.slug, label: m.title, count: m.examples.length })),
-          { value: SPECIAL_TAB, label: 'Las más preguntadas', count: specials.length },
-        ]}
-      />
-
-      {q && <ResultStatus text={`${total} resultados`} chips={[]} onClearAll={() => {}} />}
+      {(q || method) && (
+        <ResultStatus text={`${total} de ${all} resultados`} chips={chips} onClearAll={() => setParams({ method: '' })} />
+      )}
 
       {total === 0 ? (
         <EmptyResults
           what="resultado"
           onClear={() => {
             search.reset();
-            setParams({ q: '', tab: '' });
+            setParams({ q: '', method: '' });
           }}
         />
       ) : (
@@ -140,6 +140,28 @@ export function Evoluciones() {
           )}
         </>
       )}
+
+      <FilterPanel
+        open={sheetOpen}
+        onOpenChange={setSheetOpen}
+        applyLabel={total === 0 ? 'Sin resultados' : `Ver ${total} resultados`}
+        canReset={chips.length > 0}
+        onReset={() => setParams({ method: '' })}
+      >
+        <FilterGroup title="Cómo evoluciona">
+          <OptionRow>
+            {options.map((o) => (
+              <FilterOption
+                key={o.value}
+                label={o.label}
+                count={o.count}
+                selected={method === o.value}
+                onClick={() => setParams({ method: method === o.value ? '' : o.value })}
+              />
+            ))}
+          </OptionRow>
+        </FilterGroup>
+      </FilterPanel>
     </Page>
   );
 }

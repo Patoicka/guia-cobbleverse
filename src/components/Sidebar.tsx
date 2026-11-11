@@ -13,9 +13,7 @@ export function Sidebar({ active, collapsed, onToggle }: Props) {
   return (
     <nav className={s.sidebar} data-collapsed={collapsed || undefined} aria-label="Secciones de la guía">
       <a className={s.brand} href={buildHash(['inicio'])}>
-        <span className={s.logo} aria-hidden="true">
-          CV
-        </span>
+        <span className={s.logo} aria-hidden="true" />
         <span className={s.brandText}>Guía Cobbleverse</span>
       </a>
 

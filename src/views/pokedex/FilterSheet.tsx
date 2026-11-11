@@ -2,7 +2,17 @@ import { useMemo } from 'react';
 import { ALL_BIOMES, type EvoMethod, type Pokemon, type Rarity } from '../../data/pokemon';
 import { TYPES, type PokeType } from '../../data/types';
 import { FilterGroup, FilterOption, FilterPanel, OptionRow, TypeOption } from '../../components/FilterPanel';
-import { activeChips, clearAll, EVO_LABEL, facetCounts, RARITY_LABEL, TIME_LABEL, type DexFilters } from './filters';
+import {
+  activeChips,
+  clearAll,
+  EVO_LABEL,
+  facetCounts,
+  RARITY_LABEL,
+  SORT_LABEL,
+  TIME_LABEL,
+  type DexFilters,
+  type SortKey,
+} from './filters';
 
 interface Props {
   open: boolean;
@@ -128,6 +138,14 @@ export function FilterSheet({ open, onOpenChange, all, filters: f, resultCount, 
             selected={f.gmax}
             onClick={() => onChange({ ...f, gmax: !f.gmax })}
           />
+        </OptionRow>
+      </FilterGroup>
+
+      <FilterGroup title="Ordenar por">
+        <OptionRow>
+          {(Object.keys(SORT_LABEL) as SortKey[]).map((k) => (
+            <FilterOption key={k} label={SORT_LABEL[k]} selected={f.sort === k} onClick={() => onChange({ ...f, sort: k })} />
+          ))}
         </OptionRow>
       </FilterGroup>
     </FilterPanel>

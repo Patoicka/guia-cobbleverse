@@ -1,29 +1,19 @@
 import { ChevronRight } from 'lucide-react';
 import { Fragment, useMemo, useRef, useState } from 'react';
-import { CATEGORIES, getItemBySlug, getItems, OBTAIN_LABEL, PURPOSE_LABEL, type Item, type Obtain, type Purpose } from '../../data/items';
+import { CATEGORIES, getItemBySlug, getItems, OBTAIN_LABEL, type Item, type Obtain } from '../../data/items';
 import { useRoute } from '../../lib/router';
 import { useDebouncedQuery } from '../../lib/useDebouncedQuery';
 import { slugify } from '../../lib/text';
-import {
-  EmptyResults,
-  FilterButton,
-  Page,
-  PageHeader,
-  ResultStatus,
-  SearchField,
-  SortSelect,
-  Toolbar,
-} from '../../components/ListToolbar';
-import { CategoryTabs } from '../../components/CategoryTabs';
+import { EmptyResults, FilterButton, Page, PageHeader, ResultStatus, SearchField, Toolbar } from '../../components/ListToolbar';
 import { FilterGroup, FilterOption, FilterPanel, OptionRow } from '../../components/FilterPanel';
 import { ItemIcon } from '../../components/ItemIcon';
 import { ItemModal } from './ItemModal';
 import {
   applyItemFilters,
   clearItemFilters,
-  ITEM_SORT_LABEL,
   itemActiveChips,
   itemFacetCounts,
+  OBTAINS,
   itemFiltersFromParams,
   paramsFromItemFilters,
   type ItemFilters,
@@ -66,13 +56,13 @@ export function Objetos() {
   const prev = index > 0 ? results[index - 1] : undefined;
   const next = index >= 0 && index < results.length - 1 ? results[index + 1] : undefined;
 
-  // Agrupado por categoría cuando se ordena así; si no, una sola lista.
-  const groups = useMemo(() => {
-    if (filters.sort === 'name') return [{ category: '', items: results }];
-    return CATEGORIES.map((c) => ({ category: c, items: results.filter((i) => i.category === c) })).filter(
-      (g) => g.items.length,
-    );
-  }, [results, filters.sort]);
+  const groups = useMemo(
+    () =>
+      CATEGORIES.map((c) => ({ category: c, items: results.filter((i) => i.category === c) })).filter(
+        (g) => g.items.length,
+      ),
+    [results],
+  );
 
   return (
     <Page>
@@ -86,21 +76,7 @@ export function Objetos() {
           label="Buscar objetos"
         />
         <FilterButton active={chips.length} onClick={() => setSheetOpen(true)} />
-        <SortSelect
-          value={filters.sort}
-          options={ITEM_SORT_LABEL}
-          onChange={(sort) => setFilters({ ...filters, sort })}
-        />
       </Toolbar>
-
-      <CategoryTabs
-        label="Categoría"
-        allLabel="Todos"
-        allCount={counts.categoryTotal}
-        value={filters.category}
-        onChange={(category) => setFilters({ ...filters, category })}
-        options={CATEGORIES.map((c) => ({ value: c, label: c, count: counts.category[c] }))}
-      />
 
       <ResultStatus
         text={results.length === ALL.length ? `${ALL.length} objetos` : `${results.length} de ${ALL.length} objetos`}
@@ -113,19 +89,19 @@ export function Objetos() {
           what="objeto"
           onClear={() => {
             search.reset();
-            setFilters({ ...clearItemFilters(filters), q: '', category: '' });
+            setFilters({ q: '', category: '', obtain: '' });
           }}
         />
       ) : (
         groups.map((g) => (
-          <Fragment key={g.category || 'all'}>
-            {g.category && !filters.category && (
+          <Fragment key={g.category}>
+            {!filters.category && (
               <h2 className={s.groupTitle} id={`cat-${slugify(g.category)}`}>
                 {g.category}
                 <span className={`${s.groupCount} num`}>{g.items.length}</span>
               </h2>
             )}
-            <ul className={s.list} aria-labelledby={g.category && !filters.category ? `cat-${slugify(g.category)}` : undefined}>
+            <ul className={s.list} aria-labelledby={!filters.category ? `cat-${slugify(g.category)}` : undefined}>
               {g.items.map((i) => (
                 <li key={i.slug}>
                   <button
@@ -144,7 +120,6 @@ export function Objetos() {
                       {i.english && <span className={s.english}>{i.english}</span>}
                     </span>
                     <span className={s.meta}>
-                      {filters.sort === 'name' && <span className={s.cat}>{i.category}</span>}
                       {i.obtain.slice(0, 2).map((o) => (
                         <span key={o} className={s.tag}>
                           {OBTAIN_SHORT[o]}
@@ -167,9 +142,22 @@ export function Objetos() {
         canReset={chips.length > 0}
         onReset={() => setFilters(clearItemFilters(filters))}
       >
+        <FilterGroup title="Categoría">
+          <OptionRow>
+            {CATEGORIES.map((c) => (
+              <FilterOption
+                key={c}
+                label={c}
+                count={counts.category[c]}
+                selected={filters.category === c}
+                onClick={() => setFilters({ ...filters, category: filters.category === c ? '' : c })}
+              />
+            ))}
+          </OptionRow>
+        </FilterGroup>
         <FilterGroup title="Cómo se consigue">
           <OptionRow>
-            {(Object.keys(OBTAIN_LABEL) as Obtain[]).map((o) => (
+            {OBTAINS.map((o) => (
               <FilterOption
                 key={o}
                 label={OBTAIN_LABEL[o]}
@@ -178,29 +166,6 @@ export function Objetos() {
                 onClick={() => setFilters({ ...filters, obtain: filters.obtain === o ? '' : o })}
               />
             ))}
-          </OptionRow>
-        </FilterGroup>
-        <FilterGroup title="Para qué sirve">
-          <OptionRow>
-            {(Object.keys(PURPOSE_LABEL) as Purpose[]).map((u) => (
-              <FilterOption
-                key={u}
-                label={PURPOSE_LABEL[u]}
-                count={counts.purpose[u]}
-                selected={filters.purpose === u}
-                onClick={() => setFilters({ ...filters, purpose: filters.purpose === u ? '' : u })}
-              />
-            ))}
-          </OptionRow>
-        </FilterGroup>
-        <FilterGroup title="Receta">
-          <OptionRow>
-            <FilterOption
-              label="Solo los que se craftean o cocinan"
-              count={counts.craftable}
-              selected={filters.craftable}
-              onClick={() => setFilters({ ...filters, craftable: !filters.craftable })}
-            />
           </OptionRow>
         </FilterGroup>
       </FilterPanel>

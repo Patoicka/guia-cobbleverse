@@ -3,13 +3,13 @@ import { ALL_BIOMES, getPokemon, getPokemonBySlug, type Pokemon } from '../../da
 import { useRoute } from '../../lib/router';
 import { TypeBadge } from '../../components/TypeBadge';
 import { Sprite } from '../../components/Sprite';
+import { matchup } from '../../data/types';
 import {
   EmptyResults,
   FilterButton,
   PageHeader,
   ResultStatus,
   SearchField,
-  SortSelect,
   Toolbar,
   ViewToggle,
   Page,
@@ -23,7 +23,6 @@ import {
   clearAll,
   filtersFromParams,
   paramsFromFilters,
-  SORT_LABEL,
   type DexFilters,
 } from './filters';
 import s from './Pokedex.module.css';
@@ -72,7 +71,6 @@ export function Pokedex() {
           label="Buscar Pokémon"
         />
         <FilterButton active={chips.length} onClick={() => setSheetOpen(true)} />
-        <SortSelect value={filters.sort} options={SORT_LABEL} onChange={(sort) => setFilters({ ...filters, sort })} />
         <ViewToggle value={filters.view} onChange={(view) => setFilters({ ...filters, view })} />
       </Toolbar>
 
@@ -104,12 +102,12 @@ export function Pokedex() {
                   ))}
                 </span>
                 <span className={s.rowWeak}>
-                  {p.worstWeakness && (
-                    <>
-                      <span className={s.rowWeakLabel}>Débil a</span>
-                      <TypeBadge type={p.worstWeakness.type} mult={p.worstWeakness.mult} />
-                    </>
-                  )}
+                  {p.worstWeakness && <span className={s.rowWeakLabel}>Débil a</span>}
+                  {matchup(p.types).weak.map((w, i) => (
+                    <span key={w.type} className={i > 0 ? s.rowWeakMore : undefined}>
+                      <TypeBadge type={w.type} mult={w.mult} />
+                    </span>
+                  ))}
                 </span>
               </button>
             </li>

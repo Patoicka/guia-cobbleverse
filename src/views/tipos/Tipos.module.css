@@ -15,6 +15,7 @@
   border: 1px solid var(--line-strong);
   border-radius: var(--r-md);
   background: var(--surface);
+  box-shadow: var(--raise);
   text-align: left;
 }
 
@@ -23,8 +24,9 @@
 }
 
 .modes button[aria-pressed='true'] {
-  border-color: var(--accent);
+  border-color: var(--line-strong);
   background: var(--accent-soft);
+  box-shadow: var(--sink);
 }
 
 .modeTitle {
@@ -85,7 +87,7 @@
   padding: var(--space-1) 0;
   border: 0;
   background: none;
-  color: var(--accent);
+  color: var(--accent-text);
   font-weight: 700;
   font-size: var(--fs-sm);
   border-radius: var(--r-sm);
@@ -94,9 +96,10 @@
 .result {
   min-height: 320px;
   padding: var(--space-5);
-  border: 1px solid var(--line);
+  border: 2px solid var(--line-strong);
   border-radius: var(--r-lg);
   background: var(--surface);
+  box-shadow: var(--raise);
 }
 
 .resultTitle {

@@ -62,7 +62,7 @@
 }
 
 .need svg {
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 .plus {

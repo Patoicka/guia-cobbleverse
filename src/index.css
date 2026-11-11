@@ -1,24 +1,41 @@
 
 /* ============ Tokens ============ */
+/* Identidad: pizarra oscura con los colores de la Poké Ball.
+   Biseles de 2px y esquinas rectas como la interfaz del juego. */
 :root {
-  /* Superficies: pizarra fría, para que el verde y los tipos respiren */
+  /* Superficies: pizarra fría, para que el rojo y los tipos respiren */
   --bg: #12161a;
   --surface: #1a2026;
   --surface-2: #212932;
   --surface-3: #2a333d;
+  --slot: #0d1013; /* casilla hundida para sprites e iconos */
   --line: #2a323a;
   --line-strong: #3a444f;
 
   --ink: #e6eaed;
   --ink-2: #a3aeb7;
-  --ink-3: #75808a;
+  --ink-3: #8a959f;
 
-  /* Un solo acento: verde pasto de Minecraft */
-  --accent: #7bc74d;
-  --accent-ink: #10200a;
-  --accent-soft: rgba(123, 199, 77, 0.12);
+  /* Un solo acento: el rojo de la Poké Ball.
+     --accent es relleno (botones, selección, con texto blanco: 5:1);
+     --accent-text es para texto e iconos sobre el fondo oscuro (7:1). */
+  --accent: #d3300b;
+  --accent-ink: #ffffff;
+  --accent-text: #ff7a5c;
+  --accent-soft: rgba(227, 53, 13, 0.16);
 
-  --font-display: 'Bricolage Grotesque Variable', system-ui, sans-serif;
+  /* Campos de texto: negros como los del juego */
+  --field: #0b0d0f;
+  --field-ink: #eef1f3;
+  --field-muted: #8a959f;
+  --field-line: #4a5562;
+
+  /* Biseles: luz arriba/izquierda, sombra abajo/derecha */
+  --raise: inset 2px 2px 0 rgba(255, 255, 255, 0.07), inset -2px -2px 0 rgba(0, 0, 0, 0.45);
+  --sink: inset 2px 2px 0 rgba(0, 0, 0, 0.45), inset -2px -2px 0 rgba(255, 255, 255, 0.06);
+  --drop: 6px 6px 0 rgba(0, 0, 0, 0.45);
+
+  --font-display: 'Atkinson Hyperlegible', system-ui, sans-serif;
   --font-body: 'Atkinson Hyperlegible', system-ui, sans-serif;
   --font-logo: 'Silkscreen', monospace;
 
@@ -38,14 +55,14 @@
   --space-6: 32px;
   --space-7: 48px;
 
-  /* Radios por jerarquía: controles chicos, contenedores medianos, modal grande */
-  --r-sm: 6px;
-  --r-md: 10px;
-  --r-lg: 16px;
-  --r-pill: 999px;
+  /* Esquinas rectas como en el juego; solo las insignias se suavizan un poco */
+  --r-sm: 0;
+  --r-md: 0;
+  --r-lg: 0;
+  --r-pill: 2px;
 
   --sidebar-w: 248px;
-  --focus: 0 0 0 2px var(--bg), 0 0 0 4px var(--accent);
+  --focus: 0 0 0 2px var(--bg), 0 0 0 4px var(--accent-text);
 
   color-scheme: dark;
 }
@@ -78,7 +95,13 @@ h4 {
   font-family: var(--font-display);
   line-height: 1.15;
   margin: 0;
-  letter-spacing: -0.01em;
+}
+
+/* Títulos de sección en la letra pixel del logo */
+h1 {
+  font-family: var(--font-logo);
+  font-weight: 400;
+  letter-spacing: 0;
 }
 
 p {
@@ -97,7 +120,7 @@ button {
 }
 
 a {
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 :focus-visible {

@@ -12,7 +12,8 @@
 
 .row {
   display: grid;
-  grid-template-columns: 48px 44px minmax(120px, 1fr) minmax(0, 1.2fr) auto;
+  /* Columnas de ancho fijo: nombre, tipos y debilidades quedan juntos y alineados */
+  grid-template-columns: 48px 44px minmax(120px, 190px) minmax(150px, 200px) minmax(0, 1fr);
   align-items: center;
   gap: var(--space-4);
   width: 100%;
@@ -52,10 +53,13 @@
 
 .rowWeak {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: flex-end;
-  gap: var(--space-2);
-  min-width: 150px;
+  gap: 6px;
+}
+
+.rowWeakLabel {
+  margin-right: 2px;
 }
 
 .rowWeakLabel {
@@ -161,6 +165,11 @@
       flex-direction: column;
       align-items: flex-end;
       gap: 2px;
+    }
+
+  /* En el celular solo cabe la peor debilidad */
+  .rowWeakMore {
+      display: none;
     }
 
   .grid {

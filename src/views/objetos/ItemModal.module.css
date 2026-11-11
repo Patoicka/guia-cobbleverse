@@ -13,10 +13,8 @@
   display: grid;
   place-items: center;
   border-radius: 4px;
-  background: #2b333c;
-  box-shadow:
-    inset 3px 3px 0 #1a1f25,
-    inset -3px -3px 0 #3d4855;
+  background: var(--slot);
+  box-shadow: var(--sink);
 }
 
 .category {

@@ -12,7 +12,8 @@
     padding: 6px 4px calc(6px + env(safe-area-inset-bottom));
     background: rgba(18, 22, 26, 0.94);
     backdrop-filter: blur(10px);
-    border-top: 1px solid var(--line);
+    border-top: 2px solid var(--line-strong);
+    box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.05);
   }
 }
 
@@ -32,14 +33,14 @@
 
 .tab[aria-current='page'],
 .tab[data-active] {
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 .scrim {
   position: fixed;
   inset: 0;
   z-index: 40;
-  background: rgba(5, 8, 10, 0.6);
+  background: rgba(0, 0, 0, 0.55);
 }
 
 .sheet {
@@ -106,7 +107,7 @@
 
 .row[aria-current='page'] {
   background: var(--surface-2);
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 .row span:first-of-type {
