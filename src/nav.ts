@@ -35,17 +35,17 @@ export const NAV: SectionGroup[] = [
   {
     label: 'Aprender',
     items: [
-      { id: 'evoluciones', label: 'Evoluciones', icon: GitBranch, count: evo.methods.length, ready: false },
-      { id: 'cocina', label: 'Cocina y bayas', icon: CookingPot, count: cooking.berries.length, ready: false },
-      { id: 'explorar', label: 'Explorar', icon: Compass, count: world.biomes.length, ready: false },
+      { id: 'evoluciones', label: 'Evoluciones', icon: GitBranch, count: evo.methods.length, ready: true },
+      { id: 'cocina', label: 'Cocina y bayas', icon: CookingPot, count: cooking.berries.length, ready: true },
+      { id: 'explorar', label: 'Explorar', icon: Compass, count: world.biomes.length, ready: true },
     ],
   },
   {
     label: 'Progreso',
     items: [
-      { id: 'legendarios', label: 'Legendarios', icon: Star, count: legends.list.length, ready: false },
-      { id: 'mega', label: 'Mega y Z', icon: Zap, ready: false },
-      { id: 'ruta', label: 'Mi ruta', icon: Route, count: 6, ready: false },
+      { id: 'legendarios', label: 'Legendarios', icon: Star, count: legends.list.length, ready: true },
+      { id: 'mega', label: 'Mega y Z', icon: Zap, ready: true },
+      { id: 'ruta', label: 'Mi ruta', icon: Route, count: 6, ready: true },
     ],
   },
 ];

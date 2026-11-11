@@ -29,10 +29,16 @@ src/
     pokedex/        lista, filtros y ficha de cada Pokémon
     objetos/        objetos por categoría, filtros y ficha con receta
     tipos/          calculadora (me atacan / yo ataco) y tabla 18×18
+    evoluciones/    los 8 métodos con ejemplos y las más preguntadas
+    cocina/         recetas de cebo, las 70 bayas y condimentos
+    explorar/       biomas con sus Pokémon y estructuras
+    legendarios/    los 20 legendarios con filtros y ficha
+    mega/           Megaevolución, Dynamax y movimientos Z
+    ruta/           los 6 pasos con progreso guardado en el navegador
 scripts/
   extract-from-html.mjs   pasa los datos de la versión HTML (Muse) a src/data/raw
   enrich-pokeapi.mjs      trae cadenas evolutivas y datos extra de PokeAPI
-  enrich-item-sprites.mjs busca el sprite de PokeAPI de cada objeto
+  enrich-item-sprites.mjs busca el sprite de PokeAPI de cada objeto y baya
 ```
 
 Los componentes nunca leen los JSON directo: pasan por `src/data/*.ts`. Si los datos cambian de origen (script de sync con el modpack, un backend), solo cambia esa capa.
@@ -65,6 +71,7 @@ El router usa el hash, así funciona en cualquier hosting estático:
 - `#/pokedex/gengar` — abre la ficha de Gengar
 - `#/objetos?cat=poke-balls` — una categoría de objetos
 - `#/tipos?tipo=dragon&tipo=volador` — debilidades de Dragón/Volador
+- `…?ver=gengar` en cualquier sección — abre la ficha de Gengar encima, sin salir de donde estás
 
 ## Créditos
 
