@@ -1,0 +1,246 @@
+.scrim {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: rgba(5, 8, 10, 0.55);
+  animation: fade 0.18s ease-out;
+}
+
+.sheet {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 41;
+  width: min(460px, 100vw);
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border-left: 1px solid var(--line-strong);
+  animation: slide 0.22s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(32px);
+    opacity: 0;
+  }
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-4) var(--space-5);
+  border-bottom: 1px solid var(--line);
+}
+
+.title {
+  font-size: var(--fs-lg);
+}
+
+.close {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: var(--r-sm);
+  background: none;
+  color: var(--ink-2);
+}
+
+.close:hover {
+  background: var(--surface-2);
+  color: var(--ink);
+}
+
+.body {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-2) var(--space-5) var(--space-5);
+}
+
+.group {
+  margin: 0;
+  padding: var(--space-5) 0;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  min-width: 0;
+}
+
+.group:last-child {
+  border-bottom: 0;
+}
+
+.legend {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  float: left;
+  width: 100%;
+  margin-bottom: var(--space-3);
+  padding: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--fs-md);
+}
+
+.legend + * {
+  clear: both;
+}
+
+.hint {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--fs-xs);
+  color: var(--ink-3);
+}
+
+/* ---------- Opciones ---------- */
+.typeGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-2);
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.segmented {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.typeOpt,
+.opt {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 36px;
+  padding: 0 var(--space-3);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-sm);
+  background: var(--surface-2);
+  color: var(--ink);
+  font-size: var(--fs-sm);
+  text-align: left;
+}
+
+.typeOpt:hover:not(:disabled),
+.opt:hover:not(:disabled) {
+  border-color: var(--ink-3);
+}
+
+.typeOpt:disabled,
+.opt:disabled {
+  opacity: 0.38;
+  cursor: not-allowed;
+}
+
+.opt[aria-pressed='true'] {
+  background: var(--accent);
+  border-color: transparent;
+  color: var(--accent-ink);
+  font-weight: 700;
+}
+
+.typeOpt[aria-pressed='true'] {
+  font-weight: 700;
+}
+
+.typeOpt[aria-pressed='true'] .dot {
+  display: none;
+}
+
+.dot {
+  flex: 0 0 auto;
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+}
+
+.optCount {
+  margin-left: auto;
+  padding-left: var(--space-1);
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+/* ---------- Pie ---------- */
+.foot {
+  display: flex;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-5) calc(var(--space-4) + env(safe-area-inset-bottom));
+  border-top: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.reset {
+  height: 46px;
+  padding: 0 var(--space-4);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-md);
+  background: none;
+  font-weight: 700;
+}
+
+.reset:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.apply {
+  flex: 1;
+  height: 46px;
+  border: 0;
+  border-radius: var(--r-md);
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-weight: 700;
+  font-size: var(--fs-md);
+}
+
+@media (max-width: 860px) {
+  .sheet {
+    top: auto;
+    left: 0;
+    width: 100%;
+    max-height: 88dvh;
+    border-left: 0;
+    border-top: 1px solid var(--line-strong);
+    border-radius: var(--r-lg) var(--r-lg) 0 0;
+    animation-name: rise;
+  }
+
+  @keyframes rise {
+    from {
+      transform: translateY(40px);
+      opacity: 0;
+    }
+  }
+
+  .body {
+    padding: 0 var(--space-4) var(--space-4);
+  }
+
+  .head,
+  .foot {
+    padding-left: var(--space-4);
+    padding-right: var(--space-4);
+  }
+
+  .typeGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
