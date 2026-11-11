@@ -22,6 +22,8 @@ function splitLine(line: string): { label: string; parts: string[] } {
 }
 
 function Recipe({ lines }: { lines: string[] }) {
+  // "No se craftea…" es una aclaración, no una lista de materiales.
+  if (lines.length === 1 && /^no se /i.test(lines[0])) return <DetailText>{lines[0]}.</DetailText>;
   return (
     <ol className={s.recipe}>
       {lines.map((line, i) => {
@@ -68,7 +70,7 @@ export function ItemModal({ item: i, prev, next, onNavigate, onClose, returnFocu
             </div>
           </section>
 
-          <DetailSection title={i.craftable ? 'Receta' : 'Necesitas'}>
+          <DetailSection title="Receta">
             <Recipe lines={i.recipe} />
           </DetailSection>
 
