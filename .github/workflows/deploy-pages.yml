@@ -1,8 +1,9 @@
 name: Publicar en GitHub Pages
 
-# Manual por ahora. Cuando Pages esté activado (Settings > Pages > Source: GitHub Actions),
-# se puede agregar `push: branches: [main]` para publicar en cada cambio.
+# Publica en cada push a main; también se puede lanzar a mano desde Actions.
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
