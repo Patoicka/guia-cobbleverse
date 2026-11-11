@@ -1,0 +1,126 @@
+/* ---------- Cadena evolutiva ---------- */
+.chain {
+  overflow-x: auto;
+  margin-bottom: var(--space-4);
+  padding-bottom: var(--space-2);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.branches {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  width: 92px;
+  padding: var(--space-2) var(--space-1);
+  border: 1px solid transparent;
+  border-radius: var(--r-md);
+  background: none;
+  color: var(--ink);
+  font-size: var(--fs-sm);
+  text-align: center;
+}
+
+button.member:hover {
+  background: var(--surface-2);
+  border-color: var(--line-strong);
+}
+
+.member[aria-current='true'] {
+  background: var(--surface-2);
+  border-color: var(--accent);
+}
+
+.member[data-outside] {
+  color: var(--ink-3);
+}
+
+.member[data-outside] img {
+  opacity: 0.55;
+}
+
+.memberName {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  min-width: 84px;
+  padding: 0 var(--space-1);
+  color: var(--ink-3);
+}
+
+.stepLabel {
+  font-size: 12px;
+  line-height: 1.25;
+  color: var(--ink-2);
+  text-align: center;
+  max-width: 110px;
+}
+
+.branchWide {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+}
+
+.branchGrid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(112px, 1fr));
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.branchGrid li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--line);
+}
+
+@media (max-width: 640px) {
+  .branchWide {
+      flex-direction: column;
+    }
+
+  .member {
+      width: auto;
+      min-width: 64px;
+    }
+
+  .memberName {
+      font-size: 13px;
+    }
+
+  .step {
+      min-width: 52px;
+    }
+
+  .stepLabel {
+      max-width: 76px;
+    }
+
+  .branchGrid {
+      width: 100%;
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
