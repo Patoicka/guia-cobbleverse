@@ -1,0 +1,245 @@
+.page {
+  padding-bottom: var(--space-7);
+}
+
+.hero {
+  position: relative;
+  min-height: 440px;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center 40%;
+}
+
+/* Oscurece de abajo hacia arriba para que el texto siempre se lea */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to top, var(--bg) 0%, rgba(18, 22, 26, 0.88) 38%, rgba(18, 22, 26, 0.35) 75%, rgba(18, 22, 26, 0.15) 100%);
+}
+
+.heroInner {
+  position: relative;
+  width: 100%;
+  max-width: 1040px;
+  padding: var(--space-7) var(--space-6) var(--space-5);
+}
+
+.kicker {
+  color: var(--ink-2);
+  font-size: var(--fs-sm);
+}
+
+/* El único lugar con tipografía pixel */
+.wordmark {
+  margin: var(--space-2) 0 var(--space-3);
+  font-family: var(--font-logo);
+  font-weight: 400;
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  letter-spacing: 0;
+  line-height: 1;
+  text-shadow: 0 4px 0 rgba(0, 0, 0, 0.45);
+}
+
+.lede {
+  max-width: 52ch;
+  font-size: 1.0625rem;
+  color: var(--ink);
+}
+
+.searchBox {
+  display: flex;
+  gap: var(--space-2);
+  max-width: 640px;
+  margin-top: var(--space-5);
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  height: 54px;
+  padding: 0 var(--space-4);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-md);
+  background: rgba(26, 32, 38, 0.92);
+  color: var(--ink-3);
+}
+
+.search:focus-within {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.search input {
+  flex: 1;
+  height: 100%;
+  border: 0;
+  background: none;
+  color: var(--ink);
+  font-size: 1.0625rem;
+}
+
+.search input:focus-visible {
+  box-shadow: none;
+}
+
+.search input::placeholder {
+  color: var(--ink-3);
+}
+
+.go {
+  height: 54px;
+  padding: 0 var(--space-5);
+  border: 0;
+  border-radius: var(--r-md);
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-weight: 700;
+  font-size: var(--fs-md);
+}
+
+.try {
+  margin-top: var(--space-3);
+  color: var(--ink-2);
+  font-size: var(--fs-sm);
+}
+
+.tryBtn {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--line-strong);
+  text-underline-offset: 3px;
+  border-radius: 2px;
+}
+
+.tryBtn:hover {
+  text-decoration-color: var(--accent);
+}
+
+.results {
+  max-width: 640px;
+  margin: var(--space-2) 0 0;
+  padding: var(--space-1);
+  list-style: none;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-md);
+  background: var(--surface);
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: 48px;
+  padding: 0 var(--space-3);
+  border-radius: var(--r-sm);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.result:hover {
+  background: var(--surface-2);
+}
+
+.resultName {
+  font-weight: 700;
+  flex: 1;
+}
+
+.resultTypes {
+  display: flex;
+  gap: 6px;
+}
+
+/* ---------- Tareas ---------- */
+.tasks {
+  max-width: 1040px;
+  padding: var(--space-6) var(--space-6) 0;
+}
+
+.h2 {
+  font-size: var(--fs-xl);
+  font-weight: 700;
+  margin-bottom: var(--space-4);
+}
+
+.taskList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 0 var(--space-6);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.taskList li {
+  border-top: 1px solid var(--line);
+}
+
+.task {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-2);
+  color: var(--ink);
+  text-decoration: none;
+  border-radius: var(--r-sm);
+}
+
+.task:hover {
+  background: var(--surface);
+}
+
+.taskIcon {
+  flex: 0 0 auto;
+  margin-top: 2px;
+  color: var(--accent);
+}
+
+.task[data-pending] .taskIcon {
+  color: var(--ink-3);
+}
+
+.taskQ {
+  display: block;
+  font-weight: 700;
+}
+
+.taskD {
+  display: block;
+  color: var(--ink-2);
+  font-size: var(--fs-sm);
+}
+
+.soon {
+  margin-left: auto;
+  flex: 0 0 auto;
+  font-size: 12px;
+  color: var(--ink-3);
+  white-space: nowrap;
+}
+
+@media (max-width: 860px) {
+  .hero {
+    min-height: 380px;
+  }
+
+  .heroInner {
+    padding: var(--space-6) var(--space-4) var(--space-4);
+  }
+
+  .searchBox {
+    flex-direction: column;
+  }
+
+  .tasks {
+    padding: var(--space-5) var(--space-4) 96px;
+  }
+}
